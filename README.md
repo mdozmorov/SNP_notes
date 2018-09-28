@@ -12,6 +12,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## SNP tools
 
+- `ABRA` - Assembly Based ReAligner, https://github.com/mozack/abra
+
 - `PyVCF` - A Variant Call Format Parser for Python. https://pyvcf.readthedocs.io/en/latest/. Has `vcf_melt` tool to reformat a VCF into long format.
 
 
