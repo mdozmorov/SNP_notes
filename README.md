@@ -18,6 +18,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `gwasTools` - A collection of R scripts that might be useful for exploring and plotting GWAS results. https://github.com/bnwolford/gwasTools
 
+- `maftools` - Summarize, Analyze and Visualize MAF files from TCGA or in house studies. Bioconductor, https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html, and GitHub, https://github.com/PoisonAlien/maftools
+
 - `manhattanly` - Interactive Manhattan plots, https://cran.r-project.org/web/packages/manhattanly/
 
 - `mutcraft` - R tools to mine & craft somatic mutations from cancer genomes, https://github.com/EmilieT/mutcraft
