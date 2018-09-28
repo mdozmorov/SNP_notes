@@ -4,8 +4,15 @@ Issues with suggestions and pull requests are welcome!
 
 # Table of content
 
+* [SNP tools](#snp-tools)
 * [SNP callers](#snp-callers)
   * [Deep learning SNP callers](#deep-learning-snp-callers)
+
+
+## SNP tools
+
+- `PyVCF` - A Variant Call Format Parser for Python. https://pyvcf.readthedocs.io/en/latest/. Has `vcf_melt` tool to reformat a VCF into long format.
+
 
 ## SNP callers
 
