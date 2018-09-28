@@ -14,7 +14,19 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `ABRA` - Assembly Based ReAligner, https://github.com/mozack/abra
 
+- `BAMsurgeon` tools for adding mutations to existing .bam files, used for testing mutation callers, https://github.com/adamewing/bamsurgeon
+
+- `gwasTools` - A collection of R scripts that might be useful for exploring and plotting GWAS results. https://github.com/bnwolford/gwasTools
+
+- `manhattanly` - Interactive Manhattan plots, https://cran.r-project.org/web/packages/manhattanly/
+
+- `mutcraft` - R tools to mine & craft somatic mutations from cancer genomes, https://github.com/EmilieT/mutcraft
+
+- `MutScan` - Detect and visualize target mutations by scanning FastQ files directly. https://github.com/OpenGene/MutScan
+
 - `PyVCF` - A Variant Call Format Parser for Python. https://pyvcf.readthedocs.io/en/latest/. Has `vcf_melt` tool to reformat a VCF into long format.
+
+- `vcfR` - Manipulate and Visualize VCF Data. https://cran.r-project.org/web/packages/vcfR/index.html
 
 
 ## SNP callers
