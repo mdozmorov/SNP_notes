@@ -8,7 +8,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [SNP tools](#snp-tools)
 * [SNP callers](#snp-callers)
   * [Deep learning SNP callers](#deep-learning-snp-callers)
-
+* [SNP pathogenicity scores](#SNP-pathogenicity-scores)
 
 ## SNP tools
 
@@ -30,6 +30,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `samplot` - Plot structural variant signals from many BAMs and CRAMs. https://github.com/ryanlayer/samplot
 
+- `ttplot` - Tao Yan's Plot Toolkit, plots LD Heatmap, Manhattan plot. https://github.com/YTLogos/ttplot
+
 - `vcfR` - Manipulate and Visualize VCF Data. https://cran.r-project.org/web/packages/vcfR/index.html
 
 
@@ -46,4 +48,10 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `NeuSomatic` - Convolutional neural network (9 layers) for somatic mutations calling. Reads within 7bp window around candidate SNP are extracted, realigned, summarized into matrices for tumor-normal samples,  used for classifying mutation type, length, position. Tested on GiB samples and on DREAM datasets. Comparison with other SNP callers. https://github.com/bioinform/neusomatic
     - Sahraeian, Sayed Mohammad Ebrahim, Ruolin Liu, Bayo Lau, Marghoob Mohiyuddin, and Hugo Y. K. Lam. “Deep Convolutional Neural Networks for Accurate Somatic Mutation Detection,” September 4, 2018. https://doi.org/10.1101/393801.
+
+
+## SNP pathogenicity scores
+
+- ClinPred - pathogenicity prediction for all nonsynonymous SNPs. Trained on ClinVar, validated on nine other databases. Random forest and gradient boosted decision tree, comparison with other machine learning algorithms. Downloadable scores for all nonsynonymous SNPs, https://sites.google.com/site/clinpred/home
+    - Alirezaie, Najmeh, Kristin D. Kernohan, Taila Hartley, Jacek Majewski, and Toby Dylan Hocking. “ClinPred: Prediction Tool to Identify Disease-Relevant Nonsynonymous Single-Nucleotide Variants.” The American Journal of Human Genetics 103, no. 4 (October 2018): 474–83. https://doi.org/10.1016/j.ajhg.2018.08.005.
 
