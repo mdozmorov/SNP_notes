@@ -8,6 +8,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [SNP tools](#snp-tools)
 * [SNP callers](#snp-callers)
   * [Deep learning SNP callers](#deep-learning-snp-callers)
+* [SNP annotations](#snp-annotations)
 * [SNP pathogenicity scores](#SNP-pathogenicity-scores)
 
 ## SNP tools
@@ -48,6 +49,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `NeuSomatic` - Convolutional neural network (9 layers) for somatic mutations calling. Reads within 7bp window around candidate SNP are extracted, realigned, summarized into matrices for tumor-normal samples,  used for classifying mutation type, length, position. Tested on GiB samples and on DREAM datasets. Comparison with other SNP callers. https://github.com/bioinform/neusomatic
     - Sahraeian, Sayed Mohammad Ebrahim, Ruolin Liu, Bayo Lau, Marghoob Mohiyuddin, and Hugo Y. K. Lam. “Deep Convolutional Neural Networks for Accurate Somatic Mutation Detection,” September 4, 2018. https://doi.org/10.1101/393801.
+
+
+## SNP annotations
+
+- `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
 
 
 ## SNP pathogenicity scores
