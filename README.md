@@ -9,7 +9,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [SNP callers](#snp-callers)
   * [Deep learning SNP callers](#deep-learning-snp-callers)
 * [SNP annotations](#snp-annotations)
-* [SNP pathogenicity scores](#SNP-pathogenicity-scores)
+* [SNP pathogenicity scores](#snp-pathogenicity-scores)
+* [SNP databases](#snp-databases)
 
 ## SNP tools
 
@@ -60,4 +61,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - ClinPred - pathogenicity prediction for all nonsynonymous SNPs. Trained on ClinVar, validated on nine other databases. Random forest and gradient boosted decision tree, comparison with other machine learning algorithms. Downloadable scores for all nonsynonymous SNPs, https://sites.google.com/site/clinpred/home
     - Alirezaie, Najmeh, Kristin D. Kernohan, Taila Hartley, Jacek Majewski, and Toby Dylan Hocking. “ClinPred: Prediction Tool to Identify Disease-Relevant Nonsynonymous Single-Nucleotide Variants.” The American Journal of Human Genetics 103, no. 4 (October 2018): 474–83. https://doi.org/10.1016/j.ajhg.2018.08.005.
+
+## SNP databases
+
+- `clinvar` - This repo provides tools to convert ClinVar data into a tab-delimited flat file, and also provides that resulting tab-delimited flat file. https://github.com/macarthur-lab/clinvar
 
