@@ -9,6 +9,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [SNP callers](#snp-callers)
   * [Deep learning SNP callers](#deep-learning-snp-callers)
 * [SNP annotations](#snp-annotations)
+* [SNP signatures](#snp-signatures)
 * [SNP pathogenicity scores](#snp-pathogenicity-scores)
 * [SNP databases](#snp-databases)
 
@@ -55,6 +56,15 @@ These notes are not intended to be comprehensive. They include notes about metho
 ## SNP annotations
 
 - `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
+
+
+## SNP signatures
+
+- https://github.com/ictic-bioinformatics/CANCERSIGN - CANCERSIGN: a user-friendly and robust tool for identification and classification of mutational signatures and patterns in cancer genomes. Masroor Bayati, Hamid Reza Rabiee, Mehrdad Mehrbod, Fatemeh Vafaee, Diako Ebrahimi, Alistair Forrest, Hamid Alinejad-Rokny. bioRxiv 424960; doi: https://doi.org/10.1101/424960
+
+- https://github.com/danro9685/SparseSignatures, https://bioconductor.org/packages/release/bioc/html/SparseSignatures.html - De Novo Mutational Signature Discovery in Tumor Genomes using SparseSignatures. Daniele Ramazzotti, Avantika Lal, Keli Liu, Robert Tibshirani, Arend Sidow. bioRxiv 384834; doi: https://doi.org/10.1101/384834
+
+- https://bioconductor.org/packages/release/bioc/html/YAPSA.html - Yet Another Package for Signature Analysis, functionality used in L. Alexandrov et al., Nature 2013
 
 
 ## SNP pathogenicity scores
