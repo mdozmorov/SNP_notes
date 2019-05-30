@@ -12,6 +12,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [SNP signatures](#snp-signatures)
 * [SNP pathogenicity scores](#snp-pathogenicity-scores)
 * [SNP databases](#snp-databases)
+* [Miscellaneous](#miscellaneous)
 
 ## SNP tools
 
@@ -81,3 +82,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - Clinical Interpretation of Variants in Cancer database, http://www.civicdb.org/. CIViC interface public API, http://griffithlab.org/civic-api-docs/
 
+
+## Miscellaneous
+
+- Sample swap check. https://github.com/parklab/NGSCheckMate, https://github.com/brentp/somalier
