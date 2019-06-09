@@ -70,6 +70,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - https://github.com/danro9685/SparseSignatures, https://bioconductor.org/packages/release/bioc/html/SparseSignatures.html - De Novo Mutational Signature Discovery in Tumor Genomes using SparseSignatures. Daniele Ramazzotti, Avantika Lal, Keli Liu, Robert Tibshirani, Arend Sidow. bioRxiv 384834; doi: https://doi.org/10.1101/384834
 
+- `SignatureAnalyzer` - finding mutation patterns in multiple samples, NMF. https://software.broadinstitute.org/cancer/cga/msp
+
 - https://bioconductor.org/packages/release/bioc/html/YAPSA.html - Yet Another Package for Signature Analysis, functionality used in L. Alexandrov et al., Nature 2013
 
 
