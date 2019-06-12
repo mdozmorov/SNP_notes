@@ -63,6 +63,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
 
+- The Variant Interpretation for Cancer Consortium Meta-Knowledgebase. Aggregate interpretations covering 3,437 unique variants in 415 genes, 357 diseases, and 791 drugs. Validation using GENIE database. https://search.cancervariants.org
+    - Wagner, Alex Handler, Brian Walsh, Georgia Mayfield, David Tamborero, Dmitriy Sonkin, Kilannin Krysiak, Jordi Deu Pons, et al. “A Harmonized Meta-Knowledgebase of Clinical Interpretations of Cancer Genomic Variants,” July 11, 2018. https://doi.org/10.1101/366856.
+
 
 ## SNP signatures
 
