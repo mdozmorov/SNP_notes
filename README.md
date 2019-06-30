@@ -18,6 +18,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `ABRA` - Assembly Based ReAligner, https://github.com/mozack/abra
 
+- `alleleCount` - Takes a file of locations and a [cr|b]am file and generates a count of coverage of each allele [ACGT] at that location. https://github.com/cancerit/alleleCount
+
 - `BAMsurgeon` tools for adding mutations to existing .bam files, used for testing mutation callers, https://github.com/adamewing/bamsurgeon
 
 - `gwasTools` - A collection of R scripts that might be useful for exploring and plotting GWAS results. https://github.com/bnwolford/gwasTools
