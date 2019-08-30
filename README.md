@@ -22,6 +22,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `BAMsurgeon` tools for adding mutations to existing .bam files, used for testing mutation callers, https://github.com/adamewing/bamsurgeon
 
+- `CoMutPlotter` - plotting cancer mutational profiles. Supports VCF, MAF, TSV. http://tardis.cgu.edu.tw/comutplotter/
+    - Huang, Po-Jung, Hou-Hsien Lin, Chi-Ching Lee, Ling-Ya Chiu, Shao-Min Wu, Yuan-Ming Yeh, Petrus Tang, Cheng-Hsun Chiu, Ping-Chiang Lyu, and Pei-Chien Tsai. “CoMutPlotter: A Web Tool for Visual Summary of Mutations in Cancer Cohorts.” BMC Medical Genomics 12, no. S5 (July 2019): 99. https://doi.org/10.1186/s12920-019-0510-y.
+
 - `gwasTools` - A collection of R scripts that might be useful for exploring and plotting GWAS results. https://github.com/bnwolford/gwasTools
 
 - `gpart` - R package for defining LD blocks (Big-LD algorithm), and visualizing them. https://bioconductor.org/packages/release/bioc/html/gpart.html
