@@ -44,6 +44,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `ttplot` - Tao Yan's Plot Toolkit, plots LD Heatmap, Manhattan plot. https://github.com/YTLogos/ttplot
 
+- `VariantQC` - VCF quality control tool, part of DISCVRseq toolkit. Uses GATK4 engine. Java wrapper of GATK$'s VariantEval  tool. Input - VCF file and an indexed genome FASTA file. Output - MultiQC-templated report. https://github.com/BimberLab/DISCVRSeq/
+    - Yan, Melissa Y, Betsy Ferguson, and Benjamin N Bimber. “VariantQC: A Visual Quality Control Report for Variant Evaluation.” Edited by Jonathan Wren. Bioinformatics, July 16, 2019, btz560. https://doi.org/10.1093/bioinformatics/btz560.
+
 - `vcfR` - Manipulate and Visualize VCF Data. https://cran.r-project.org/web/packages/vcfR/index.html
 
 
