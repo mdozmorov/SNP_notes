@@ -103,6 +103,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## SNP databases
 
+- `GWASatlas` resource, analysis of pleiotropy, genetic architecture of complex traits.  https://atlas.ctglab.nl/
+    - Watanabe, Kyoko, Sven Stringer, Oleksandr Frei, Masa Umićević Mirkov, Tinca J.C. Polderman, Sophie van der Sluis, Ole A. Andreassen, Benjamin M. Neale, and Danielle Posthuma. “A Global View of Pleiotropy and Genetic Architecture in Complex Traits.” BioRxiv, January 1, 2018, 500090. https://doi.org/10.1101/500090.
+
 - `GWAScentral` - central GWAS repository. Browser, download. https://www.gwascentral.org
     - Beck, Tim, Tom Shorter, and Anthony J Brookes. “GWAS Central: A Comprehensive Resource for the Discovery and Comparison of Genotype and Phenotype Data from Genome-Wide Association Studies.” Nucleic Acids Research, October 15, 2019, gkz895. https://doi.org/10.1093/nar/gkz895.
 
