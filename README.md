@@ -5,16 +5,31 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 # Table of content
 
-* [SNP tools](#snp-tools)
+* [Variant calling pipelines](#variant-calling-pipelines)
+  * [Preprocessing tools](#preprocessing-tools)
+  * [Depth](#depth)
 * [SNP callers](#snp-callers)
   * [Deep learning SNP callers](#deep-learning-snp-callers)
 * [SNP annotations](#snp-annotations)
 * [SNP signatures](#snp-signatures)
 * [SNP pathogenicity scores](#snp-pathogenicity-scores)
+* [SNP visualization](#snp-visualization)
 * [SNP databases](#snp-databases)
+* [InDels](#indels)
+* [CNV, SV](#cnv--sv)
 * [Miscellaneous](#miscellaneous)
 
-## SNP tools
+## Variant calling pipelines
+
+- `MapCaller` - map reads and identify genomic variants, indels, inversions, translocations. Based on KART method. Outperforms GATK, Freebayes, Mpileup. https://github.com/hsinnan75/MapCaller
+    - Lin, Hsin-Nan, and Wen-Lian Hsu. “MapCaller - An Integrated and Efficient Tool for Short-Read Mapping and Variant Calling Using High-Throughput Sequenced Data.” Preprint. Bioinformatics, September 26, 2019. https://doi.org/10.1101/783605.
+
+- TOPMed Variant Calling Pipeline, https://github.com/statgen/topmed_variant_calling
+
+- `DNAscan` - a pipeline for DNA-seq analysis to call SNPs, indels, SVs, repeat expansions and viral genetic material. Four parts - alignment (HISAT2, BWA mem), analysis (Freebayes, GATC HC, Manta, Expansion Hunter), annotation (Annovar), report generation. https://github.com/KHP-Informatics/DNAscan
+    - Iacoangeli, A., A. Al Khleifat, W. Sproviero, A. Shatunov, A. R. Jones, S. L. Morgan, A. Pittman, R. J. Dobson, S. J. Newhouse, and A. Al-Chalabi. “DNAscan: Personal Computer Compatible NGS Analysis, Annotation and Visualisation.” BMC Bioinformatics 20, no. 1 (December 2019): 213. https://doi.org/10.1186/s12859-019-2791-8.
+
+### Preprocessing tools
 
 - `ABRA` - Assembly Based ReAligner, https://github.com/mozack/abra
 
@@ -22,35 +37,21 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `BAMsurgeon` tools for adding mutations to existing .bam files, used for testing mutation callers, https://github.com/adamewing/bamsurgeon
 
-- `CoMutPlotter` - plotting cancer mutational profiles. Supports VCF, MAF, TSV. http://tardis.cgu.edu.tw/comutplotter/
-    - Huang, Po-Jung, Hou-Hsien Lin, Chi-Ching Lee, Ling-Ya Chiu, Shao-Min Wu, Yuan-Ming Yeh, Petrus Tang, Cheng-Hsun Chiu, Ping-Chiang Lyu, and Pei-Chien Tsai. “CoMutPlotter: A Web Tool for Visual Summary of Mutations in Cancer Cohorts.” BMC Medical Genomics 12, no. S5 (July 2019): 99. https://doi.org/10.1186/s12920-019-0510-y.
-
-- `gwasTools` - A collection of R scripts that might be useful for exploring and plotting GWAS results. https://github.com/bnwolford/gwasTools
-
-- `gpart` - R package for defining LD blocks (Big-LD algorithm), and visualizing them. https://bioconductor.org/packages/release/bioc/html/gpart.html
-    - Ah Kim, Sun, Myriam Brossard, Delnaz Roshandel, Andrew D Paterson, Shelley B Bull, and Yun Joo Yoo. “Gpart: Human Genome Partitioning and Visualization of High-Density SNP Data by Identifying Haplotype Blocks.” Edited by Alfonso Valencia. Bioinformatics, May 9, 2019, btz308. https://doi.org/10.1093/bioinformatics/btz308.
-
-- `maftools` - Summarize, Analyze and Visualize MAF files from TCGA or in house studies. Bioconductor, https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html, and GitHub, https://github.com/PoisonAlien/maftools
-
-- `manhattanly` - Interactive Manhattan plots, https://cran.r-project.org/web/packages/manhattanly/
-
-- `mutcraft` - R tools to mine & craft somatic mutations from cancer genomes, https://github.com/EmilieT/mutcraft
-
-- `MutScan` - Detect and visualize target mutations by scanning FastQ files directly. https://github.com/OpenGene/MutScan
-
 - `PyVCF` - A Variant Call Format Parser for Python. https://pyvcf.readthedocs.io/en/latest/. Has `vcf_melt` tool to reformat a VCF into long format.
-
-- `samplot` - Plot structural variant signals from many BAMs and CRAMs. https://github.com/ryanlayer/samplot
-
-- `ttplot` - Tao Yan's Plot Toolkit, plots LD Heatmap, Manhattan plot. https://github.com/YTLogos/ttplot
 
 - `VariantQC` - VCF quality control tool, part of DISCVRseq toolkit. Uses GATK4 engine. Java wrapper of GATK$'s VariantEval  tool. Input - VCF file and an indexed genome FASTA file. Output - MultiQC-templated report. https://github.com/BimberLab/DISCVRSeq/
     - Yan, Melissa Y, Betsy Ferguson, and Benjamin N Bimber. “VariantQC: A Visual Quality Control Report for Variant Evaluation.” Edited by Jonathan Wren. Bioinformatics, July 16, 2019, btz560. https://doi.org/10.1093/bioinformatics/btz560.
 
 - `vcfR` - Manipulate and Visualize VCF Data. https://cran.r-project.org/web/packages/vcfR/index.html
 
-- `VIVA` - VCF visualization tool, written in Julia. Competing tools - vcfR, IGVZ, Genome Browser, Genome Savant, svviz, jvarkit - JfxNgs. Input - VCF file and, optionally, variant list, sample list, sample metadata. Filtering. Heatmap visualization. https://github.com/compbiocore/VariantVisualization.jl
-    - Tollefson, George A, Jessica Schuster, Fernando Gelin, Ashok Ragavendran, Isabel Restrepo, Paul Stey, James Padbury, and Alper Uzun. “VIVA (VIsualization of VAriants): A VCF File Visualization Tool.” BioRxiv, March 28, 2019. https://doi.org/10.1101/589879.
+### Depth
+
+- `BAMscale` - BAMscale is a one-step tool for either 1) quantifying and normalizing the coverage of peaks or 2) generated scaled BigWig files for easy visualization of commonly used DNA-seq capture based methods.
+- `mosdepth` - fast BAM/CRAM depth calculation for WGS, exome, or targetted sequencing., https://github.com/brentp/mosdepth
+- `indexcov` - fast genome coverage, aberrant coverage detection, infer sex. Visualization. https://github.com/brentp/goleft
+- `bamCoverage` - BAM to bigWig conversion, https://deeptools.readthedocs.io/en/latest/content/tools/bamCoverage.html
+- `histoneSig` - R package for working with genome files as continuous representations or "signals". https://github.com/semibah/histonesig
+
 
 
 ## SNP callers
@@ -96,6 +97,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `vcfanno` - annotate a VCF with other VCFs/BEDs/tabixed files. https://github.com/brentp/vcfanno
     - Pedersen, Brent S., Ryan M. Layer, and Aaron R. Quinlan. “Vcfanno: Fast, Flexible Annotation of Genetic Variants.” Genome Biology 17, no. 1 (December 2016). https://doi.org/10.1186/s13059-016-0973-5.
 
+- `atSNP` - search for effects of SNPs on transcription factor binding. DB of 37 billion variant-motif pairs. Search by SNP IDs, window of SNPs, genomic location, gene, transcription factor. http://atsnp.biostat.wisc.edu/
+    - Shin, Sunyoung, Rebecca Hudson, Christopher Harrison, Mark Craven, and Sündüz Keleş. “AtSNP Search: A Web Resource for Statistically Evaluating Influence of Human Genetic Variation on Transcription Factor Binding.” Edited by John Hancock. Bioinformatics, December 8, 2018. https://doi.org/10.1093/bioinformatics/bty1010.
+
 
 ## SNP signatures
 
@@ -116,6 +120,32 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `ClinPred` - pathogenicity prediction for all nonsynonymous SNPs. Trained on ClinVar, validated on nine other databases. Random forest and gradient boosted decision tree, comparison with other machine learning algorithms. Downloadable scores for all nonsynonymous SNPs, https://sites.google.com/site/clinpred/home
     - Alirezaie, Najmeh, Kristin D. Kernohan, Taila Hartley, Jacek Majewski, and Toby Dylan Hocking. “ClinPred: Prediction Tool to Identify Disease-Relevant Nonsynonymous Single-Nucleotide Variants.” The American Journal of Human Genetics 103, no. 4 (October 2018): 474–83. https://doi.org/10.1016/j.ajhg.2018.08.005.
 
+## SNP visualization
+
+- `CoMutPlotter` - plotting cancer mutational profiles. Supports VCF, MAF, TSV. http://tardis.cgu.edu.tw/comutplotter/
+    - Huang, Po-Jung, Hou-Hsien Lin, Chi-Ching Lee, Ling-Ya Chiu, Shao-Min Wu, Yuan-Ming Yeh, Petrus Tang, Cheng-Hsun Chiu, Ping-Chiang Lyu, and Pei-Chien Tsai. “CoMutPlotter: A Web Tool for Visual Summary of Mutations in Cancer Cohorts.” BMC Medical Genomics 12, no. S5 (July 2019): 99. https://doi.org/10.1186/s12920-019-0510-y.
+
+- `gwasTools` - A collection of R scripts that might be useful for exploring and plotting GWAS results. https://github.com/bnwolford/gwasTools
+
+- `gpart` - R package for defining LD blocks (Big-LD algorithm), and visualizing them. https://bioconductor.org/packages/release/bioc/html/gpart.html
+    - Ah Kim, Sun, Myriam Brossard, Delnaz Roshandel, Andrew D Paterson, Shelley B Bull, and Yun Joo Yoo. “Gpart: Human Genome Partitioning and Visualization of High-Density SNP Data by Identifying Haplotype Blocks.” Edited by Alfonso Valencia. Bioinformatics, May 9, 2019, btz308. https://doi.org/10.1093/bioinformatics/btz308.
+
+- `maftools` - Summarize, Analyze and Visualize MAF files from TCGA or in house studies. Bioconductor, https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html, and GitHub, https://github.com/PoisonAlien/maftools
+
+- `manhattanly` - Interactive Manhattan plots, https://cran.r-project.org/web/packages/manhattanly/
+
+- `mutcraft` - R tools to mine & craft somatic mutations from cancer genomes, https://github.com/EmilieT/mutcraft
+
+- `MutScan` - Detect and visualize target mutations by scanning FastQ files directly. https://github.com/OpenGene/MutScan
+
+- `samplot` - Plot structural variant signals from many BAMs and CRAMs. https://github.com/ryanlayer/samplot
+
+- `ttplot` - Tao Yan's Plot Toolkit, plots LD Heatmap, Manhattan plot. https://github.com/YTLogos/ttplot
+
+- `VIVA` - VCF visualization tool, written in Julia. Competing tools - vcfR, IGVZ, Genome Browser, Genome Savant, svviz, jvarkit - JfxNgs. Input - VCF file and, optionally, variant list, sample list, sample metadata. Filtering. Heatmap visualization. https://github.com/compbiocore/VariantVisualization.jl
+    - Tollefson, George A, Jessica Schuster, Fernando Gelin, Ashok Ragavendran, Isabel Restrepo, Paul Stey, James Padbury, and Alper Uzun. “VIVA (VIsualization of VAriants): A VCF File Visualization Tool.” BioRxiv, March 28, 2019. https://doi.org/10.1101/589879.
+
+
 ## SNP databases
 
 - `GWASatlas` resource, analysis of pleiotropy, genetic architecture of complex traits.  https://atlas.ctglab.nl/
@@ -128,7 +158,71 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - Clinical Interpretation of Variants in Cancer database, http://www.civicdb.org/. CIViC interface public API, http://griffithlab.org/civic-api-docs/
 
+## InDels
+
+- Kosugi, Shunichi, Yukihide Momozawa, Xiaoxi Liu, Chikashi Terao, Michiaki Kubo, and Yoichiro Kamatani. “Comprehensive Evaluation of Structural Variation Detection Algorithms for Whole Genome Sequencing.” Genome Biology 20, no. 1 (December 2019): 117. https://doi.org/10.1186/s13059-019-1720-5. - Benchmarking of structural variant detection tools. Introduction to types of structural variants. No tool detects all. Table 1 prioritizes best tools for deletion, duplication, insertion, invertion detection.
+
+- `Pindel` - breakpoints of large deletions, medium sized insertions, inversions, tandem duplications and other structural variants. http://gmt.genome.wustl.edu/packages/pindel/
+
+- `Dindel` - Accurate indel calls from short-read data. http://www.sanger.ac.uk/science/tools/dindel
+
+- `Destruct` - joint prediction of rearrangement breakpoints from single or multiple tumour samples. https://bitbucket.org/dranew/destruct.git
+
+- `MindTheGap` - detection and assembly of DNA insertion variants, https://gatb.inria.fr/software/mind-the-gap/, https://github.com/GATB/MindTheGap
+
+- `Breakfast` - a software for detecting genomic structural variants from DNA sequencing data, https://github.com/annalam/breakfast
+
+- `SVAFotate` - Annotate a (lumpy) structual variant (SV) VCF with allele frequencies (AFs) from large population SV cohorts. https://github.com/fakedrtom/SVAFotate
+
+
+## CNV, SV
+
+- `Manta` - SV detection in single- and tumor-normal samples. parallelized for within-sample performance. Fast, detects more variants of different types. https://github.com/Illumina/manta
+    - Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications.” Bioinformatics 32, no. 8 (April 15, 2016): 1220–22. https://doi.org/10.1093/bioinformatics/btv710.
+
+- `Control-FREEC` - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. http://boevalab.com/tools.html
+    - Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 3 (February 1, 2012): 423–25. https://doi.org/10.1093/bioinformatics/btr670.
+
+- `CNVkit` - capturing CNVs in on-target and off-target genomic regions. Existing tools (CNVer, ExomeCNV, exomeCopy, CONTRA, CoNIFER, ExomeDepth, VarScan2, XHMM, ngCGH, EXCAVATOR, CANOES, PatternCNV, CODEX, Control-FREEC, cn.MOPS, cnvOffSeq, CopyWriteR). Account for GC content, mappability. Python 2.7 implementation. https://github.com/etal/cnvkit, https://github.com/etal/cnvkit-examples
+    - Talevich, Eric, A. Hunter Shain, Thomas Botton, and Boris C. Bastian. “CNVkit: Genome-Wide Copy Number Detection and Visualization from Targeted DNA Sequencing.” PLOS Computational Biology 12, no. 4 (April 21, 2016): e1004873. https://doi.org/10.1371/journal.pcbi.1004873.
+
+- `CNVnator` - a tool for CNV discovery and genotyping from depth-of-coverage by mapped reads. https://github.com/abyzovlab/CNVnator
+
+- `HATCHet` (Holistic Allele-specific Tumor Copy-number Heterogeneity) is an algorithm that infers allele and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient, and that leverages the relationships between clones in these samples. https://github.com/raphael-group/hatchet
+    - Zaccaria, Simone, and Benjamin J. Raphael. “Accurate Quantification of Copy-Number Aberrations and Whole-Genome Duplications in Multi-Sample Tumor Sequencing Data.” BioRxiv, January 1, 2018, 496174. https://doi.org/10.1101/496174.
+
+- `TITAN` - a tool for predicting subclonal copy number alterations (CNA) and loss of heterozygosity (LOH) from tumour whole genome sequencing data. http://compbio.bccrc.ca/software/titan/
+
+- `QDNASeq` - Quantitative DNA sequencing for chromosomal aberrations. https://bioconductor.org/packages/release/bioc/html/QDNAseq.html
+
+- `samplot` - Plot structural variant signals from many BAMs and CRAMs. https://github.com/ryanlayer/samplot
+
+- `smoove` - structural variant calling and genotyping with existing tools, but, smoothly. https://github.com/brentp/smoove
+
+- `SynthEx` - CNV detection from exome and whole genome sequencing.
+
 
 ## Miscellaneous
+
+ Awesome papers and projects about CNV and SV using NGS data. https://github.com/geocarvalho/sv-cnv-studies
+
+- DNA sequencing analysis notes from Ming Tang. https://github.com/crazyhottommy/DNA-seq-analysis
+
+- `SNPhylo` - A pipeline to generate a phylogenetic tree from huge SNP data, https://github.com/thlee/SNPhylo, http://chibba.pgml.uga.edu/snphylo/
+
+- Application for making ENCODE Blacklists, and links to canonical blacklists, https://github.com/Boyle-Lab/Blacklist
+    - Blacklist citation: Amemiya, Haley M., Anshul Kundaje, and Alan P. Boyle. “The ENCODE Blacklist: Identification of Problematic Regions of the Genome.” Scientific Reports 9, no. 1 (December 2019): 9354. https://doi.org/10.1038/s41598-019-45839-z.
+
+
+- HOT/XOT regions. The high occupancy target (HOT) and extreme occupancy target (XOT) regions in all contexts were downloaded through the ENCODE data portal at http://encode-ftp.s3.amazonaws.com/modENCODE_VS_ENCODE/Regulation/Human/hotRegions/maphot_hs_selection_reg_cx_simP05_all.bed and http://encode-ftp.s3.amazonaws.com/modENCODE_VS_ENCODE/Regulation/Human/hotRegions/maphot_hs_selection_reg_cx_simP01_all.bed (hg38 ?). Potential source
+
+- `GEM` - mappability calculations for each genomic region, accounting for mismatches. Pre-calculated UCSC genome browser tracks for human and mouse. Mappability of genes, both protein-coding and non-protein coding. RPKUM - unique exons for quantifying gene expression. https://sourceforge.net/projects/gemlibrary/files/gem-library/
+    - Derrien, Thomas, Jordi Estellé, Santiago Marco Sola, David G. Knowles, Emanuele Raineri, Roderic Guigó, and Paolo Ribeca. “Fast Computation and Applications of Genome Mappability.” PloS One 7, no. 1 (2012): e30377. https://doi.org/10.1371/journal.pone.0030377.
+
+- `refGenie` - reference genome manager. http://refgenie.databio.org/en/latest/
+
+- `genomepy` - Download genomes the easy way. https://github.com/simonvh/genomepy
+
+- `GeneticsDesign` - GWAS power analysis, functions for designing genetics studies, https://www.bioconductor.org/packages/release/bioc/html/GeneticsDesign.html
 
 - Sample swap check. https://github.com/parklab/NGSCheckMate, https://github.com/brentp/somalier
