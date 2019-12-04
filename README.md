@@ -200,6 +200,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `Manta` - SV detection in single- and tumor-normal samples. parallelized for within-sample performance. Fast, detects more variants of different types. https://github.com/Illumina/manta
     - Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications.” Bioinformatics 32, no. 8 (April 15, 2016): 1220–22. https://doi.org/10.1093/bioinformatics/btv710.
 
+- `DELLY` - detection of structural variants, such as CNVs, duplications, inversions, translocations. Paired-end and split-read analysis https://tobiasrausch.com/delly/
+    - Rausch, Tobias, Thomas Zichner, Andreas Schlattl, Adrian M. Stütz, Vladimir Benes, and Jan O. Korbel. “DELLY: Structural Variant Discovery by Integrated Paired-End and Split-Read Analysis.” Bioinformatics (Oxford, England) 28, no. 18 (September 15, 2012): i333–39. https://doi.org/10.1093/bioinformatics/bts378.
+
 - `Control-FREEC` - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. http://boevalab.com/tools.html
     - Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 3 (February 1, 2012): 423–25. https://doi.org/10.1093/bioinformatics/btr670.
 
