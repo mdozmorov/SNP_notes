@@ -179,19 +179,7 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## CNV, SV
 
-- `Manta` - SV detection in single- and tumor-normal samples. parallelized for within-sample performance. Fast, detects more variants of different types. https://github.com/Illumina/manta
-    - Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications.” Bioinformatics 32, no. 8 (April 15, 2016): 1220–22. https://doi.org/10.1093/bioinformatics/btv710.
-
-- `Control-FREEC` - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. http://boevalab.com/tools.html
-    - Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 3 (February 1, 2012): 423–25. https://doi.org/10.1093/bioinformatics/btr670.
-
-- `CNVkit` - capturing CNVs in on-target and off-target genomic regions. Existing tools (CNVer, ExomeCNV, exomeCopy, CONTRA, CoNIFER, ExomeDepth, VarScan2, XHMM, ngCGH, EXCAVATOR, CANOES, PatternCNV, CODEX, Control-FREEC, cn.MOPS, cnvOffSeq, CopyWriteR). Account for GC content, mappability. Python 2.7 implementation. https://github.com/etal/cnvkit, https://github.com/etal/cnvkit-examples
-    - Talevich, Eric, A. Hunter Shain, Thomas Botton, and Boris C. Bastian. “CNVkit: Genome-Wide Copy Number Detection and Visualization from Targeted DNA Sequencing.” PLOS Computational Biology 12, no. 4 (April 21, 2016): e1004873. https://doi.org/10.1371/journal.pcbi.1004873.
-
 - `CNVnator` - a tool for CNV discovery and genotyping from depth-of-coverage by mapped reads. https://github.com/abyzovlab/CNVnator
-
-- `HATCHet` (Holistic Allele-specific Tumor Copy-number Heterogeneity) is an algorithm that infers allele and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient, and that leverages the relationships between clones in these samples. https://github.com/raphael-group/hatchet
-    - Zaccaria, Simone, and Benjamin J. Raphael. “Accurate Quantification of Copy-Number Aberrations and Whole-Genome Duplications in Multi-Sample Tumor Sequencing Data.” BioRxiv, January 1, 2018, 496174. https://doi.org/10.1101/496174.
 
 - `TITAN` - a tool for predicting subclonal copy number alterations (CNA) and loss of heterozygosity (LOH) from tumour whole genome sequencing data. http://compbio.bccrc.ca/software/titan/
 
@@ -202,6 +190,19 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `smoove` - structural variant calling and genotyping with existing tools, but, smoothly. https://github.com/brentp/smoove
 
 - `SynthEx` - CNV detection from exome and whole genome sequencing.
+
+- `HATCHet` (Holistic Allele-specific Tumor Copy-number Heterogeneity) is an algorithm that infers allele and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient, and that leverages the relationships between clones in these samples. https://github.com/raphael-group/hatchet
+    - Zaccaria, Simone, and Benjamin J. Raphael. “Accurate Quantification of Copy-Number Aberrations and Whole-Genome Duplications in Multi-Sample Tumor Sequencing Data.” BioRxiv, January 1, 2018, 496174. https://doi.org/10.1101/496174.
+
+- `CNVkit` - capturing CNVs in on-target and off-target genomic regions. Existing tools (CNVer, ExomeCNV, exomeCopy, CONTRA, CoNIFER, ExomeDepth, VarScan2, XHMM, ngCGH, EXCAVATOR, CANOES, PatternCNV, CODEX, Control-FREEC, cn.MOPS, cnvOffSeq, CopyWriteR). Account for GC content, mappability. Python 2.7 implementation. https://github.com/etal/cnvkit, https://github.com/etal/cnvkit-examples
+    - Talevich, Eric, A. Hunter Shain, Thomas Botton, and Boris C. Bastian. “CNVkit: Genome-Wide Copy Number Detection and Visualization from Targeted DNA Sequencing.” PLOS Computational Biology 12, no. 4 (April 21, 2016): e1004873. https://doi.org/10.1371/journal.pcbi.1004873.
+
+- `Manta` - SV detection in single- and tumor-normal samples. parallelized for within-sample performance. Fast, detects more variants of different types. https://github.com/Illumina/manta
+    - Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications.” Bioinformatics 32, no. 8 (April 15, 2016): 1220–22. https://doi.org/10.1093/bioinformatics/btv710.
+
+- `Control-FREEC` - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. http://boevalab.com/tools.html
+    - Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 3 (February 1, 2012): 423–25. https://doi.org/10.1093/bioinformatics/btr670.
+
 
 
 ## Miscellaneous
