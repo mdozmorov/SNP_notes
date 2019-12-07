@@ -150,6 +150,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## SNP databases
 
+- `CAUSALdb` - curated summary statistics for GWASs, mapped to MeSH terms, Manhattan plot visualization. Download available. http://mulinlab.tmu.edu.cn/causaldb/index.html
+    - Wang, Jianhua, Dandan Huang, Yao Zhou, Hongcheng Yao, Huanhuan Liu, Sinan Zhai, Chengwei Wu, et al. “CAUSALdb: A Database for Disease/Trait Causal Variants Identified Using Summary Statistics of Genome-Wide Association Studies.” Nucleic Acids Research, November 6, 2019, gkz1026. https://doi.org/10.1093/nar/gkz1026.
+
 - `GWASatlas` resource, analysis of pleiotropy, genetic architecture of complex traits.  https://atlas.ctglab.nl/
     - Watanabe, Kyoko, Sven Stringer, Oleksandr Frei, Masa Umićević Mirkov, Tinca J.C. Polderman, Sophie van der Sluis, Ole A. Andreassen, Benjamin M. Neale, and Danielle Posthuma. “A Global View of Pleiotropy and Genetic Architecture in Complex Traits.” BioRxiv, January 1, 2018, 500090. https://doi.org/10.1101/500090.
 
