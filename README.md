@@ -194,6 +194,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - `SynthEx` - CNV detection from exome and whole genome sequencing.
 
+- `gnomAD-SV` - structural variants from deep WGS, added to gnomAD browser, https://gnomad.broadinstitute.org/. 14,891 genomes, average statistics of SVs in general population.
+    - Collins, Ryan L., Harrison Brand, Konrad J. Karczewski, Xuefang Zhao, Jessica Alföldi, Amit V. Khera, Laurent C. Francioli, et al. “An Open Resource of Structural Variation for Medical and Population Genetics.” BioRxiv, March 14, 2019. https://doi.org/10.1101/578674.
+
 - `HATCHet` (Holistic Allele-specific Tumor Copy-number Heterogeneity) is an algorithm that infers allele and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient, and that leverages the relationships between clones in these samples. https://github.com/raphael-group/hatchet
     - Zaccaria, Simone, and Benjamin J. Raphael. “Accurate Quantification of Copy-Number Aberrations and Whole-Genome Duplications in Multi-Sample Tumor Sequencing Data.” BioRxiv, January 1, 2018, 496174. https://doi.org/10.1101/496174.
 
