@@ -64,6 +64,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `MutationSeq` - somatic SNV detection from tumor-normal pairs. http://compbio.bccrc.ca/software/mutationSeq/
 
+- `Samovar` - mosaic SNV calling from single samples sequenced using WGS 10X linked reads technology. Intro into mosaic SNVs, linked reads. Outperforms MuTect2, MosaicHunter. https://github.com/cdarby/samovar
+    - Darby, Charlotte A, James R Fitch, Patrick J Brennan, Benjamin J Kelly, Natalie Bir, Vincent Magrini, Jeffrey Leonard, et al. “Samovar: Single-Sample Mosaic SNV Calling with Linked Reads.” Preprint. Genomics, February 25, 2019. https://doi.org/10.1101/560532.
+
 - `RNA-MuTect` method to detect somatic mutations from tumor DNA - matched normal RNA samples. Applied to TCGA, GTeX data. Most mutated are sun-exposed skin, esophagus mucosa, lung. Number of mutations in RNA is 5-fold larger than in DNA, mutations depend on coverage. Only half of DNA mutations have sufficient coverage in RNA. Filtering using 1) two aligners, 2) removal of errors based on a site-specific error model, 3) removal of RNA editing sites. https://zenodo.org/record/2620062#.XPz9e29KhQI
     - Yizhak, Keren, François Aguet, Jaegil Kim, Julian M Hess, Kirsten Kübler, Jonna Grimsby, Ruslana Frazer, et al. “RNA Sequence Analysis Reveals Macroscopic Somatic Clonal Expansion across Normal Tissues.” HUMAN GENETICS, 2019, 11.
 
