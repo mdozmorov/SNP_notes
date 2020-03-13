@@ -123,6 +123,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## SNP pathogenicity scores
 
+- `SEMpl` - predict the impact of SNPs on TF binding. Uses ChIP-seq data, DNAse-seq, and PWMs. Simulate all possible SNPs in PWMs, estimate effect on ChIP signal. https://github.com/Boyle-Lab/SEM_CPP
+    - Nishizaki, Sierra S, Natalie Ng, Shengcheng Dong, Robert S Porter, Cody Morterud, Colten Williams, Courtney Asman, Jessica A Switzenberg, and Alan P Boyle. “Predicting the Effects of SNPs on Transcription Factor Binding Affinity.” Edited by John Hancock. Bioinformatics, August 2, 2019, btz612. https://doi.org/10.1093/bioinformatics/btz612.
+
 - `regBase` - Prediction of regulatory impact of variants outside of protein-coding regions, human. Trained on prediction scores from 23 tools, Gradient Tree Boosting, thorough training and evaluation. hg19 predictions are available for download. Python implementation https://github.com/mulinlab/regBase
     - Zhang, Shijie, Yukun He, Huanhuan Liu, Haoyu Zhai, Dandan Huang, Xianfu Yi, Xiaobao Dong, et al. “RegBase: Whole Genome Base-Wise Aggregation and Functional Prediction for Human Non-Coding Regulatory Variants.” Nucleic Acids Research, September 12, 2019, gkz774. https://doi.org/10.1093/nar/gkz774.
 
