@@ -112,6 +112,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## SNP signatures
 
+- `sigminer` - Genomic Alteration Signature Analysis in R, developed by Shixiang Wang, novel and known signature extraction, visualization. Code: https://github.com/ShixiangWang/sigminer, Documentation: https://shixiangwang.github.io/sigminer-doc/
+    - `sigminer.prediction` - Train and Predict Cancer Subtype with Keras Model based on Mutational Signatures, https://github.com/ShixiangWang/sigminer.prediction
+
 - https://github.com/ictic-bioinformatics/CANCERSIGN - CANCERSIGN: a user-friendly and robust tool for identification and classification of mutational signatures and patterns in cancer genomes. Masroor Bayati, Hamid Reza Rabiee, Mehrdad Mehrbod, Fatemeh Vafaee, Diako Ebrahimi, Alistair Forrest, Hamid Alinejad-Rokny. bioRxiv 424960; doi: https://doi.org/10.1101/424960
 
 - https://github.com/danro9685/SparseSignatures, https://bioconductor.org/packages/release/bioc/html/SparseSignatures.html - De Novo Mutational Signature Discovery in Tumor Genomes using SparseSignatures. Daniele Ramazzotti, Avantika Lal, Keli Liu, Robert Tibshirani, Arend Sidow. bioRxiv 384834; doi: https://doi.org/10.1101/384834
