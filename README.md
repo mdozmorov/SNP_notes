@@ -236,6 +236,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
  Awesome papers and projects about CNV and SV using NGS data. https://github.com/geocarvalho/sv-cnv-studies
 
+- GWAS tutorial. Quality control with PLINK, population stratification (MDS), association tests (binary and quantitative using PLINK), polygenic risk scores гыштп ЗКЫ. PLINK file formats. Box 1 - GWAS definitions.https://github.com/MareesAT/GWA_tutorial/
+    - Marees, Andries T., Hilde de Kluiver, Sven Stringer, Florence Vorspan, Emmanuel Curis, Cynthia Marie-Claire, and Eske M. Derks. “A Tutorial on Conducting Genome-Wide Association Studies: Quality Control and Statistical Analysis.” International Journal of Methods in Psychiatric Research 27, no. 2 (2018): e1608. https://doi.org/10.1002/mpr.1608.
+
 - DNA sequencing analysis notes from Ming Tang. https://github.com/crazyhottommy/DNA-seq-analysis
 
 - `SNPhylo` - A pipeline to generate a phylogenetic tree from huge SNP data, https://github.com/thlee/SNPhylo, http://chibba.pgml.uga.edu/snphylo/
