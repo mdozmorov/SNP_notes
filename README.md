@@ -236,6 +236,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - `GeneticsDesign` - GWAS power analysis, functions for designing genetics studies, https://www.bioconductor.org/packages/release/bioc/html/GeneticsDesign.html
 
+- Genetic Association Study (GAS) Power Calculator - online tool to compute statistical power for large one-stage genetic association studies. The underlying method is derived from the CaTS power calculator for two-stage association studies (2006). http://csg.sph.umich.edu/abecasis/gas_power_calculator/index.html
+
 - `SEQPower` - GWAS power analysis for case/control and quantitative studies, rare variants. Command-line, http://bioinformatics.org/spower/start
     - Wang, Gao T., Biao Li, Regie P. Lyn Santos-Cortez, Bo Peng, and Suzanne M. Leal. “Power Analysis and Sample Size Estimation for Sequence-Based Association Studies.” Bioinformatics 30, no. 16 (August 15, 2014): 2377–78. https://doi.org/10.1093/bioinformatics/btu296.
 
