@@ -17,6 +17,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [SNP databases](#snp-databases)
 * [InDels](#indels)
 * [CNV, SV](#cnv--sv)
+* [Power](#power)
 * [Miscellaneous](#miscellaneous)
 
 ## Variant calling pipelines
@@ -231,6 +232,11 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `CREST` - mapping somatic structural variations in cancer genomes ad base-pair resolution. realignment of soft-clipped subsequences.Compared with BreakDancer, Pindel. Tested on experimental and simulated data, hg18, some SVs experimentally validated. https://www.stjuderesearch.org/site/lab/zhang
     - Wang, Jianmin, Charles G Mullighan, John Easton, Stefan Roberts, Sue L Heatley, Jing Ma, Michael C Rusch, et al. “CREST Maps Somatic Structural Variation in Cancer Genomes with Base-Pair Resolution.” Nature Methods 8, no. 8 (August 2011): 652–54. https://doi.org/10.1038/nmeth.1628.
 
+## Power
+
+- `GeneticsDesign` - GWAS power analysis, functions for designing genetics studies, https://www.bioconductor.org/packages/release/bioc/html/GeneticsDesign.html
+
+
 
 ## Miscellaneous
 
@@ -255,7 +261,5 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `refGenie` - reference genome manager. http://refgenie.databio.org/en/latest/
 
 - `genomepy` - Download genomes the easy way. https://github.com/simonvh/genomepy
-
-- `GeneticsDesign` - GWAS power analysis, functions for designing genetics studies, https://www.bioconductor.org/packages/release/bioc/html/GeneticsDesign.html
 
 - Sample swap check. https://github.com/parklab/NGSCheckMate, https://github.com/brentp/somalier
