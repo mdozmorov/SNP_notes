@@ -16,7 +16,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [SNP visualization](#snp-visualization)
 * [SNP databases](#snp-databases)
 * [InDels](#indels)
-* [CNV, SV](#cnv--sv)
+* [CNV, SV](#cnv-sv)
 * [Power](#power)
 * [Miscellaneous](#miscellaneous)
 
@@ -222,6 +222,10 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - `Manta` - SV detection in single- and tumor-normal samples. parallelized for within-sample performance. Fast, detects more variants of different types. https://github.com/Illumina/manta
     - Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications.” Bioinformatics 32, no. 8 (April 15, 2016): 1220–22. https://doi.org/10.1093/bioinformatics/btv710.
+
+- [**LUMPY-SV**](https://github.com/arq5x/lumpy-sv/) - a general probabilistic framework for structural variant discovery. Integrates multiple signals - read-pair, split-read, read-depth and prior knowledge. Operates on multiple samples. 
+    - Layer, Ryan M, Colby Chiang, Aaron R Quinlan, and Ira M Hall. “[**LUMPY: A Probabilistic Framework for Structural Variant Discovery.**](https://doi.org/10.1186/gb-2014-15-6-r84)” Genome Biology 15, no. 6 (2014): R84. 
+
 
 - `DELLY` - detection of structural variants, such as CNVs, duplications, inversions, translocations. Paired-end and split-read analysis https://tobiasrausch.com/delly/
     - Rausch, Tobias, Thomas Zichner, Andreas Schlattl, Adrian M. Stütz, Vladimir Benes, and Jan O. Korbel. “DELLY: Structural Variant Discovery by Integrated Paired-End and Split-Read Analysis.” Bioinformatics (Oxford, England) 28, no. 18 (September 15, 2012): i333–39. https://doi.org/10.1093/bioinformatics/bts378.
