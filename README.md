@@ -199,8 +199,6 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - Review of structural variant callers. De novo-based approaches (graph- or scaffold-based), short-read DNA-seq and RNA-seq (gene fusion) mapping, long-read (PacBio, Oxford Nanopore) mapping, multimethods approaches. SV calling from newer technologies, such as optical mapping, strand-seq, 10X Genomics linked reads, Hi-C. Brief description of tools, their performance, references to reviews. [Table 1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1828-7/tables/1) - categorized list of tools, brief description and links.
     - Mahmoud, Medhat, Nastassia Gobet, Diana Ivette Cruz-Dávalos, Ninon Mounier, Christophe Dessimoz, and Fritz J. Sedlazeck. “Structural Variant Calling: The Long and the Short of It.” Genome Biology 20, no. 1 (December 2019): 246. https://doi.org/10.1186/s13059-019-1828-7.
 
-- `CNVnator` - a tool for CNV discovery and genotyping from depth-of-coverage by mapped reads. https://github.com/abyzovlab/CNVnator
-
 - `TITAN` - a tool for predicting subclonal copy number alterations (CNA) and loss of heterozygosity (LOH) from tumour whole genome sequencing data. http://compbio.bccrc.ca/software/titan/
 
 - `QDNASeq` - Quantitative DNA sequencing for chromosomal aberrations. https://bioconductor.org/packages/release/bioc/html/QDNAseq.html
@@ -232,6 +230,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - `Control-FREEC` - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. http://boevalab.com/tools.html
     - Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 3 (February 1, 2012): 423–25. https://doi.org/10.1093/bioinformatics/btr670.
+
+- [**CNVnator**](https://github.com/abyzovlab/CNVnator) - CNV using read depth. Bin the genome, mean-shift technique to quantify CNVs. Poor agreement in methods detection. Misses retrotransposon-CNVs but detects >50% other regions missed by other methods. https://github.com/abyzovlab/CNVnator
+    - Abyzov, Alexej, Alexander E. Urban, Michael Snyder, and Mark Gerstein. “[**CNVnator: An Approach to Discover, Genotype, and Characterize Typical and Atypical CNVs from Family and Population Genome Sequencing.**](https://doi.org/10.1101/gr.114876.110)” Genome Research 21, no. 6 (June 2011): 974–84. 
 
 - `CREST` - mapping somatic structural variations in cancer genomes ad base-pair resolution. realignment of soft-clipped subsequences.Compared with BreakDancer, Pindel. Tested on experimental and simulated data, hg18, some SVs experimentally validated. https://www.stjuderesearch.org/site/lab/zhang
     - Wang, Jianmin, Charles G Mullighan, John Easton, Stefan Roberts, Sue L Heatley, Jing Ma, Michael C Rusch, et al. “CREST Maps Somatic Structural Variation in Cancer Genomes with Base-Pair Resolution.” Nature Methods 8, no. 8 (August 2011): 652–54. https://doi.org/10.1038/nmeth.1628.
