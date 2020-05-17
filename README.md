@@ -197,6 +197,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## CNV, SV
 
+- [Awesome papers and projects about CNV and SV using NGS data](https://github.com/geocarvalho/sv-cnv-studies) - Relevant studies with Structual Variants and Copy Number Variants in NGS (Genome, Exome and Amplicon Sequencing) pipelines
+
 - Benchmark of 10 CNV callers. LUMPY performs best overall, Canvas is good for high specificity, CNVnator and RDXplorer are good for high sensitivity. Table 1 summarizes functionality of each caller. Used the Database of Genomic Variants as a gold standard, call CNVs from NA12878 genome
     - Zhang, Le, Wanyu Bai, Na Yuan, and Zhenglin Du. “[**Comprehensively Benchmarking Applications for Detecting Copy Number Variation.**](https://doi.org/10.1371/journal.pcbi.1007069)” Edited by Ilya Ioshikhes. PLOS Computational Biology 15, no. 5 (May 28, 2019): e1007069. 
 
