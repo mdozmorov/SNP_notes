@@ -255,7 +255,10 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## Miscellaneous
 
- Awesome papers and projects about CNV and SV using NGS data. https://github.com/geocarvalho/sv-cnv-studies
+ - [Awesome papers and projects about CNV and SV using NGS data](https://github.com/geocarvalho/sv-cnv-studies)
+
+- [Atlas of Variant Age](https://human.genome.dating/) - age estimate of \~45M SNPs. Method - Genealogical Estimation of Variant Age (GEVA), performs similar or better to PSMC. https://human.genome.dating/
+    - Albers, Patrick K., and Gil McVean. “Dating Genomic Variants and Shared Ancestry in Population-Scale Sequencing Data.” Edited by Nick H. Barton. PLOS Biology 18, no. 1 (January 17, 2020): e3000586. https://doi.org/10.1371/journal.pbio.3000586.
 
 - GWAS tutorial. Quality control with PLINK, population stratification (MDS), association tests (binary and quantitative using PLINK), polygenic risk scores гыштп ЗКЫ. PLINK file formats. Box 1 - GWAS definitions.https://github.com/MareesAT/GWA_tutorial/
     - Marees, Andries T., Hilde de Kluiver, Sven Stringer, Florence Vorspan, Emmanuel Curis, Cynthia Marie-Claire, and Eske M. Derks. “A Tutorial on Conducting Genome-Wide Association Studies: Quality Control and Statistical Analysis.” International Journal of Methods in Psychiatric Research 27, no. 2 (2018): e1608. https://doi.org/10.1002/mpr.1608.
