@@ -1,24 +1,29 @@
-# Notes on SNP-related tools and genome variation analysis
+# SNP-related notes
 
-These notes are not intended to be comprehensive. They include notes about methods, packages and tools I would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
-
+SNP- and genome variation-related tools and genomics data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
 
-* [Variant calling pipelines](#variant-calling-pipelines)
-  * [Preprocessing tools](#preprocessing-tools)
-  * [Depth](#depth)
-* [SNP callers](#snp-callers)
-  * [Deep learning SNP callers](#deep-learning-snp-callers)
-* [SNP annotations](#snp-annotations)
-* [SNP signatures](#snp-signatures)
-* [SNP pathogenicity scores](#snp-pathogenicity-scores)
-* [SNP visualization](#snp-visualization)
-* [SNP databases](#snp-databases)
-* [InDels](#indels)
-* [CNV, SV](#cnv-sv)
-* [Power](#power)
-* [Miscellaneous](#miscellaneous)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Variant calling pipelines](#variant-calling-pipelines)
+  - [Preprocessing tools](#preprocessing-tools)
+  - [Depth](#depth)
+- [SNP callers](#snp-callers)
+  - [Deep learning SNP callers](#deep-learning-snp-callers)
+- [SNP annotations](#snp-annotations)
+- [SNP signatures](#snp-signatures)
+- [SNP pathogenicity scores](#snp-pathogenicity-scores)
+- [SNP visualization](#snp-visualization)
+- [SNP databases](#snp-databases)
+- [InDels](#indels)
+- [CNV, SV](#cnv-sv)
+- [Power](#power)
+- [Miscellaneous](#miscellaneous)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Variant calling pipelines
 
