@@ -172,6 +172,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## SNP databases
 
+- [Open access to gnomAD data on multiple cloud providers](https://gnomad.broadinstitute.org/blog/2020-10-open-access-to-gnomad-data-on-multiple-cloud-providers/)
+
 - `CAUSALdb` - curated summary statistics for GWASs, mapped to MeSH terms, Manhattan plot visualization. Download available. http://mulinlab.tmu.edu.cn/causaldb/index.html
     - Wang, Jianhua, Dandan Huang, Yao Zhou, Hongcheng Yao, Huanhuan Liu, Sinan Zhai, Chengwei Wu, et al. “CAUSALdb: A Database for Disease/Trait Causal Variants Identified Using Summary Statistics of Genome-Wide Association Studies.” Nucleic Acids Research, November 6, 2019, gkz1026. https://doi.org/10.1093/nar/gkz1026.
 
