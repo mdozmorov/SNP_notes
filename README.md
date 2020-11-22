@@ -18,7 +18,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [SNP annotations](#snp-annotations)
 - [SNP signatures](#snp-signatures)
 - [SNP pathogenicity scores](#snp-pathogenicity-scores)
-- [SNP visualization](#snp-visualization)
+- [SNP visualization, clustering](#snp-visualization-clustering)
 - [SNP databases](#snp-databases)
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
@@ -144,7 +144,7 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `ClinPred` - pathogenicity prediction for all nonsynonymous SNPs. Trained on ClinVar, validated on nine other databases. Random forest and gradient boosted decision tree, comparison with other machine learning algorithms. Downloadable scores for all nonsynonymous SNPs, https://sites.google.com/site/clinpred/home
     - Alirezaie, Najmeh, Kristin D. Kernohan, Taila Hartley, Jacek Majewski, and Toby Dylan Hocking. “ClinPred: Prediction Tool to Identify Disease-Relevant Nonsynonymous Single-Nucleotide Variants.” The American Journal of Human Genetics 103, no. 4 (October 2018): 474–83. https://doi.org/10.1016/j.ajhg.2018.08.005.
 
-## SNP visualization
+## SNP visualization, clustering
 
 - `CoMutPlotter` - plotting cancer mutational profiles. Supports VCF, MAF, TSV. http://tardis.cgu.edu.tw/comutplotter/
     - Huang, Po-Jung, Hou-Hsien Lin, Chi-Ching Lee, Ling-Ya Chiu, Shao-Min Wu, Yuan-Ming Yeh, Petrus Tang, Cheng-Hsun Chiu, Ping-Chiang Lyu, and Pei-Chien Tsai. “CoMutPlotter: A Web Tool for Visual Summary of Mutations in Cancer Cohorts.” BMC Medical Genomics 12, no. S5 (July 2019): 99. https://doi.org/10.1186/s12920-019-0510-y.
@@ -165,6 +165,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `samplot` - Plot structural variant signals from many BAMs and CRAMs. https://github.com/ryanlayer/samplot
 
 - `ttplot` - Tao Yan's Plot Toolkit, plots LD Heatmap, Manhattan plot. https://github.com/YTLogos/ttplot
+
+- [VarClust](https://github.com/fasterius/VarClust) - A Python package for clustering of single nucleotide variants from high-through seqencing data. Works on single-sample VCF files.
 
 - `VIVA` - VCF visualization tool, written in Julia. Competing tools - vcfR, IGVZ, Genome Browser, Genome Savant, svviz, jvarkit - JfxNgs. Input - VCF file and, optionally, variant list, sample list, sample metadata. Filtering. Heatmap visualization. https://github.com/compbiocore/VariantVisualization.jl
     - Tollefson, George A, Jessica Schuster, Fernando Gelin, Ashok Ragavendran, Isabel Restrepo, Paul Stey, James Padbury, and Alper Uzun. “VIVA (VIsualization of VAriants): A VCF File Visualization Tool.” BioRxiv, March 28, 2019. https://doi.org/10.1101/589879.
