@@ -47,6 +47,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - `PyVCF` - A Variant Call Format Parser for Python. https://pyvcf.readthedocs.io/en/latest/. Has `vcf_melt` tool to reformat a VCF into long format.
 
+- [Rust-bio-tools](https://github.com/rust-bio/rust-bio-tools) - VCF matching, conversion to text, report, FASTQ split/filter, BAM depth, merging.
+
 - `SURVIVOR` - Toolset for SV simulation, comparison and filtering. https://github.com/fritzsedlazeck/SURVIVOR/tree/1.0.7
 
 - `VariantQC` - VCF quality control tool, part of DISCVRseq toolkit. Uses GATK4 engine. Java wrapper of GATK$'s VariantEval  tool. Input - VCF file and an indexed genome FASTA file. Output - MultiQC-templated report. https://github.com/BimberLab/DISCVRSeq/
