@@ -93,6 +93,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - `NeuSomatic` - Convolutional neural network (9 layers) for somatic mutations calling. Reads within 7bp window around candidate SNP are extracted, realigned, summarized into matrices for tumor-normal samples,  used for classifying mutation type, length, position. Tested on GiB samples and on DREAM datasets. Comparison with other SNP callers. https://github.com/bioinform/neusomatic
     - Sahraeian, Sayed Mohammad Ebrahim, Ruolin Liu, Bayo Lau, Marghoob Mohiyuddin, and Hugo Y. K. Lam. “Deep Convolutional Neural Networks for Accurate Somatic Mutation Detection,” September 4, 2018. https://doi.org/10.1101/393801.
 
+- [DeepSNV](https://bioconductor.org/packages/deepSNV/) - an R package for detecting clonal and subclonal variants from deeply sequenced clonally heterogeneous cancer data. The deepSNV algorithm is used for a comparative setup with a control experiment of the same loci and uses a beta-binomial model and a likelihood ratio test to discriminate sequencing errors and subclonal SNVs. The shearwater algorithm computes a Bayes classifier based on a beta-binomial model for variant calling with multiple samples for precisely estimating model parameters - such as local error rates and dispersion - and prior knowledge, e.g. from variation data bases such as COSMIC. 
+    - Gerstung, M., E. Papaemmanuil, and P. J. Campbell. “[Subclonal Variant Calling with Multiple Samples and Prior Knowledge](https://doi.org/10.1093/bioinformatics/btt750).” Bioinformatics, (May 1, 2014)
 
 ## SNP annotations
 
