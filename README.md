@@ -29,6 +29,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## Variant calling pipelines
 
+- Koboldt, Daniel C. “[Best Practices for Variant Calling in Clinical Sequencing](https://doi.org/10.1186/s13073-020-00791-w).” Genome Medicine, (December 2020) - Introduction in genomic variant calling, panel/exome/whole genome sequencing technologies (Table 1), preprocessing, analysis (SNVs/indels, mutations, CNVs, SVs, gene fusions, Table 2), gold standard datasets (GIAB), best practices, filtering for each type of genomic variant.
+
 - `MapCaller` - map reads and identify genomic variants, indels, inversions, translocations. Based on KART method. Outperforms GATK, Freebayes, Mpileup. https://github.com/hsinnan75/MapCaller
     - Lin, Hsin-Nan, and Wen-Lian Hsu. “MapCaller - An Integrated and Efficient Tool for Short-Read Mapping and Variant Calling Using High-Throughput Sequenced Data.” Preprint. Bioinformatics, September 26, 2019. https://doi.org/10.1101/783605.
 
