@@ -282,6 +282,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## Power
 
+- [powerEQTL](https://bwhbioinfo.shinyapps.io/powerEQTL/) - power analysis for eQTL studies. Includes two models, one-way unbalanced ANOVA (categorical genotypes) and linear regression (additive counting genotypes). Applicable to bulk and scRNA-seq. [Shiny app](https://bwhbioinfo.shinyapps.io/powerEQTL/), [CRAN](https://CRAN.R-project.org/package=powerEQTL)
+    - Dong, Xianjun, Xiaoqi Li, Tzuu-Wang Chang, Scott T Weiss, and Weiliang Qiu. “[PowerEQTL: An R Package and Shiny Application for Sample Size and Power Calculation of Bulk Tissue and Single-Cell EQTL Analysis](https://doi.org/10.1101/2020.12.15.422954),” bioRxiv, December 16, 2020.
+
 - `GeneticsDesign` - GWAS power analysis, functions for designing genetics studies, https://www.bioconductor.org/packages/release/bioc/html/GeneticsDesign.html
 
 - Genetic Association Study (GAS) Power Calculator - online tool to compute statistical power for large one-stage genetic association studies. The underlying method is derived from the CaTS power calculator for two-stage association studies (2006). http://csg.sph.umich.edu/abecasis/gas_power_calculator/index.html
