@@ -194,6 +194,15 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## SNP databases
 
+- Havrilla, James M., Brent S. Pedersen, Ryan M. Layer, and Aaron R. Quinlan. “[A Map of Constrained Coding Regions in the Human Genome](https://doi.org/10.1038/s41588-018-0294-6).” Nature Genetics, (2019) - Constrained coding regions (CCRs), analysis of gnomAD. [GitHub](https://github.com/quinlan-lab/ccr). [Data availability](https://www.nature.com/articles/s41588-018-0294-6#data-availability) section contain links to many genomics datasets. [Supplementary data](https://www.nature.com/articles/s41588-018-0294-6#Sec28):
+    - [Supplementary Table 1](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0294-6/MediaObjects/41588_2018_294_MOESM3_ESM.txt) - Genes with CCRs in the 99th percentile or higher
+    - [Supplementary Table 2](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0294-6/MediaObjects/41588_2018_294_MOESM4_ESM.txt) - CCRs under purifying selection specifically in humans
+    - [Supplementary Table 3](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0294-6/MediaObjects/41588_2018_294_MOESM5_ESM.txt) - CCR enrichment in Pfam domains
+    - [Supplementary Table 4](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0294-6/MediaObjects/41588_2018_294_MOESM6_ESM.txt) - Highly constrained CCRs not covered by missense depletion
+    - [CCR Browser](https://s3.us-east-2.amazonaws.com/ccrs/ccr.html), [CCR BED files, autosomes](https://s3.us-east-2.amazonaws.com/ccrs/ccrs/ccrs.autosomes.v2.20180420.bed.gz), [CCR BED file, X chromosome](https://s3.us-east-2.amazonaws.com/ccrs/ccrs/ccrs.xchrom.v2.20180420.bed.gz)
+
+
+
 - [Open access to gnomAD data on multiple cloud providers](https://gnomad.broadinstitute.org/blog/2020-10-open-access-to-gnomad-data-on-multiple-cloud-providers/)
 
 - `CAUSALdb` - curated summary statistics for GWASs, mapped to MeSH terms, Manhattan plot visualization. Download available. http://mulinlab.tmu.edu.cn/causaldb/index.html
