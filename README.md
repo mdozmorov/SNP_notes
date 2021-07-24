@@ -19,7 +19,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [SNP signatures](#snp-signatures)
 - [SNP pathogenicity scores](#snp-pathogenicity-scores)
 - [SNP visualization, clustering](#snp-visualization-clustering)
-- [SNP databases](#snp-databases)
+- [SNP, GWAS databases](#snp--gwas-databases)
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
 - [Power](#power)
@@ -192,7 +192,7 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
     - Tollefson, George A, Jessica Schuster, Fernando Gelin, Ashok Ragavendran, Isabel Restrepo, Paul Stey, James Padbury, and Alper Uzun. “VIVA (VIsualization of VAriants): A VCF File Visualization Tool.” BioRxiv, March 28, 2019. https://doi.org/10.1101/589879.
 
 
-## SNP databases
+## SNP, GWAS databases
 
 - Havrilla, James M., Brent S. Pedersen, Ryan M. Layer, and Aaron R. Quinlan. “[A Map of Constrained Coding Regions in the Human Genome](https://doi.org/10.1038/s41588-018-0294-6).” Nature Genetics, (2019) - Constrained coding regions (CCRs), analysis of gnomAD. [GitHub](https://github.com/quinlan-lab/ccr). [Data availability](https://www.nature.com/articles/s41588-018-0294-6#data-availability) section contain links to many genomics datasets. [Supplementary data](https://www.nature.com/articles/s41588-018-0294-6#Sec28):
     - [Supplementary Table 1](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0294-6/MediaObjects/41588_2018_294_MOESM3_ESM.txt) - Genes with CCRs in the 99th percentile or higher
@@ -202,6 +202,7 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
     - [CCR Browser](https://s3.us-east-2.amazonaws.com/ccrs/ccr.html), [CCR BED files, autosomes](https://s3.us-east-2.amazonaws.com/ccrs/ccrs/ccrs.autosomes.v2.20180420.bed.gz), [CCR BED file, X chromosome](https://s3.us-east-2.amazonaws.com/ccrs/ccrs/ccrs.xchrom.v2.20180420.bed.gz)
 
 
+- [Publicly available cancer GWAS](https://docs.google.com/document/d/13jmOtCNKiB8GPN0oTMJJOSVCQ_MUuO5bIG3zDKFHU0c/edit) by Peter Kraft. [Tweet](https://twitter.com/GENES_PK/status/1418543289968611330?s=20)
 
 - [Open access to gnomAD data on multiple cloud providers](https://gnomad.broadinstitute.org/blog/2020-10-open-access-to-gnomad-data-on-multiple-cloud-providers/)
 
