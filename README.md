@@ -246,6 +246,10 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - Review of structural variant callers. De novo-based approaches (graph- or scaffold-based), short-read DNA-seq and RNA-seq (gene fusion) mapping, long-read (PacBio, Oxford Nanopore) mapping, multimethods approaches. SV calling from newer technologies, such as optical mapping, strand-seq, 10X Genomics linked reads, Hi-C. Brief description of tools, their performance, references to reviews. [Table 1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1828-7/tables/1) - categorized list of tools, brief description and links.
     - Mahmoud, Medhat, Nastassia Gobet, Diana Ivette Cruz-Dávalos, Ninon Mounier, Christophe Dessimoz, and Fritz J. Sedlazeck. “Structural Variant Calling: The Long and the Short of It.” Genome Biology 20, no. 1 (December 2019): 246. https://doi.org/10.1186/s13059-019-1828-7.
 
+- [CNVpytor](https://github.com/abyzovlab/CNVpytor) - CNV/CNA detection from read depth and SNPs (allelic imbalance). Python implementation of CNVnator, faster parsing (pysam) smaller .pytor files (H5). Works on a cloud, in Jupyter notebooks. Visualization using JBrowse
+    - Suvakov, Milovan, Arijit Panda, Colin Diesh, Ian Holmes, and Alexej Abyzov. “[CNVpytor: A Tool for CNV/CNA Detection and Analysis from Read Depth and Allele Imbalance in Whole Genome Sequencing](https://doi.org/10.1101/2021.01.27.428472
+),” biorXiv, January 27, 2021
+
 - [DNAcopy](https://bioconductor.org/packages/DNAcopy/) - an R package for DNA copy number data analysis using Circular Binary Segmentation (CBS) algorithm. Input - CHG-like data, regions with comparative copy number values. Smoothing, outlier detection, segmentation using changepoint detection, visualization
 
 - [copynumber](https://bioconductor.org/packages/copynumber/) - Segmentation of single- and multi-track copy number data by penalized least squares regression. Similar functionality to [DNAcopy](https://bioconductor.org/packages/DNAcopy/)
