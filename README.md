@@ -253,52 +253,49 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
     - Suvakov, Milovan, Arijit Panda, Colin Diesh, Ian Holmes, and Alexej Abyzov. “[CNVpytor: A Tool for CNV/CNA Detection and Analysis from Read Depth and Allele Imbalance in Whole Genome Sequencing](https://doi.org/10.1101/2021.01.27.428472
 ),” biorXiv, January 27, 2021
 
+- [HATCHet](https://github.com/raphael-group/hatchet) (Holistic Allele-specific Tumor Copy-number Heterogeneity) is an algorithm that infers allele and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient, and that leverages the relationships between clones in these samples.
+    - Zaccaria, Simone, and Benjamin J. Raphael. “[Accurate Quantification of Copy-Number Aberrations and Whole-Genome Duplications in Multi-Sample Tumor Sequencing Data](https://doi.org/10.1101/496174).” BioRxiv, January 1, 2018
+
 - [SV-Bay](https://github.com/BoevaLab/SV-Bay) - structural variant detection, Bayesian, corrects for GC-content and mappability. Uses both normal and abnormal reads, paired-end and depth information. Somatic variants if a normal sample is available. Detailed methods, stats. Compared with GASVPro, Lumpy, BreakDancer, DELLY on simulated (TGsim) and experimental neuroblastoma datasets. Improve sensitivity and specificity of SV detection, less false positives. Reasonably fast.
     - Iakovishina, Daria, Isabelle Janoueix-Lerosey, Emmanuel Barillot, Mireille Regnier, and Valentina Boeva. “[SV-Bay: Structural Variant Detection in Cancer Genomes Using a Bayesian Approach with Correction for GC-Content and Read Mappability](https://doi.org/10.1093/bioinformatics/btv751).” Bioinformatics, (April 1, 2016)
+
+- [CNVkit](https://github.com/etal/cnvkit) - capturing CNVs in on-target and off-target genomic regions. Existing tools (CNVer, ExomeCNV, exomeCopy, CONTRA, CoNIFER, ExomeDepth, VarScan2, XHMM, ngCGH, EXCAVATOR, CANOES, PatternCNV, CODEX, Control-FREEC, cn.MOPS, cnvOffSeq, CopyWriteR). Account for GC content, mappability. Python 2.7 implementation. [Examples](https://github.com/etal/cnvkit-examples)
+    - Talevich, Eric, A. Hunter Shain, Thomas Botton, and Boris C. Bastian. “[CNVkit: Genome-Wide Copy Number Detection and Visualization from Targeted DNA Sequencing](https://doi.org/10.1371/journal.pcbi.1004873).” PLOS Computational Biology, (April 21, 2016)
+
+- [Manta](https://github.com/Illumina/manta) - SV detection in single- and tumor-normal samples. parallelized for within-sample performance. Fast, detects more variants of different types.
+    - Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “[Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications](https://doi.org/10.1093/bioinformatics/btv710).” Bioinformatics, (April 15, 2016)
+
+- [LUMPY-SV](https://github.com/arq5x/lumpy-sv/) - a general probabilistic framework for structural variant discovery. Integrates multiple signals - read-pair, split-read, read-depth and prior knowledge. Operates on multiple samples. 
+    - Layer, Ryan M, Colby Chiang, Aaron R Quinlan, and Ira M Hall. “[**LUMPY: A Probabilistic Framework for Structural Variant Discovery.**](https://doi.org/10.1186/gb-2014-15-6-r84)” Genome Biology 15, no. 6 (2014): R84. 
+
+- [DELLY](https://tobiasrausch.com/delly/) - detection of structural variants, such as CNVs, duplications, inversions, translocations. Paired-end and split-read analysis 
+    - Rausch, Tobias, Thomas Zichner, Andreas Schlattl, Adrian M. Stütz, Vladimir Benes, and Jan O. Korbel. “[DELLY: Structural Variant Discovery by Integrated Paired-End and Split-Read Analysis](https://doi.org/10.1093/bioinformatics/bts378).” Bioinformatics, (September 15, 2012)
+
+- [Control-FREEC](http://boevalab.com/FREEC/) - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events.
+    - Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “[Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data](https://doi.org/10.1093/bioinformatics/btr670).” Bioinformatics, (February 1, 2012)
+
+- [CNVnator](https://github.com/abyzovlab/CNVnator) - CNV using read depth. Bin the genome, mean-shift technique to quantify CNVs. Poor agreement in methods detection. Misses retrotransposon-CNVs but detects >50% other regions missed by other methods. https://github.com/abyzovlab/CNVnator
+    - Abyzov, Alexej, Alexander E. Urban, Michael Snyder, and Mark Gerstein. “[**CNVnator: An Approach to Discover, Genotype, and Characterize Typical and Atypical CNVs from Family and Population Genome Sequencing.**](https://doi.org/10.1101/gr.114876.110)” Genome Research 21, no. 6 (June 2011)
+
+- [CREST](https://www.stjuderesearch.org/site/lab/zhang) - mapping somatic structural variations in cancer genomes ad base-pair resolution. realignment of soft-clipped subsequences.Compared with BreakDancer, Pindel. Tested on experimental and simulated data, hg18, some SVs experimentally validated. 
+    - Wang, Jianmin, Charles G Mullighan, John Easton, Stefan Roberts, Sue L Heatley, Jing Ma, Michael C Rusch, et al. “[CREST Maps Somatic Structural Variation in Cancer Genomes with Base-Pair Resolution](https://doi.org/10.1038/nmeth.1628).” Nature Methods 8, no. 8 (August 2011)
 
 - [DNAcopy](https://bioconductor.org/packages/DNAcopy/) - an R package for DNA copy number data analysis using Circular Binary Segmentation (CBS) algorithm. Input - CHG-like data, regions with comparative copy number values. Smoothing, outlier detection, segmentation using changepoint detection, visualization
 
 - [copynumber](https://bioconductor.org/packages/copynumber/) - Segmentation of single- and multi-track copy number data by penalized least squares regression. Similar functionality to [DNAcopy](https://bioconductor.org/packages/DNAcopy/)
 
-- [instasv](https://github.com/venyao/intansv) - Integrative analysis of structural variations called by different tools. https://github.com/venyao/intansv
+- [instasv](https://github.com/venyao/intansv) - Integrative analysis of structural variations called by different tools.
 
-- `TITAN` - a tool for predicting subclonal copy number alterations (CNA) and loss of heterozygosity (LOH) from tumour whole genome sequencing data. http://compbio.bccrc.ca/software/titan/
+- [TITAN](http://compbio.bccrc.ca/software/titan/) - a tool for predicting subclonal copy number alterations (CNA) and loss of heterozygosity (LOH) from tumour whole genome sequencing data.
 
-- `QDNASeq` - Quantitative DNA sequencing for chromosomal aberrations. https://bioconductor.org/packages/release/bioc/html/QDNAseq.html
+- [QDNASeq](https://bioconductor.org/packages/release/bioc/html/QDNAseq.html) - Quantitative DNA sequencing for chromosomal aberrations. 
 
-- `samplot` - Plot structural variant signals from many BAMs and CRAMs. https://github.com/ryanlayer/samplot
+- [samplot](https://github.com/ryanlayer/samplot) - Plot structural variant signals from many BAMs and CRAMs. 
 
-- `smoove` - structural variant calling and genotyping with existing tools, but, smoothly. https://github.com/brentp/smoove
+- [smoove](https://github.com/brentp/smoove) - structural variant calling and genotyping with existing tools, but, smoothly. 
 
-- `SynthEx` - CNV detection from exome and whole genome sequencing.
-
-- `gnomAD-SV` - structural variants from deep WGS, added to gnomAD browser, https://gnomad.broadinstitute.org/. 14,891 genomes, average statistics of SVs in general population.
-    - Collins, Ryan L., Harrison Brand, Konrad J. Karczewski, Xuefang Zhao, Jessica Alföldi, Amit V. Khera, Laurent C. Francioli, et al. “An Open Resource of Structural Variation for Medical and Population Genetics.” BioRxiv, March 14, 2019. https://doi.org/10.1101/578674.
-
-- `HATCHet` (Holistic Allele-specific Tumor Copy-number Heterogeneity) is an algorithm that infers allele and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient, and that leverages the relationships between clones in these samples. https://github.com/raphael-group/hatchet
-    - Zaccaria, Simone, and Benjamin J. Raphael. “Accurate Quantification of Copy-Number Aberrations and Whole-Genome Duplications in Multi-Sample Tumor Sequencing Data.” BioRxiv, January 1, 2018, 496174. https://doi.org/10.1101/496174.
-
-- `CNVkit` - capturing CNVs in on-target and off-target genomic regions. Existing tools (CNVer, ExomeCNV, exomeCopy, CONTRA, CoNIFER, ExomeDepth, VarScan2, XHMM, ngCGH, EXCAVATOR, CANOES, PatternCNV, CODEX, Control-FREEC, cn.MOPS, cnvOffSeq, CopyWriteR). Account for GC content, mappability. Python 2.7 implementation. https://github.com/etal/cnvkit, https://github.com/etal/cnvkit-examples
-    - Talevich, Eric, A. Hunter Shain, Thomas Botton, and Boris C. Bastian. “CNVkit: Genome-Wide Copy Number Detection and Visualization from Targeted DNA Sequencing.” PLOS Computational Biology 12, no. 4 (April 21, 2016): e1004873. https://doi.org/10.1371/journal.pcbi.1004873.
-
-- `Manta` - SV detection in single- and tumor-normal samples. parallelized for within-sample performance. Fast, detects more variants of different types. https://github.com/Illumina/manta
-    - Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications.” Bioinformatics 32, no. 8 (April 15, 2016): 1220–22. https://doi.org/10.1093/bioinformatics/btv710.
-
-- [**LUMPY-SV**](https://github.com/arq5x/lumpy-sv/) - a general probabilistic framework for structural variant discovery. Integrates multiple signals - read-pair, split-read, read-depth and prior knowledge. Operates on multiple samples. 
-    - Layer, Ryan M, Colby Chiang, Aaron R Quinlan, and Ira M Hall. “[**LUMPY: A Probabilistic Framework for Structural Variant Discovery.**](https://doi.org/10.1186/gb-2014-15-6-r84)” Genome Biology 15, no. 6 (2014): R84. 
-
-
-- `DELLY` - detection of structural variants, such as CNVs, duplications, inversions, translocations. Paired-end and split-read analysis https://tobiasrausch.com/delly/
-    - Rausch, Tobias, Thomas Zichner, Andreas Schlattl, Adrian M. Stütz, Vladimir Benes, and Jan O. Korbel. “DELLY: Structural Variant Discovery by Integrated Paired-End and Split-Read Analysis.” Bioinformatics (Oxford, England) 28, no. 18 (September 15, 2012): i333–39. https://doi.org/10.1093/bioinformatics/bts378.
-
-- `Control-FREEC` - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. http://boevalab.com/tools.html
-    - Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 3 (February 1, 2012): 423–25. https://doi.org/10.1093/bioinformatics/btr670.
-
-- [**CNVnator**](https://github.com/abyzovlab/CNVnator) - CNV using read depth. Bin the genome, mean-shift technique to quantify CNVs. Poor agreement in methods detection. Misses retrotransposon-CNVs but detects >50% other regions missed by other methods. https://github.com/abyzovlab/CNVnator
-    - Abyzov, Alexej, Alexander E. Urban, Michael Snyder, and Mark Gerstein. “[**CNVnator: An Approach to Discover, Genotype, and Characterize Typical and Atypical CNVs from Family and Population Genome Sequencing.**](https://doi.org/10.1101/gr.114876.110)” Genome Research 21, no. 6 (June 2011): 974–84. 
-
-- `CREST` - mapping somatic structural variations in cancer genomes ad base-pair resolution. realignment of soft-clipped subsequences.Compared with BreakDancer, Pindel. Tested on experimental and simulated data, hg18, some SVs experimentally validated. https://www.stjuderesearch.org/site/lab/zhang
-    - Wang, Jianmin, Charles G Mullighan, John Easton, Stefan Roberts, Sue L Heatley, Jing Ma, Michael C Rusch, et al. “CREST Maps Somatic Structural Variation in Cancer Genomes with Base-Pair Resolution.” Nature Methods 8, no. 8 (August 2011): 652–54. https://doi.org/10.1038/nmeth.1628.
+- [gnomAD-SV](https://gnomad.broadinstitute.org/) - structural variants from deep WGS, added to gnomAD browser. 14,891 genomes, average statistics of SVs in general population.
+    - Collins, Ryan L., Harrison Brand, Konrad J. Karczewski, Xuefang Zhao, Jessica Alföldi, Amit V. Khera, Laurent C. Francioli, et al. “[An Open Resource of Structural Variation for Medical and Population Genetics](https://doi.org/10.1101/578674).” BioRxiv, March 14, 2019.
 
 ## Power
 
