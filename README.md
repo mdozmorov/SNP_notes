@@ -240,6 +240,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - [Awesome papers and projects about CNV and SV using NGS data](https://github.com/geocarvalho/sv-cnv-studies) - Relevant studies with Structual Variants and Copy Number Variants in NGS (Genome, Exome and Amplicon Sequencing) pipelines
 
+- Benchmarking of 15 WGS-based structural variant callers (focusing on deletions), selected out of 55 (Supplementary Table 1). Gold standard - homozygous deletions in inbred mouse chromosomes. Lumpy, Manta give most optimal performance under various test strategies. [GitHub](https://github.com/Mangul-Lab-USC/benchmarking_SV), [Tweet](https://twitter.com/brent_p/status/1265803854785855490?s=20)
+    - Sarwal, Varuni, Sebastian Niehus, Ram Ayyala, Sei Chang, Angela Lu, Nicholas Darci-Maher, Russell Littman, et al. “[A Comprehensive Benchmarking of WGS-Based Structural Variant Callers](https://doi.org/10.1101/2020.04.16.045120).” Preprint. April 18, 2020. 
+
 - Benchmark of 10 CNV callers. LUMPY performs best overall, Canvas is good for high specificity, CNVnator and RDXplorer are good for high sensitivity. Table 1 summarizes functionality of each caller. Used the Database of Genomic Variants as a gold standard, call CNVs from NA12878 genome
     - Zhang, Le, Wanyu Bai, Na Yuan, and Zhenglin Du. “[**Comprehensively Benchmarking Applications for Detecting Copy Number Variation.**](https://doi.org/10.1371/journal.pcbi.1007069)” PLOS Computational Biology 15, no. 5 (May 28, 2019)
 
