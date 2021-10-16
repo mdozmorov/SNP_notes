@@ -39,6 +39,9 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - `DNAscan` - a pipeline for DNA-seq analysis to call SNPs, indels, SVs, repeat expansions and viral genetic material. Four parts - alignment (HISAT2, BWA mem), analysis (Freebayes, GATC HC, Manta, Expansion Hunter), annotation (Annovar), report generation. https://github.com/KHP-Informatics/DNAscan
     - Iacoangeli, A., A. Al Khleifat, W. Sproviero, A. Shatunov, A. R. Jones, S. L. Morgan, A. Pittman, R. J. Dobson, S. J. Newhouse, and A. Al-Chalabi. “DNAscan: Personal Computer Compatible NGS Analysis, Annotation and Visualisation.” BMC Bioinformatics 20, no. 1 (December 2019): 213. https://doi.org/10.1186/s12859-019-2791-8.
 
+- [crg2](https://github.com/ccmbioinfo/crg2) is a research pipeline aimed at discovering clinically relevant variants (SNVs, SVs) in whole genome sequencing data. Snakemake and Conda, runs on PBS.
+
+
 ### Preprocessing tools
 
 - `ABRA` - Assembly Based ReAligner, https://github.com/mozack/abra
