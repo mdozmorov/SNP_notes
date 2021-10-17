@@ -44,6 +44,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Preprocessing tools
 
+- [genomics_general](https://github.com/simonhmartin/genomics_general) - This is a collection of scripts for a range of genomic data processing and analysis. Processing VCF files; Diversity and divergence analyses in sliding windows; Distance matrix; ABBA-BABA statistics in sliding windows; Trees for sliding windows
+
 - `ABRA` - Assembly Based ReAligner, https://github.com/mozack/abra
 
 - `alleleCount` - Takes a file of locations and a [cr|b]am file and generates a count of coverage of each allele [ACGT] at that location. https://github.com/cancerit/alleleCount
