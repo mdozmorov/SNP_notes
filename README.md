@@ -23,6 +23,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
 - [Power](#power)
+- [Long-read sequencing tools](#long-read-sequencing-tools)
 - [Miscellaneous](#miscellaneous)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -307,6 +308,13 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - [gnomAD-SV](https://gnomad.broadinstitute.org/) - structural variants from deep WGS, added to gnomAD browser. 14,891 genomes, average statistics of SVs in general population.
     - Collins, Ryan L., Harrison Brand, Konrad J. Karczewski, Xuefang Zhao, Jessica Alföldi, Amit V. Khera, Laurent C. Francioli, et al. “[An Open Resource of Structural Variation for Medical and Population Genetics](https://doi.org/10.1101/578674).” BioRxiv, March 14, 2019.
+
+## Long-read sequencing tools
+
+- [NGMLR](https://github.com/philres/ngmlr) - long-read mapper designed to align PacBio or Oxford Nanopore (standard and ultra-long) to a reference genome with a focus on reads that span structural variations
+
+- [Sniffles](https://github.com/fritzsedlazeck/Sniffles) - structural variation caller using third generation sequencing (PacBio or Oxford Nanopore).
+
 
 ## Power
 
