@@ -147,6 +147,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## SNP signatures
 
+- [MutationalPatterns](https://bioconductor.org/packages/MutationalPatterns/) - R package to evaluate and visualize a multitude of mutational patterns in base substitution catalogues of e.g. healthy samples, tumour samples, or DNA-repair deficient cells. The package covers a wide range of patterns including: mutational signatures, transcriptional and replicative strand bias, lesion segregation, genomic distribution and association with genomic features, which are collectively meaningful for studying the activity of mutational processes. The package works with single nucleotide variants (SNVs), insertions and deletions (Indels), double base substitutions (DBSs) and larger multi base substitutions (MBSs). 
+
 - `sigminer` - Genomic Alteration Signature Analysis in R, developed by Shixiang Wang, novel and known signature extraction, visualization. Code: https://github.com/ShixiangWang/sigminer, Documentation: https://shixiangwang.github.io/sigminer-doc/
     - `sigminer.prediction` - Train and Predict Cancer Subtype with Keras Model based on Mutational Signatures, https://github.com/ShixiangWang/sigminer.prediction
 
