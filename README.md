@@ -54,6 +54,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - `BAMsurgeon` tools for adding mutations to existing .bam files, used for testing mutation callers, https://github.com/adamewing/bamsurgeon
 
+- [QTLtools](https://qtltools.github.io/qtltools/pages/QTLtools.1.html) - A complete tool set for molecular QTL discovery and analysis. Has `mbv` mode to match BAM to VCF, PCA, functional enrichment, colocalization analyses, more.
+
 - `PyVCF` - A Variant Call Format Parser for Python. https://pyvcf.readthedocs.io/en/latest/. Has `vcf_melt` tool to reformat a VCF into long format.
 
 - [Rust-bio-tools](https://github.com/rust-bio/rust-bio-tools) - VCF matching, conversion to text, report, FASTQ split/filter, BAM depth, merging.
