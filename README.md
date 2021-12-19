@@ -20,6 +20,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [SNP pathogenicity scores](#snp-pathogenicity-scores)
 - [SNP visualization, clustering](#snp-visualization-clustering)
 - [SNP, GWAS databases](#snp--gwas-databases)
+  - [eQTLs](#eqtls)
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
 - [Power](#power)
@@ -229,6 +230,14 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `clinvar` - This repo provides tools to convert ClinVar data into a tab-delimited flat file, and also provides that resulting tab-delimited flat file. https://github.com/macarthur-lab/clinvar
 
 - Clinical Interpretation of Variants in Cancer database, http://www.civicdb.org/. CIViC interface public API, http://griffithlab.org/civic-api-docs/
+
+### eQTLs
+
+- [The eQTL catalog](https://www.ebi.ac.uk/eqtl/) providing uniformly processed gene expression, imputed genotypes, and splicing QTLs from [29 human public studies](https://www.ebi.ac.uk/eqtl/Studies/) (GTeX, BLUEPRINT, GEUVADIS etc.). 69 distinct cell types and tissues, harmonized using [Zooma](https://www.ebi.ac.uk/spot/zooma/) ontology annotation. High reproducibility across datasets. [Methods, pipelines, and code](https://www.ebi.ac.uk/eqtl/Methods/) for RNA-seq quantification, QC and normalization, genotype QC and imputation, association testing. [FTP](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) with tab-delimited and HDF5 data summarized by chromosome, SNP, study etc. [Links to all tab-delimited files](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/). [REST API](https://www.ebi.ac.uk/eqtl/api-docs/), [Tabix](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/tabix_use_case.md), and [Python](https://github.com/eQTL-Catalogue/eQTL-SumStats/blob/master/querying_hdf5_basics.ipynb) access options are available. <details>
+    <summary>Paper</summary>
+    Kerimov, Nurlan. et al. “[A Compendium of Uniformly Processed Human Gene Expression and Splicing Quantitative Trait Loci](https://doi.org/10.1038/s41588-021-00924-w).” Nature Genetics, 2021.
+</details>
+
 
 ## InDels
 
