@@ -208,6 +208,11 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ## SNP, GWAS databases
 
+- [PhenoScanner V2](http://www.phenoscanner.medschl.cam.ac.uk/) - a curated database from large GWASs. Disease/trait association with genetic variants, gene expression, metabolite and protein levels, and epigenetic markers. Search by any feature. Download, API access. [GitHub](https://github.com/phenoscanner/phenoscanner). <details>
+    <summary>Paper</summary>
+    Kamat, Mihir A, James A Blackshaw, Robin Young, Praveen Surendran, Stephen Burgess, John Danesh, Adam S Butterworth, and James R Staley. “PhenoScanner V2: An Expanded Tool for Searching Human Genotype-Phenotype Associations.” Edited by Janet Kelso. Bioinformatics, June 24, 2019, btz469. https://doi.org/10.1093/bioinformatics/btz469.
+</details>
+
 - Havrilla, James M., Brent S. Pedersen, Ryan M. Layer, and Aaron R. Quinlan. “[A Map of Constrained Coding Regions in the Human Genome](https://doi.org/10.1038/s41588-018-0294-6).” Nature Genetics, (2019) - Constrained coding regions (CCRs), analysis of gnomAD. [GitHub](https://github.com/quinlan-lab/ccr). [Data availability](https://www.nature.com/articles/s41588-018-0294-6#data-availability) section contain links to many genomics datasets. [Supplementary data](https://www.nature.com/articles/s41588-018-0294-6#Sec28):
     - [Supplementary Table 1](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0294-6/MediaObjects/41588_2018_294_MOESM3_ESM.txt) - Genes with CCRs in the 99th percentile or higher
     - [Supplementary Table 2](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0294-6/MediaObjects/41588_2018_294_MOESM4_ESM.txt) - CCRs under purifying selection specifically in humans
