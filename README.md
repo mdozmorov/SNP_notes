@@ -31,6 +31,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## Variant calling pipelines
 
+- [SAMtools, BCFtools, and HTSlib](https://www.htslib.org/) development history, functionality. Work directly with SAM, BAM, or CRAM formats. Improved functionality, e.g., indexing files as they written, speed improvement. [HTSlib landing page](https://www.htslib.org/) with download, workflows, documentation, support links. [HTSlib manual pages](https://www.htslib.org/doc/#manual-pages), [SAMtools manual](https://www.htslib.org/doc/samtools.html), [BCFtools manual](https://www.htslib.org/doc/bcftools.html). [Supplementary data](http://gigadb.org/dataset/100866), Table S1: SAMtools commands; Table S2: BCFtools commands. <details>
+    <summary>Paper</summary>
+    Danecek, Petr, James K Bonfield, Jennifer Liddle, John Marshall, Valeriu Ohan, Martin O Pollard, Andrew Whitwham, et al. “Twelve Years of SAMtools and BCFtools.” GigaScience 10, no. 2 (January 29, 2021): giab008. https://doi.org/10.1093/gigascience/giab008.
+</details>
+
 - Koboldt, Daniel C. “[Best Practices for Variant Calling in Clinical Sequencing](https://doi.org/10.1186/s13073-020-00791-w).” Genome Medicine, (December 2020) - Introduction in genomic variant calling, panel/exome/whole genome sequencing technologies (Table 1), preprocessing, analysis (SNVs/indels, mutations, CNVs, SVs, gene fusions, Table 2), gold standard datasets (GIAB), best practices, filtering for each type of genomic variant.
 
 - `MapCaller` - map reads and identify genomic variants, indels, inversions, translocations. Based on KART method. Outperforms GATK, Freebayes, Mpileup. https://github.com/hsinnan75/MapCaller
