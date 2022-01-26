@@ -104,6 +104,14 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - `RNA-MuTect` method to detect somatic mutations from tumor DNA - matched normal RNA samples. Applied to TCGA, GTeX data. Most mutated are sun-exposed skin, esophagus mucosa, lung. Number of mutations in RNA is 5-fold larger than in DNA, mutations depend on coverage. Only half of DNA mutations have sufficient coverage in RNA. Filtering using 1) two aligners, 2) removal of errors based on a site-specific error model, 3) removal of RNA editing sites. https://zenodo.org/record/2620062#.XPz9e29KhQI
     - Yizhak, Keren, François Aguet, Jaegil Kim, Julian M Hess, Kirsten Kübler, Jonna Grimsby, Ruslana Frazer, et al. “RNA Sequence Analysis Reveals Macroscopic Somatic Clonal Expansion across Normal Tissues.” HUMAN GENETICS, 2019, 11.
 
+- `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
+
+- [Strelka2](https://github.com/Illumina/strelka) - a fast and accurate small variant caller optimized for analysis of germline variation in small cohorts and somatic variation in tumor/normal sample pairs.
+
+- [ABRA](https://github.com/mozack/abra) - Assembly Based ReAligner. It uses localized assembly and global realignment to align reads more accurately, thus improving downstream analysis (detection of indels and complex variants in particular).
+
+- [UNCeqR](https://github.com/mwilkers/unceqr) - Somation mutation prediction by RNA and DNA integration.
+
 
 
 ### Deep learning SNP callers
@@ -156,14 +164,9 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
     Ramos, Alex H., Lee Lichtenstein, Manaswi Gupta, Michael S. Lawrence, Trevor J. Pugh, Gordon Saksena, Matthew Meyerson, and Gad Getz. “Oncotator: Cancer Variant Annotation Tool.” Human Mutation 36, no. 4 (April 2015): E2423-2429. https://doi.org/10.1002/humu.22771.
 </details>
 
-- [ABRA](https://github.com/mozack/abra) - Assembly Based ReAligner. It uses localized assembly and global realignment to align reads more accurately, thus improving downstream analysis (detection of indels and complex variants in particular).
-
 - [Seattle](https://snp.gs.washington.edu/SeattleSeqAnnotation154/) - The SeattleSeq Annotation server provides annotation of SNVs (single-nucleotide variations) and small indels, both known and novel. This annotation includes dbSNP rs IDs, gene names and accession numbers, variation functions (e.g. missense), protein positions and amino-acid changes, conservation scores, HapMap frequencies, PolyPhen predictions, and clinical association
 
 - [snpEff](https://pcingola.github.io/SnpEff/se_introduction/) - a variant annotation and effect prediction tool
-
-- `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
-
 
 
 ## SNP signatures
