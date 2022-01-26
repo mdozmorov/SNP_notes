@@ -104,9 +104,12 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - `RNA-MuTect` method to detect somatic mutations from tumor DNA - matched normal RNA samples. Applied to TCGA, GTeX data. Most mutated are sun-exposed skin, esophagus mucosa, lung. Number of mutations in RNA is 5-fold larger than in DNA, mutations depend on coverage. Only half of DNA mutations have sufficient coverage in RNA. Filtering using 1) two aligners, 2) removal of errors based on a site-specific error model, 3) removal of RNA editing sites. https://zenodo.org/record/2620062#.XPz9e29KhQI
     - Yizhak, Keren, François Aguet, Jaegil Kim, Julian M Hess, Kirsten Kübler, Jonna Grimsby, Ruslana Frazer, et al. “RNA Sequence Analysis Reveals Macroscopic Somatic Clonal Expansion across Normal Tissues.” HUMAN GENETICS, 2019, 11.
 
-- `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
+- [Strelka2](https://github.com/Illumina/strelka) - a fast and accurate small variant caller optimized for analysis of germline variation in small cohorts and somatic variation in tumor/normal sample pairs. Tiered haplotype model, selected according to the locus properties (Methods). Multiple improvements, speed-ups. Outperforms GATK4, FreeBayes on SNPs and indel ([PrecisionFDA](https://precision.fda.gov/), [GIAB](https://github.com/genome-in-a-bottle) datasets, in silico mixtures). <details>
+    <summary>Paper</summary>
+    Kim, Sangtae, Konrad Scheffler, Aaron L. Halpern, Mitchell A. Bekritsky, Eunho Noh, Morten Källberg, Xiaoyu Chen, et al. “Strelka2: Fast and Accurate Calling of Germline and Somatic Variants.” Nature Methods 15, no. 8 (August 2018): 591–94. https://doi.org/10.1038/s41592-018-0051-x.
+</details>
 
-- [Strelka2](https://github.com/Illumina/strelka) - a fast and accurate small variant caller optimized for analysis of germline variation in small cohorts and somatic variation in tumor/normal sample pairs.
+- `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
 
 - [ABRA](https://github.com/mozack/abra) - Assembly Based ReAligner. It uses localized assembly and global realignment to align reads more accurately, thus improving downstream analysis (detection of indels and complex variants in particular).
 
