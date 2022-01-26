@@ -84,6 +84,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## SNP callers
 
+- [UNMASC](https://github.com/pllittle/UNMASC) - R package for tumor-only variant calling. Filter and annotate tumor-only variant calls through the integration of public database annotations (pools of unmatched normals), clustering, and segmentation (data-driven detection of hard to map regions) to provide the user with a clear characterization of each variant when called against a set of unmatched normal controls (10 sufficient). Data and database at [dbGAP](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001713.v1.p1). <details>
+    <summary>Paper</summary>
+    Little, Paul, Heejoon Jo, Alan Hoyle, Angela Mazul, Xiaobei Zhao, Ashley H Salazar, Douglas Farquhar, et al. “UNMASC: Tumor-Only Variant Calling with Unmatched Normal Controls.” NAR Cancer 3, no. 4 (October 4, 2021): zcab040. https://doi.org/10.1093/narcan/zcab040.
+</details>
+
 - [Varlociraptor](https://varlociraptor.github.io) - a unifying statistical model allowing for the detection of SNVs, MNVs, InDels, Inversions, Duplications, Breakends. Explicitly controls FDR. Defines variant calling grammar, allowing for defining all types of variants. Tumor-normal comparison allows for classifying variants into germline, somatic variants. Evaluated on simulated (artificial clones) and real (Venter's genome) data. Outperforms six other variant callers. Can call variants in single samples, in RNA-seq data, FFPE attifact detection. [Tweet](https://twitter.com/johanneskoester/status/1331218560367128577?s=20). [dna-seq-varlociraptor](dna-seq-varlociraptor) - A Snakemake workflow for calling small and structural variants under any kind of scenario (tumor/normal, tumor/normal/relapse, germline, pedigree, populations) via the unified statistical model of Varlociraptor.
     - Köster, Johannes, Louis J. Dijkstra, Tobias Marschall, and Alexander Schönhuth. “[Varlociraptor: Enhancing Sensitivity and Controlling False Discovery Rate in Somatic Indel Discovery](https://doi.org/10.1186/s13059-020-01993-6).” Genome Biology 21, no. 1 (December 2020)
 
