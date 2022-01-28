@@ -53,8 +53,6 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [genomics_general](https://github.com/simonhmartin/genomics_general) - This is a collection of scripts for a range of genomic data processing and analysis. Processing VCF files; Diversity and divergence analyses in sliding windows; Distance matrix; ABBA-BABA statistics in sliding windows; Trees for sliding windows
 
-- `ABRA` - Assembly Based ReAligner, https://github.com/mozack/abra
-
 - `alleleCount` - Takes a file of locations and a [cr|b]am file and generates a count of coverage of each allele [ACGT] at that location. https://github.com/cancerit/alleleCount
 
 - `BAMsurgeon` tools for adding mutations to existing .bam files, used for testing mutation callers, https://github.com/adamewing/bamsurgeon
@@ -109,9 +107,12 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Kim, Sangtae, Konrad Scheffler, Aaron L. Halpern, Mitchell A. Bekritsky, Eunho Noh, Morten Källberg, Xiaoyu Chen, et al. “Strelka2: Fast and Accurate Calling of Germline and Somatic Variants.” Nature Methods 15, no. 8 (August 2018): 591–94. https://doi.org/10.1038/s41592-018-0051-x.
 </details>
 
-- `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
+- [ABRA](https://github.com/mozack/abra) - Assembly Based ReAligner. It uses localized assembly (de Bruijn graph) and global realignment to align reads more accurately, thus improving downstream analysis (detection of indels and complex variants in particular). For exome sequencing, requires targets in BED file. Extended with Cadabra, somatic indel variant caller. <details>
+    <summary>Paper</summary>
+    Mose, Lisle E., Matthew D. Wilkerson, D. Neil Hayes, Charles M. Perou, and Joel S. Parker. “ABRA: Improved Coding Indel Detection via Assembly-Based Realignment.” Bioinformatics 30, no. 19 (October 2014): 2813–15. https://doi.org/10.1093/bioinformatics/btu376.
+</details>
 
-- [ABRA](https://github.com/mozack/abra) - Assembly Based ReAligner. It uses localized assembly and global realignment to align reads more accurately, thus improving downstream analysis (detection of indels and complex variants in particular).
+- `slivar` - variant expressions, annotation, and filtering, by Brent Pedersen, https://github.com/brentp/slivar
 
 - [UNCeqR](https://github.com/mwilkers/unceqr) - Somation mutation prediction by RNA and DNA integration.
 
