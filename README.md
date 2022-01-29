@@ -70,6 +70,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - `vcfR` - Manipulate and Visualize VCF Data. https://cran.r-project.org/web/packages/vcfR/index.html
 
+- [vcf2tsv](https://github.com/sigven/vcf2tsv) - Genomic VCF to tab-separated values, Python script, by [Sigve Nakken](https://github.com/sigven)
+
 ### Depth
 
 - `BAMscale` - BAMscale is a one-step tool for either 1) quantifying and normalizing the coverage of peaks or 2) generated scaled BigWig files for easy visualization of commonly used DNA-seq capture based methods.
