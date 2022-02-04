@@ -174,6 +174,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - [snpEff](https://pcingola.github.io/SnpEff/se_introduction/) - a variant annotation and effect prediction tool
 
+- [VAtools](https://github.com/griffithlab/VAtools) - A set of tools to annotate VCF files with expression and readcount data. Python. [vatools.org](https://vatools.readthedocs.io) - codumentation.
+
 
 ## SNP signatures
 
