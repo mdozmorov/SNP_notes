@@ -395,6 +395,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - DNA sequencing analysis notes from Ming Tang. https://github.com/crazyhottommy/DNA-seq-analysis
 
+- [chromeister](https://github.com/estebanpw/chromeister) - An ultra fast, heuristic approach to detect conserved signals in extremely large pairwise genome comparisons.
+
 - `SNPhylo` - A pipeline to generate a phylogenetic tree from huge SNP data, https://github.com/thlee/SNPhylo, http://chibba.pgml.uga.edu/snphylo/
 
 - Application for making ENCODE Blacklists, and links to canonical blacklists, https://github.com/Boyle-Lab/Blacklist
