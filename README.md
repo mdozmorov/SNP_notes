@@ -307,6 +307,11 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - Benchmarking of seven SV callers (BreakDancer, Pindel, Delly, Lumpy, Manta, GRIDSS, SvABA) to detect different SV types, sizes, the effect of SV abundance and sequencing coverage, sequence similarity, biases (GC content and homopolymers), and mapping quality. Overview of read-pair, read-depth, split-read, and local assembly. SV types and definitions. Manta, Lumpy, of GRIDSS perform well. [Supplementary material](https://academic.oup.com/bib/article/22/3/bbaa056/5831479#supplementary-data) - code examples
     - Gong, Tingting, Vanessa M Hayes, and Eva K F Chan. “[Detection of Somatic Structural Variants from Short-Read next-Generation Sequencing Data](https://doi.org/10.1093/bib/bbaa056),” Briefings in Bioinformatics, May 2021
 
+- [dysgu](https://github.com/kcleal/dysgu) - a collection of tools for calling structural variants using short paired-end or long reads (ONT, PacBio). Detects SVs from alignment gaps, discordant and supplementary mappings (a fast consensus sequence algorithm, inspired by the positional de Brujin graph, followed by remapping of anomalous sequences to discover additional small SVs), generates consensus contigs, classifies events using macnine learning (pre-trained on manually curated gold standard), generates confidence score. Outperforms ([svbench](https://github.com/kcleal/svbench) library for benchmarking) manta, delly, lumpy, strelka, gatk on GIAB, simulated datasets, fast (Cython implementation). <details>
+    <summary>Paper</summary>
+    Cleal, Kez, and Duncan Baird. "Dysgu: efficient structural variant calling using short or long reads." Nucleic Acids Research (31 January 2022). https://doi.org/10.1093/nar/gkac039
+</details>
+
 - [CNVpytor](https://github.com/abyzovlab/CNVpytor) - CNV/CNA detection from read depth and SNPs (allelic imbalance). Python implementation of CNVnator, faster parsing (pysam) smaller .pytor files (H5). Works on a cloud, in Jupyter notebooks. Visualization using JBrowse
     - Suvakov, Milovan, Arijit Panda, Colin Diesh, Ian Holmes, and Alexej Abyzov. “[CNVpytor: A Tool for CNV/CNA Detection and Analysis from Read Depth and Allele Imbalance in Whole Genome Sequencing](https://doi.org/10.1101/2021.01.27.428472
 ),” biorXiv, January 27, 2021
