@@ -108,6 +108,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Kim, Sangtae, Konrad Scheffler, Aaron L. Halpern, Mitchell A. Bekritsky, Eunho Noh, Morten Källberg, Xiaoyu Chen, et al. “Strelka2: Fast and Accurate Calling of Germline and Somatic Variants.” Nature Methods 15, no. 8 (August 2018): 591–94. https://doi.org/10.1038/s41592-018-0051-x.
 </details>
 
+- [HipSTR](https://hipstr-tool.github.io/HipSTR/) - short tandem repeat caller, resolving haplotypes. Learns locus-specific PCR stutter models using an EM algorithm, other methods so obtain more robust STR genotypes. Works on Illumina data. Input - BAM files, BED coordinates of pre-defined STRs, FASTA genome. Output - VCF of the STR genotypes. Visualization of genotypes. Works for a variety of data amount/quality. Outperforms lobstr, RepeatSeq, GATK HaplotypeCaller, Platypus, freebayes, SAMtools. [Tutorial](https://hipstr-tool.github.io/HipSTR-tutorial/). <details>
+    <summary>Paper</summary>
+    Willems, Thomas, Dina Zielinski, Jie Yuan, Assaf Gordon, Melissa Gymrek, and Yaniv Erlich. “Genome-Wide Profiling of Heritable and de Novo STR Variations.” Nature Methods 14, no. 6 (June 2017): 590–92. https://doi.org/10.1038/nmeth.4267.
+</details>
+
 - [ABRA](https://github.com/mozack/abra) - Assembly Based ReAligner. It uses localized assembly (de Bruijn graph) and global realignment to align reads more accurately, thus improving downstream analysis (detection of indels and complex variants in particular). For exome sequencing, requires targets in BED file. Extended with Cadabra, somatic indel variant caller. <details>
     <summary>Paper</summary>
     Mose, Lisle E., Matthew D. Wilkerson, D. Neil Hayes, Charles M. Perou, and Joel S. Parker. “ABRA: Improved Coding Indel Detection via Assembly-Based Realignment.” Bioinformatics 30, no. 19 (October 2014): 2813–15. https://doi.org/10.1093/bioinformatics/btu376.
