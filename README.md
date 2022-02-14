@@ -169,6 +169,11 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
     Ramos, Alex H., Lee Lichtenstein, Manaswi Gupta, Michael S. Lawrence, Trevor J. Pugh, Gordon Saksena, Matthew Meyerson, and Gad Getz. “Oncotator: Cancer Variant Annotation Tool.” Human Mutation 36, no. 4 (April 2015): E2423-2429. https://doi.org/10.1002/humu.22771.
 </details>
 
+- [ANNOVAR](https://annovar.openbioinformatics.org/en/latest/user-guide/download/) - functional annotation of genetic variants (hg18, hg19, hg38, mouse, worm, fly, yeast, etc.). Gene-based, region-based, filter-based annotations. [wANNOVAR](http://wannovar.wglab.org/) - web interface. <details>
+    <summary>Paper</summary>
+    Wang K, Li M, Hakonarson H. ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data. Nucleic acids research. 2010 Sep 1;38(16):e164-. https://doi.org/10.1093/nar/gkq603
+</details>
+
 - [Seattle](https://snp.gs.washington.edu/SeattleSeqAnnotation154/) - The SeattleSeq Annotation server provides annotation of SNVs (single-nucleotide variations) and small indels, both known and novel. This annotation includes dbSNP rs IDs, gene names and accession numbers, variation functions (e.g. missense), protein positions and amino-acid changes, conservation scores, HapMap frequencies, PolyPhen predictions, and clinical association
 
 - [snpEff](https://pcingola.github.io/SnpEff/se_introduction/) - a variant annotation and effect prediction tool
