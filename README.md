@@ -322,6 +322,11 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
     Cleal, Kez, and Duncan Baird. "Dysgu: efficient structural variant calling using short or long reads." Nucleic Acids Research (31 January 2022). https://doi.org/10.1093/nar/gkac039
 </details>
 
+- [GRIDSS2](https://github.com/PapenfussLab/gridss) - structural variant caller detecting single breakpoints. Phasing of complex rearrangements. Assembles reads supporting a structural variant using a positional de Bruijn graph. Single breakends are called on soft-clipped reads, reads and assemblies with unmapped or ambiguously mapping mates (Methods). Benchmarked against GRIDSS1, Manta, svaba, novobreak on manually curated experimental and simulated data. Input - one or more aligned SAM/BAM. 5 phases: (i) preprocessing, (ii) assembly, (iii) variant calling, (iv) annotation, and (v) somatic filtering. Annotations go into INFO and FORMAT VCF fields. [Quickstart](https://github.com/PapenfussLab/gridss/blob/master/QuickStart.md). <details>
+    <summary>Paper</summary>
+    Cameron, Daniel L., Jonathan Baber, Charles Shale, Jose Espejo Valle-Inclan, Nicolle Besselink, Arne van Hoeck, Roel Janssen, Edwin Cuppen, Peter Priestley, and Anthony T. Papenfuss. “GRIDSS2: Comprehensive Characterisation of Somatic Structural Variation Using Single Breakend Variants and Structural Variant Phasing.” Genome Biology 22, no. 1 (December 2021): 202. https://doi.org/10.1186/s13059-021-02423-x.
+</details>
+
 - [CNVpytor](https://github.com/abyzovlab/CNVpytor) - CNV/CNA detection from read depth and SNPs (allelic imbalance). Python implementation of CNVnator, faster parsing (pysam) smaller .pytor files (H5). Works on a cloud, in Jupyter notebooks. Visualization using JBrowse
     - Suvakov, Milovan, Arijit Panda, Colin Diesh, Ian Holmes, and Alexej Abyzov. “[CNVpytor: A Tool for CNV/CNA Detection and Analysis from Read Depth and Allele Imbalance in Whole Genome Sequencing](https://doi.org/10.1101/2021.01.27.428472
 ),” biorXiv, January 27, 2021
