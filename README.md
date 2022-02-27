@@ -371,6 +371,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - [copynumber](https://bioconductor.org/packages/copynumber/) - Segmentation of single- and multi-track copy number data by penalized least squares regression. Similar functionality to [DNAcopy](https://bioconductor.org/packages/DNAcopy/)
 
+- [ClassifyCNV](https://github.com/Genotek/ClassifyCNV) - clinical annotation of copy-number variants. Input - BED file with DEL/DUP. Output - numeric pathogenicity scores. Python3
+
 - [instasv](https://github.com/venyao/intansv) - Integrative analysis of structural variations called by different tools.
 
 - [TITAN](http://compbio.bccrc.ca/software/titan/) - a tool for predicting subclonal copy number alterations (CNA) and loss of heterozygosity (LOH) from tumour whole genome sequencing data.
