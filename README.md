@@ -21,6 +21,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [SNP visualization, clustering](#snp-visualization-clustering)
 - [SNP, GWAS databases](#snp--gwas-databases)
   - [eQTLs](#eqtls)
+  - [PRS](#prs)
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
 - [Power](#power)
@@ -281,6 +282,14 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - [The eQTL catalog](https://www.ebi.ac.uk/eqtl/) providing uniformly processed gene expression, imputed genotypes, and splicing QTLs from [29 human public studies](https://www.ebi.ac.uk/eqtl/Studies/) (GTeX, BLUEPRINT, GEUVADIS etc.). 69 distinct cell types and tissues, harmonized using [Zooma](https://www.ebi.ac.uk/spot/zooma/) ontology annotation. High reproducibility across datasets. [Methods, pipelines, and code](https://www.ebi.ac.uk/eqtl/Methods/) for RNA-seq quantification, QC and normalization, genotype QC and imputation, association testing. [FTP](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) with tab-delimited and HDF5 data summarized by chromosome, SNP, study etc. [Links to all tab-delimited files](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/). [REST API](https://www.ebi.ac.uk/eqtl/api-docs/), [Tabix](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/tabix_use_case.md), and [Python](https://github.com/eQTL-Catalogue/eQTL-SumStats/blob/master/querying_hdf5_basics.ipynb) access options are available. <details>
     <summary>Paper</summary>
     Kerimov, Nurlan. et al. “[A Compendium of Uniformly Processed Human Gene Expression and Splicing Quantitative Trait Loci](https://doi.org/10.1038/s41588-021-00924-w).” Nature Genetics, 2021.
+</details>
+
+
+### PRS
+
+-Polygenic risk score (PRS) analysis guidelines and tutorial. PRS is an estimate of an individual’s genetic liability to a trait or disease, calculated according to their genotype profile and relevant genome-wide association study (GWAS) data. Box 1 - definitions.    Several options how PRSs are calculated. [Online tutorial](https://choishingwan.github.io/PRS-Tutorial/) with data and R/command line examples using PLINK, PRSice-2, LDpred-2 and lassosum for QC of base and target data, PRS calculations, visualizing results. <details>
+    <summary>Paper</summary>
+    Choi, S.W., Mak, T.S. & O’Reilly, P.F. Tutorial: a guide to performing polygenic risk score analyses. Nat Protoc (2020). https://doi.org/10.1038/s41596-020-0353-1
 </details>
 
 
