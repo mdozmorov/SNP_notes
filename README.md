@@ -374,6 +374,8 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 - [DNAcopy](https://bioconductor.org/packages/DNAcopy/) - an R package for DNA copy number data analysis using Circular Binary Segmentation (CBS) algorithm. Input - CHG-like data, regions with comparative copy number values. Smoothing, outlier detection, segmentation using changepoint detection, visualization
 
+- [copyCat](https://github.com/chrisamiller/copyCat) - a parallel R package for detecting copy-number alterations from short sequencing reads. To call high-coverage regions. Has downloadable annotations (mappability, GC-content).
+
 - [copynumber](https://bioconductor.org/packages/copynumber/) - Segmentation of single- and multi-track copy number data by penalized least squares regression. Similar functionality to [DNAcopy](https://bioconductor.org/packages/DNAcopy/)
 
 - [ClassifyCNV](https://github.com/Genotek/ClassifyCNV) - clinical annotation of copy-number variants. Input - BED file with DEL/DUP. Output - numeric pathogenicity scores. Python3
