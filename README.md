@@ -65,8 +65,10 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - `SURVIVOR` - Toolset for SV simulation, comparison and filtering. https://github.com/fritzsedlazeck/SURVIVOR/tree/1.0.7
 
-- `VariantQC` - VCF quality control tool, part of DISCVRseq toolkit. Uses GATK4 engine. Java wrapper of GATK$'s VariantEval  tool. Input - VCF file and an indexed genome FASTA file. Output - MultiQC-templated report. https://github.com/BimberLab/DISCVRSeq/
+- `VariantQC` - VCF quality control tool, part of DISCVRseq toolkit. Uses GATK4 engine. Java wrapper of GATK's VariantEval tool. Input - VCF file and an indexed genome FASTA file. Output - MultiQC-templated report. https://github.com/BimberLab/DISCVRSeq/
     - Yan, Melissa Y, Betsy Ferguson, and Benjamin N Bimber. “VariantQC: A Visual Quality Control Report for Variant Evaluation.” Edited by Jonathan Wren. Bioinformatics, July 16, 2019, btz560. https://doi.org/10.1093/bioinformatics/btz560.
+
+- [vcf-split](https://github.com/auerlab/vcf-split) - Split combined-sample VCF stream into single-sample VCF files
 
 - `vcfR` - Manipulate and Visualize VCF Data. https://cran.r-project.org/web/packages/vcfR/index.html
 
