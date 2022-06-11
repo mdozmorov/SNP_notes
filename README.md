@@ -181,6 +181,11 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - Predicting pathogenic vs. non-pathogenic SNPs and then regulatory status of each base using 38 functional and structural features. XGBoost model, parameter tuning. All predictions are at https://omni-variants.herokuapp.com/. Existing noncoding deleteriousness metrics: CADD, ncEigen, FATHMM, FunSeq2, LINSIGHT, ORION, ReMM, ncRVIS
     - telenti, amalio, Alexander C Wells, David Heckerman, Ali Torkamani, Bing Ren, and Julia di Iulio. “Identification of Essential Regulatory Elements in the Human Genome.” Preprint. Genomics, October 16, 2018. https://doi.org/10.1101/444562.
 
+- [DoCM](http://www.docm.info) - database of manually curated cancer SNPs from 876 publications and databases. [API](http://www.docm.info/api) to get the data, [downloads](http://www.docm.info/downloads) in other formats. <details>
+    <summary>Paper</summary>
+    Ainscough, Benjamin J., Malachi Griffith, Adam C. Coffman, Alex H. Wagner, Jason Kunisaki, Mayank Nk Choudhary, Joshua F. McMichael, et al. “DoCM: A Database of Curated Mutations in Cancer.” Nature Methods 13, no. 10 (September 29, 2016): 806–7. https://doi.org/10.1038/nmeth.4000.
+</details>
+
 - The Variant Interpretation for Cancer Consortium Meta-Knowledgebase. Aggregate interpretations covering 3,437 unique variants in 415 genes, 357 diseases, and 791 drugs. Validation using GENIE database. https://search.cancervariants.org
     - Wagner, Alex Handler, Brian Walsh, Georgia Mayfield, David Tamborero, Dmitriy Sonkin, Kilannin Krysiak, Jordi Deu Pons, et al. “A Harmonized Meta-Knowledgebase of Clinical Interpretations of Cancer Genomic Variants,” July 11, 2018. https://doi.org/10.1101/366856.
 
