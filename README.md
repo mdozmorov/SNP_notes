@@ -20,6 +20,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [SNP pathogenicity scores](#snp-pathogenicity-scores)
 - [SNP visualization, clustering](#snp-visualization-clustering)
 - [SNP, GWAS databases](#snp--gwas-databases)
+  - [GWAS pipelines](#gwas-pipelines)
   - [eQTLs](#eqtls)
   - [PRS](#prs)
 - [InDels](#indels)
@@ -301,6 +302,13 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 - `GWAScentral` - central GWAS repository. Browser, download. https://www.gwascentral.org
     - Beck, Tim, Tom Shorter, and Anthony J Brookes. “GWAS Central: A Comprehensive Resource for the Discovery and Comparison of Genotype and Phenotype Data from Genome-Wide Association Studies.” Nucleic Acids Research, October 15, 2019, gkz895. https://doi.org/10.1093/nar/gkz895.
 
+### GWAS pipelines
+
+- [Tractor](https://github.com/Atkinson-Lab/Tractor) - a statistical framework for GWAS analysis considering admixed individuals (local ancestry inference, LAI, estimated using [RFMix2](https://github.com/slowkoni/rfmix)). Tested on simulated and experimental two-way admixed African-European cohorts. Generates accurate ancestry-specific effect-size estimates and p-values, improves power. It is generally not necessary to include local ancestry in a GWAS model when there is no difference in the estimated effect size between ancestry groups. [Post-QC](https://github.com/Atkinson-Lab/Post-QC) - an automated pipeline for post-genotyping QC, harmonization, phasing, and LA inference. [ancestry_pipeline](https://github.com/armartin/ancestry_pipeline) - helper scripts for inferring local ancestry, performing ancestry-specific PCA, make painted karyogram plots. [Scripts](https://github.com/eatkinson/Tractor_ms_results) to reproduce the paper. The Tractor pipeline is implemented as scrips and Jupyter notebools on [GitHub](https://github.com/Atkinson-Lab/Tractor). [snowcat](https://github.com/andreyshabalin/snowcat) - Code Alternative for TRACTOR, by [Andrey Shabalin](https://github.com/andreyshabalin). <details>
+    <summary>Paper</summary>
+    Atkinson, Elizabeth G., Adam X. Maihofer, Masahiro Kanai, Alicia R. Martin, Konrad J. Karczewski, Marcos L. Santoro, Jacob C. Ulirsch, et al. “Tractor Uses Local Ancestry to Enable the Inclusion of Admixed Individuals in GWAS and to Boost Power.” Nature Genetics 53, no. 2 (February 2021): 195–204. https://doi.org/10.1038/s41588-020-00766-y.
+</details>
+
 
 ### eQTLs
 
@@ -312,7 +320,7 @@ Various genome annotations, [Source: ConsHMM Data availability section](https://
 
 ### PRS
 
--Polygenic risk score (PRS) analysis guidelines and tutorial. PRS is an estimate of an individual’s genetic liability to a trait or disease, calculated according to their genotype profile and relevant genome-wide association study (GWAS) data. Box 1 - definitions.    Several options how PRSs are calculated. [Online tutorial](https://choishingwan.github.io/PRS-Tutorial/) with data and R/command line examples using PLINK, PRSice-2, LDpred-2 and lassosum for QC of base and target data, PRS calculations, visualizing results. <details>
+- Polygenic risk score (PRS) analysis guidelines and tutorial. PRS is an estimate of an individual’s genetic liability to a trait or disease, calculated according to their genotype profile and relevant genome-wide association study (GWAS) data. Box 1 - definitions.    Several options how PRSs are calculated. [Online tutorial](https://choishingwan.github.io/PRS-Tutorial/) with data and R/command line examples using PLINK, PRSice-2, LDpred-2 and lassosum for QC of base and target data, PRS calculations, visualizing results. <details>
     <summary>Paper</summary>
     Choi, S.W., Mak, T.S. & O’Reilly, P.F. Tutorial: a guide to performing polygenic risk score analyses. Nat Protoc (2020). https://doi.org/10.1038/s41596-020-0353-1
 </details>
