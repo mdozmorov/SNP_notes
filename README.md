@@ -21,6 +21,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [SNP visualization, clustering](#snp-visualization-clustering)
 - [SNP, GWAS databases](#snp--gwas-databases)
   - [GWAS pipelines](#gwas-pipelines)
+  - [Ancestry](#ancestry)
   - [eQTLs](#eqtls)
   - [Polygenic risk score](#polygenic-risk-score)
 - [InDels](#indels)
@@ -354,6 +355,12 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Atkinson, Elizabeth G., Adam X. Maihofer, Masahiro Kanai, Alicia R. Martin, Konrad J. Karczewski, Marcos L. Santoro, Jacob C. Ulirsch, et al. “Tractor Uses Local Ancestry to Enable the Inclusion of Admixed Individuals in GWAS and to Boost Power.” Nature Genetics 53, no. 2 (February 2021): 195–204. https://doi.org/10.1038/s41588-020-00766-y.
 </details>
 
+### Ancestry
+
+- [RFMix](https://github.com/slowkoni/rfmix) - local ancestry inference (LAI), a discriminative approach that models ancestry along an admixed chromosome given observed haplotype sequences of reference ancestry (known or inferred). Phased chromosomes from reference populations (HapMap3) are divided into windows and, within each window, a random forest is trained to distinguish ancestry by using reference data and generates a fractional vote for each ancestry that are summed producing posterior ancestry probabilities within each window. These posterior probabilities are used for determining the most likely sequence of ancestry across windows via MAP inference. Phasing using Beagle. Outperforms LAMP-HAP, SupportMix. [Manual](https://github.com/slowkoni/rfmix/blob/master/MANUAL.md). <details>
+    <summary>Paper</summary>
+    Maples, Brian K., Simon Gravel, Eimear E. Kenny, and Carlos D. Bustamante. “RFMix: A Discriminative Modeling Approach for Rapid and Robust Local-Ancestry Inference.” The American Journal of Human Genetics 93, no. 2 (August 2013): 278–88. https://doi.org/10.1016/j.ajhg.2013.06.020.
+</details>
 
 ### eQTLs
 
