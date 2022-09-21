@@ -357,6 +357,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [AIPS](https://github.com/biomedicaldatascience/AIPS) - Ancestry Inference using Principal Component analysis and Spatial analysis, R package. Distance-based, incorporates an Inverse Distance Weighted (IDW) interpolation method from spatial analysis. Compared with EIGENSTRAT, STRUCTURE, fastSTRUCTURE, and ADMIXTURE (each briefly described). AIPS and EIGENSTRAT principal components and eigenvalues are highly correlated (close to 1). R. <details>
+    <summary>Paper</summary>
+    Byun, Jinyoung, Younghun Han, Ivan P. Gorlov, Jonathan A. Busam, Michael F. Seldin, and Christopher I. Amos. “Ancestry Inference Using Principal Component Analysis and Spatial Analysis: A Distance-Based Analysis to Account for Population Substructure.” BMC Genomics 18, no. 1 (December 2017): 789. https://doi.org/10.1186/s12864-017-4166-8.
+</details>
+
 - [RFMix](https://github.com/slowkoni/rfmix) - local ancestry inference (LAI), a discriminative approach that models ancestry along an admixed chromosome given observed haplotype sequences of reference ancestry (known or inferred). Phased chromosomes from reference populations (HapMap3) are divided into windows and, within each window, a random forest is trained to distinguish ancestry by using reference data and generates a fractional vote for each ancestry that are summed producing posterior ancestry probabilities within each window. These posterior probabilities are used for determining the most likely sequence of ancestry across windows via MAP inference. Phasing using Beagle. Outperforms LAMP-HAP, SupportMix. [Manual](https://github.com/slowkoni/rfmix/blob/master/MANUAL.md). <details>
     <summary>Paper</summary>
     Maples, Brian K., Simon Gravel, Eimear E. Kenny, and Carlos D. Bustamante. “RFMix: A Discriminative Modeling Approach for Rapid and Robust Local-Ancestry Inference.” The American Journal of Human Genetics 93, no. 2 (August 2013): 278–88. https://doi.org/10.1016/j.ajhg.2013.06.020.
