@@ -555,6 +555,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Sedlazeck, Fritz J., Hayan Lee, Charlotte A. Darby, and Michael C. Schatz. “[Piercing the Dark Matter: Bioinformatics of Long-Range Sequencing and Mapping](https://doi.org/10.1038/s41576-018-0003-4).” Nature Reviews Genetics 19, no. 6 (June 2018)
 </details>
 
+- [popgen-notes](https://github.com/cooplab/popgen-notes) - Population genetics notes, by Graham Coop. [PDF](https://github.com/cooplab/popgen-notes/releases), [R demo code](https://github.com/cooplab/Popgen_teaching_code/)
+
 - [refGenie](http://refgenie.databio.org/en/latest/) - reference genome manager. Python.
 
 - [somailer](https://github.com/brentp/somalier) [NGSCheckMate](https://github.com/parklab/NGSCheckMate) - QC, Sample swap check.
