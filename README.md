@@ -367,6 +367,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Byun, Jinyoung, Younghun Han, Ivan P. Gorlov, Jonathan A. Busam, Michael F. Seldin, and Christopher I. Amos. “Ancestry Inference Using Principal Component Analysis and Spatial Analysis: A Distance-Based Analysis to Account for Population Substructure.” BMC Genomics 18, no. 1 (December 2017): 789. https://doi.org/10.1186/s12864-017-4166-8.
 </details>
 
+- [EIGENSTRAT](https://www.hsph.harvard.edu/alkes-price/software/#:~:text=for%20update%20log.-,EIGENSOFT,-(June%202017)%3A%20EIGENSOFT) method, [FAQ](https://www.hsph.harvard.edu/alkes-price/eigensoft-frequently-asked-questions/). [GitHub](https://github.com/DReichLab/EIG) source code, Linux support, C.
+
 - [Gnomix](https://github.com/AI-sandbox/gnomix) - local ancestry inference (LAI) method, whole genome, higher accuracy, speed. Two stages: a set of classifiers to predict ancestry within genomic windows (Covariance reduction string kernel CovRSK performs best, others - tree-based (RF, XGBoost, etc.), linear (logistic regression, LDA, etc.), SVM, kNN) and Gnofix algorithm for smoothing, authomatic phasing. Outperforms RXMix, ELA, Loter. Applied to reconstruct LAI of dogs. Pretrained models, including human, are available. <details>
     <summary>Paper</summary>
     Hilmarsson, Helgi, Arvind S. Kumar, Richa Rastogi, Carlos D. Bustamante, Daniel Mas Montserrat, and Alexander G. Ioannidis. “High Resolution Ancestry Deconvolution for Next Generation Genomic Data.” Preprint. Genomics, September 21, 2021. https://doi.org/10.1101/2021.09.19.460980.
