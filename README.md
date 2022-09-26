@@ -357,6 +357,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [ADMIXTURE](https://dalexander.github.io/admixture/) - ancestry estimation using a model-based approach. Similar model as in STRUCTURE, FRAPPE, detailed description of model similarities and differences, fast numerical optimization algorithm. Contrasted with PCA-based EIGENSTRAT, STRUCTURE, nearly the same speed (as EIGENSTRAT) and performance on experimental and simulated data. Binaries for Linux and Mac. [Manual](https://dalexander.github.io/admixture/admixture-manual.pdf). <details>
+    <summary>Paper</summary>
+    Alexander, David H., John Novembre, and Kenneth Lange. “Fast Model-Based Estimation of Ancestry in Unrelated Individuals.” Genome Research 19, no. 9 (September 2009): 1655–64. https://doi.org/10.1101/gr.094052.109.
+</details>
+
 - [AIPS](https://github.com/biomedicaldatascience/AIPS) - Ancestry Inference using Principal Component analysis and Spatial analysis, R package. Distance-based, incorporates an Inverse Distance Weighted (IDW) interpolation method from spatial analysis. Compared with EIGENSTRAT, STRUCTURE, fastSTRUCTURE, and ADMIXTURE (each briefly described). AIPS and EIGENSTRAT principal components and eigenvalues are highly correlated (close to 1). R. <details>
     <summary>Paper</summary>
     Byun, Jinyoung, Younghun Han, Ivan P. Gorlov, Jonathan A. Busam, Michael F. Seldin, and Christopher I. Amos. “Ancestry Inference Using Principal Component Analysis and Spatial Analysis: A Distance-Based Analysis to Account for Population Substructure.” BMC Genomics 18, no. 1 (December 2017): 789. https://doi.org/10.1186/s12864-017-4166-8.
