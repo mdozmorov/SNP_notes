@@ -396,6 +396,9 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Chen, Chia-Yen, Samuela Pollack, David J. Hunter, Joel N. Hirschhorn, Peter Kraft, and Alkes L. Price. “Improved Ancestry Inference Using Weights from External Reference Panels.” Bioinformatics 29, no. 11 (June 1, 2013): 1399–1406. https://doi.org/10.1093/bioinformatics/btt144.
 </details>
 
+- [ancestryinformativemarkers](https://github.com/leipzig/ancestryinformativemarkers) - Public AIMs, by [
+Jeremy Leipzig](https://github.com/leipzig)
+
 - AIM panels have been developed for European Americans (Paschou et al., 2008; Price et al., 2008; Seldin and Price, 2008; Tian et al., 2008) and Latino Americans (Galanter et al., 2012). [Source](https://doi.org/10.1093/bioinformatics/btt144)
 
 ### eQTLs
