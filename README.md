@@ -389,6 +389,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Maples, Brian K., Simon Gravel, Eimear E. Kenny, and Carlos D. Bustamante. “RFMix: A Discriminative Modeling Approach for Rapid and Robust Local-Ancestry Inference.” The American Journal of Human Genetics 93, no. 2 (August 2013): 278–88. https://doi.org/10.1016/j.ajhg.2013.06.020.
 </details>
 
+- [somalier](https://github.com/brentp/somalier) - fast sample-swap and relatedness checks on BAMs/CRAMs/VCFs/GVCFs, by Brent Pedersen. Commands: extract, relate, ancestry, find-sites. [Ancestry prediction wiki](https://github.com/brentp/somalier/wiki/ancestry)
+
 - [SNPweights](https://www.hsph.harvard.edu/alkes-price/software/#:~:text=external%20reference%20panel.-,SNPWEIGHTS,-(May%202014)%3A%20SNPweights) - ancestry inference using SNP weights from external reference panels. Greater accuracy than ancestry-informative markers (AIMs are 10-fold more informative than random SNPs for ancestry inference). PCA on the reference panel, prediction of PCs for the unseen samples. SNPs excluded: chrX, A/T, C/G. Predicted PCs using genome-wide SNPs have the highest accuracy. SNP weights for various populations are available. <details>
     <summary>Paper</summary>
     Chen, Chia-Yen, Samuela Pollack, David J. Hunter, Joel N. Hirschhorn, Peter Kraft, and Alkes L. Price. “Improved Ancestry Inference Using Weights from External Reference Panels.” Bioinformatics 29, no. 11 (June 1, 2013): 1399–1406. https://doi.org/10.1093/bioinformatics/btt144.
