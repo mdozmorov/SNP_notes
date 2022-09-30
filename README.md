@@ -396,6 +396,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Chen, Chia-Yen, Samuela Pollack, David J. Hunter, Joel N. Hirschhorn, Peter Kraft, and Alkes L. Price. “Improved Ancestry Inference Using Weights from External Reference Panels.” Bioinformatics 29, no. 11 (June 1, 2013): 1399–1406. https://doi.org/10.1093/bioinformatics/btt144.
 </details>
 
+- [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html) - a model-based clustering method for inferring population structure from genotypes and assign individuals to populations. Assumptions - K populations (may be unknown), each is characterized by a set of allele frequencies at each locus, loci are unlinked and in linkage disequilibrium and Hardy-Weinberg equilibrium in populations. Model-based clustering, observations from each cluster are random draws from some parametric model. Inference using a Bayesian approach. MCMC and Gibbs sampling, overview in the appendix. <details>
+    <summary>Paper</summary>
+    Pritchard, Jonathan K, Matthew Stephens, and Peter Donnelly. “Inference of Population Structure Using Multilocus Genotype Data.” Genetics 155, no. 2 (June 1, 2000): 945–59. https://doi.org/10.1093/genetics/155.2.945.
+</details>
+
 - [ancestryinformativemarkers](https://github.com/leipzig/ancestryinformativemarkers) - Public AIMs, by [
 Jeremy Leipzig](https://github.com/leipzig)
 
