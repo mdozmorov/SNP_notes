@@ -392,6 +392,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Mantes, Albert Dominguez, Daniel Mas Montserrat, Carlos D. Bustamante, Xavier Giró-i-Nieto, and Alexander G. Ioannidis. “Neural ADMIXTURE: Rapid Population Clustering with Autoencoders.” Preprint. Genomics, June 28, 2021. https://doi.org/10.1101/2021.06.27.450081.
 </details>
 
+- [ancestry_pipeline](https://github.com/armartin/ancestry_pipeline) - Ancestry pipeline tutorial, by Alicia Martin. Provides helper scripts for inferring local ancestry, performing ancestry-specific PCA, etc. <details>
+    <summary>More info</summary>
+    Implementation of Alicia Martin's pipeline https://github.com/armartin/ancestry_pipeline. Relies on data from Carrot-Zhang, Jian, Nyasha Chambwe, Jeffrey S. Damrauer, Theo A. Knijnenburg, A. Gordon Robertson, Christina Yau, Wanding Zhou, et al. “Comprehensive Analysis of Genetic Ancestry and Its Molecular Correlates in Cancer.” Cancer Cell 37, no. 5 (May 2020): 639-654.e6. https://doi.org/10.1016/j.ccell.2020.04.012.
+</details>
+
 - [RFMix](https://github.com/slowkoni/rfmix) - local ancestry inference (LAI), a discriminative approach that models ancestry along an admixed chromosome given observed haplotype sequences of reference ancestry (known or inferred). Phased chromosomes from reference populations (HapMap3) are divided into windows and, within each window, a random forest is trained to distinguish ancestry by using reference data and generates a fractional vote for each ancestry that are summed producing posterior ancestry probabilities within each window. These posterior probabilities are used for determining the most likely sequence of ancestry across windows via MAP inference. Phasing using Beagle. Outperforms LAMP-HAP, SupportMix. [Manual](https://github.com/slowkoni/rfmix/blob/master/MANUAL.md). <details>
     <summary>Paper</summary>
     Maples, Brian K., Simon Gravel, Eimear E. Kenny, and Carlos D. Bustamante. “RFMix: A Discriminative Modeling Approach for Rapid and Robust Local-Ancestry Inference.” The American Journal of Human Genetics 93, no. 2 (August 2013): 278–88. https://doi.org/10.1016/j.ajhg.2013.06.020.
@@ -409,8 +414,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Pritchard, Jonathan K, Matthew Stephens, and Peter Donnelly. “Inference of Population Structure Using Multilocus Genotype Data.” Genetics 155, no. 2 (June 1, 2000): 945–59. https://doi.org/10.1093/genetics/155.2.945.
 </details>
 
-- [ancestryinformativemarkers](https://github.com/leipzig/ancestryinformativemarkers) - Public AIMs, by [
-Jeremy Leipzig](https://github.com/leipzig)
+- [ancestryinformativemarkers](https://github.com/leipzig/ancestryinformativemarkers) - Public AIMs, by [Jeremy Leipzig](https://github.com/leipzig)
 
 - AIM panels have been developed for European Americans (Paschou et al., 2008; Price et al., 2008; Seldin and Price, 2008; Tian et al., 2008) and Latino Americans (Galanter et al., 2012). [Source](https://doi.org/10.1093/bioinformatics/btt144)
 
