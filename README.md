@@ -389,6 +389,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [EIGENSTRAT](https://www.hsph.harvard.edu/alkes-price/software/#:~:text=for%20update%20log.-,EIGENSOFT,-(June%202017)%3A%20EIGENSOFT) method, [FAQ](https://www.hsph.harvard.edu/alkes-price/eigensoft-frequently-asked-questions/). [GitHub](https://github.com/DReichLab/EIG) source code, Linux support, C.
 
+- [EthSEQ](https://github.com/cibiobcg/EthSEQ) - Ethnicity Annotation from Whole-Exome and Targeted Sequencing Data. Input - reference genotype data of individuals with known enthnicity (e.g., 1000 genomes)  and either BAM files or VCF data. PCA using SNPRelate R package. Compared with fastSTRUCTURE. Multi-step refinement improves performance. 2000 SNPs are sufficient to each more than 98% precision. R package. <details>
+    <summary>Paper</summary>
+    Romanel, Alessandro, Tuo Zhang, Olivier Elemento, and Francesca Demichelis. “EthSEQ: Ethnicity Annotation from Whole Exome Sequencing Data.” Edited by Oliver Stegle. Bioinformatics 33, no. 15 (August 1, 2017): 2402–4. https://doi.org/10.1093/bioinformatics/btx165.
+</details>
+
 - [FastPCA](https://github.com/gabraham/flashpca) - population stratification by genotype, identifying SNPs differentiating subpopulations. Uses random matrix theory ([blanczos](http://tygert.com/blanczos.pdf) method) to approximate top PCs, reduced time and memory to linear scaling with the number of indivisuals. Compared with smartpca, PLINK2-pca, flashpca. Accuracy assessment on simulated data, nearly identical to PLINK2-pca. Combined witn SNPweights annotations. Applied to a [GERA](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000674.v1.p1) cohort of over 60K EAs genotyped on over 670K SNP array, filtered by QC (no sex, close relatedness, non european, non-autosomal, rare variants) and Hardy-Weinberg Equilibrium test and several rounds of LD pruning. Identified 5 subpopulations. C++, R. <details>
     <summary>Paper</summary>
     Galinsky, Kevin J., Gaurav Bhatia, Po-Ru Loh, Stoyan Georgiev, Sayan Mukherjee, Nick J. Patterson, and Alkes L. Price. “Fast Principal-Component Analysis Reveals Convergent Evolution of ADH1B in Europe and East Asia.” The American Journal of Human Genetics 98, no. 3 (March 2016): 456–72. https://doi.org/10.1016/j.ajhg.2015.12.022.
