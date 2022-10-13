@@ -69,6 +69,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [Rust-bio-tools](https://github.com/rust-bio/rust-bio-tools) - VCF matching, conversion to text, report, FASTQ split/filter, BAM depth, merging. Rust.
 
+- [SHAPEIT4](https://odelaneau.github.io/shapeit4/) - haplotype phasing, allows integrating external phasing information (large reference panels, pre-phased variants, long sequencing reads). SNP arrays of sequencing data, fast running time, scalable. Novel methods include (1) the Li and Stephens model to capture long-range haplotype sharing between individuals, (2) the Positional Burrows-Wheeler Transform (PBWT), (3) the compact representation of the solution space. Outperforms SHAPEIT3, Eagle2, Beagle5, tested on UK Biobank, GIAB data. <details>
+    <summary>Paper</summary>
+    Delaneau, Olivier, Jean-François Zagury, Matthew R. Robinson, Jonathan L. Marchini, and Emmanouil T. Dermitzakis. “Accurate, Scalable and Integrative Haplotype Estimation.” Nature Communications 10, no. 1 (December 2019): 5436. https://doi.org/10.1038/s41467-019-13225-y.
+</details>
+
 - [SURVIVOR](https://github.com/fritzsedlazeck/SURVIVOR/) - Toolset for SV simulation, comparison and filtering. C++.
 
 - [VariantQC](https://github.com/BimberLab/DISCVRSeq/) - VCF quality control tool, part of [DISCVRseq](https://github.com/BimberLab/DISCVRSeq) toolkit. Uses GATK4 engine. Java wrapper of GATK's VariantEval tool. Input - VCF file and an indexed genome FASTA file. Output - MultiQC-templated report. Java. <details>
