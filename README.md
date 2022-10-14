@@ -357,6 +357,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Loh, Po-Ru, Pier Francesco Palamara, and Alkes L Price. “Fast and Accurate Long-Range Phasing in a UK Biobank Cohort.” Nature Genetics 48, no. 7 (July 2016): 811–16. https://doi.org/10.1038/ng.3571.
 </details>
 
+- [IMPUTE2](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html) - prephasing framework, improves running time and accuracy of imputation step. In contrast to IMPUTE1 analytical integration strategy, IMPUTE2 uses a haplotype sampling strategy. <details>
+    <summary>Paper</summary>
+    Howie, Bryan, Christian Fuchsberger, Matthew Stephens, Jonathan Marchini, and Gonçalo R Abecasis. “Fast and Accurate Genotype Imputation in Genome-Wide Association Studies through Pre-Phasing.” Nature Genetics 44, no. 8 (August 2012): 955–59. https://doi.org/10.1038/ng.2354.
+</details>
+
 - [GCTA](https://yanglab.westlake.edu.cn/software/gcta/#Overview) - genome-wide complex trait analysis testing, estimates the variance explained by all SNPs on a chromosome or the whole genome for a complex trait, instead of testing the association of any particular SNP. Five function types: data management (PLINK, MACH formats), estimation of the genetic relationships from SNPs, mixed linear model analysis of variance explained, estimation of linkage disequilibrium, GWAS simulation. <details>
     <summary>Paper</summary>
     Yang, Jian, S. Hong Lee, Michael E. Goddard, and Peter M. Visscher. “GCTA: A Tool for Genome-Wide Complex Trait Analysis.” The American Journal of Human Genetics 88, no. 1 (January 2011): 76–82. https://doi.org/10.1016/j.ajhg.2010.11.011.
