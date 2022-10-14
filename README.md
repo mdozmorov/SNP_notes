@@ -357,6 +357,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### GWAS pipelines
 
+- [GCTA](https://yanglab.westlake.edu.cn/software/gcta/#Overview) - genome-wide complex trait analysis testing, estimates the variance explained by all SNPs on a chromosome or the whole genome for a complex trait, instead of testing the association of any particular SNP. Five function types: data management (PLINK, MACH formats), estimation of the genetic relationships from SNPs, mixed linear model analysis of variance explained, estimation of linkage disequilibrium, GWAS simulation. <details>
+    <summary>Paper</summary>
+    Yang, Jian, S. Hong Lee, Michael E. Goddard, and Peter M. Visscher. “GCTA: A Tool for Genome-Wide Complex Trait Analysis.” The American Journal of Human Genetics 88, no. 1 (January 2011): 76–82. https://doi.org/10.1016/j.ajhg.2010.11.011.
+</details>
+
 - [GLIMPSE](https://odelaneau.github.io/GLIMPSE/) - genotype likelihoods imputation and phasing method. Low WGS (1X) outperforms SNP arrays and is appropriate for GWASs and ancestry inference. Input - a matrix of genotype likelihoods from low-coverage sequencing data. Iterative genotype imputation and haplotype phasing with a Gibbs sampling procedure. Outperforms Beagle, LOIMPUTE, STITCH, GeneImp. [GitHub](https://github.com/odelaneau/GLIMPSE). [Tutorial 1](https://odelaneau.github.io/GLIMPSE/tutorial_b38.html), [tutorial 2](https://odelaneau.github.io/GLIMPSE/tutorial_hg19.html), [tutorial 3](https://odelaneau.github.io/GLIMPSE/tutorial_chrX.html). <details>
     <summary>Paper</summary>
     Rubinacci, Simone, Diogo M. Ribeiro, Robin J. Hofmeister, and Olivier Delaneau. “Efficient Phasing and Imputation of Low-Coverage Sequencing Data Using Large Reference Panels.” Nature Genetics 53, no. 1 (January 2021): 120–26. https://doi.org/10.1038/s41588-020-00756-0.
