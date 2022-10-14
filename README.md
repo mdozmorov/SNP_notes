@@ -69,11 +69,6 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [Rust-bio-tools](https://github.com/rust-bio/rust-bio-tools) - VCF matching, conversion to text, report, FASTQ split/filter, BAM depth, merging. Rust.
 
-- [SHAPEIT4](https://odelaneau.github.io/shapeit4/) - haplotype phasing, allows integrating external phasing information (large reference panels, pre-phased variants, long sequencing reads). SNP arrays of sequencing data, fast running time, scalable. Novel methods include (1) the Li and Stephens model to capture long-range haplotype sharing between individuals, (2) the Positional Burrows-Wheeler Transform (PBWT), (3) the compact representation of the solution space. Outperforms SHAPEIT3, Eagle2, Beagle5, tested on UK Biobank, GIAB data. <details>
-    <summary>Paper</summary>
-    Delaneau, Olivier, Jean-François Zagury, Matthew R. Robinson, Jonathan L. Marchini, and Emmanouil T. Dermitzakis. “Accurate, Scalable and Integrative Haplotype Estimation.” Nature Communications 10, no. 1 (December 2019): 5436. https://doi.org/10.1038/s41467-019-13225-y.
-</details>
-
 - [SURVIVOR](https://github.com/fritzsedlazeck/SURVIVOR/) - Toolset for SV simulation, comparison and filtering. C++.
 
 - [VariantQC](https://github.com/BimberLab/DISCVRSeq/) - VCF quality control tool, part of [DISCVRseq](https://github.com/BimberLab/DISCVRSeq) toolkit. Uses GATK4 engine. Java wrapper of GATK's VariantEval tool. Input - VCF file and an indexed genome FASTA file. Output - MultiQC-templated report. Java. <details>
@@ -357,6 +352,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### GWAS pipelines
 
+- [Eagle](https://www.hsph.harvard.edu/alkes-price/software/#:~:text=2012%20Bioinformatics).-,Eagle,-(May%202016)%20The) - long-range phasing, improves the following imputation. Benchmarked against Beagle, HAPI-UR, SHAPEIT2, faster, similar or better phasing accuracy. <details>
+    <summary>Paper</summary>
+    Loh, Po-Ru, Pier Francesco Palamara, and Alkes L Price. “Fast and Accurate Long-Range Phasing in a UK Biobank Cohort.” Nature Genetics 48, no. 7 (July 2016): 811–16. https://doi.org/10.1038/ng.3571.
+</details>
+
 - [GCTA](https://yanglab.westlake.edu.cn/software/gcta/#Overview) - genome-wide complex trait analysis testing, estimates the variance explained by all SNPs on a chromosome or the whole genome for a complex trait, instead of testing the association of any particular SNP. Five function types: data management (PLINK, MACH formats), estimation of the genetic relationships from SNPs, mixed linear model analysis of variance explained, estimation of linkage disequilibrium, GWAS simulation. <details>
     <summary>Paper</summary>
     Yang, Jian, S. Hong Lee, Michael E. Goddard, and Peter M. Visscher. “GCTA: A Tool for Genome-Wide Complex Trait Analysis.” The American Journal of Human Genetics 88, no. 1 (January 2011): 76–82. https://doi.org/10.1016/j.ajhg.2010.11.011.
@@ -366,6 +366,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     <summary>Paper</summary>
     Rubinacci, Simone, Diogo M. Ribeiro, Robin J. Hofmeister, and Olivier Delaneau. “Efficient Phasing and Imputation of Low-Coverage Sequencing Data Using Large Reference Panels.” Nature Genetics 53, no. 1 (January 2021): 120–26. https://doi.org/10.1038/s41588-020-00756-0.
     Chat, Vylyny, Robert Ferguson, Leah Morales, and Tomas Kirchhoff. “Ultra Low-Coverage Whole-Genome Sequencing as an Alternative to Genotyping Arrays in Genome-Wide Association Studies.” Frontiers in Genetics 12 (February 15, 2022): 790445. https://doi.org/10.3389/fgene.2021.790445.
+</details>
+
+- [SHAPEIT4](https://odelaneau.github.io/shapeit4/) - haplotype phasing, allows integrating external phasing information (large reference panels, pre-phased variants, long sequencing reads). SNP arrays of sequencing data, fast running time, scalable. Novel methods include (1) the Li and Stephens model to capture long-range haplotype sharing between individuals, (2) the Positional Burrows-Wheeler Transform (PBWT), (3) the compact representation of the solution space. Outperforms SHAPEIT3, Eagle2, Beagle5, tested on UK Biobank, GIAB data. <details>
+    <summary>Paper</summary>
+    Delaneau, Olivier, Jean-François Zagury, Matthew R. Robinson, Jonathan L. Marchini, and Emmanouil T. Dermitzakis. “Accurate, Scalable and Integrative Haplotype Estimation.” Nature Communications 10, no. 1 (December 2019): 5436. https://doi.org/10.1038/s41467-019-13225-y.
 </details>
 
 - [Tractor](https://github.com/Atkinson-Lab/Tractor) - a statistical framework for GWAS analysis considering admixed individuals (local ancestry inference, LAI, estimated using [RFMix2](https://github.com/slowkoni/rfmix)). Tested on simulated and experimental two-way admixed African-European cohorts. Generates accurate ancestry-specific effect-size estimates and p-values, improves power. It is generally not necessary to include local ancestry in a GWAS model when there is no difference in the estimated effect size between ancestry groups. [Post-QC](https://github.com/Atkinson-Lab/Post-QC) - an automated pipeline for post-genotyping QC, harmonization, phasing, and LA inference. [ancestry_pipeline](https://github.com/armartin/ancestry_pipeline) - helper scripts for inferring local ancestry, performing ancestry-specific PCA, make painted karyogram plots. [Scripts](https://github.com/eatkinson/Tractor_ms_results) to reproduce the paper. The Tractor pipeline is implemented as scrips and Jupyter notebools on [GitHub](https://github.com/Atkinson-Lab/Tractor). [snowcat](https://github.com/andreyshabalin/snowcat) - Code Alternative for TRACTOR, by [Andrey Shabalin](https://github.com/andreyshabalin). <details>
