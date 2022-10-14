@@ -373,6 +373,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Chat, Vylyny, Robert Ferguson, Leah Morales, and Tomas Kirchhoff. “Ultra Low-Coverage Whole-Genome Sequencing as an Alternative to Genotyping Arrays in Genome-Wide Association Studies.” Frontiers in Genetics 12 (February 15, 2022): 790445. https://doi.org/10.3389/fgene.2021.790445.
 </details>
 
+- [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html#!) - phasing an imputation using [Eagle2](https://alkesgroup.broadinstitute.org/Eagle/) and [minimac3](https://genome.sph.umich.edu/wiki/Minimac3), outperforms Beagle, IMPUTE2. <details>
+    <summary>Paper</summary>
+    Das, Sayantan, Lukas Forer, Sebastian Schönherr, Carlo Sidore, Adam E Locke, Alan Kwong, Scott I Vrieze, et al. “Next-Generation Genotype Imputation Service and Methods.” Nature Genetics 48, no. 10 (October 2016): 1284–87. https://doi.org/10.1038/ng.3656.
+</details>
+
 - [SHAPEIT4](https://odelaneau.github.io/shapeit4/) - haplotype phasing, allows integrating external phasing information (large reference panels, pre-phased variants, long sequencing reads). SNP arrays of sequencing data, fast running time, scalable. Novel methods include (1) the Li and Stephens model to capture long-range haplotype sharing between individuals, (2) the Positional Burrows-Wheeler Transform (PBWT), (3) the compact representation of the solution space. Outperforms SHAPEIT3, Eagle2, Beagle5, tested on UK Biobank, GIAB data. <details>
     <summary>Paper</summary>
     Delaneau, Olivier, Jean-François Zagury, Matthew R. Robinson, Jonathan L. Marchini, and Emmanouil T. Dermitzakis. “Accurate, Scalable and Integrative Haplotype Estimation.” Nature Communications 10, no. 1 (December 2019): 5436. https://doi.org/10.1038/s41467-019-13225-y.
