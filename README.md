@@ -446,6 +446,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Pritchard, Jonathan K, Matthew Stephens, and Peter Donnelly. “Inference of Population Structure Using Multilocus Genotype Data.” Genetics 155, no. 2 (June 1, 2000): 945–59. https://doi.org/10.1093/genetics/155.2.945.
 </details>
 
+- Ancestry inference from any genomics data. Data synthesis framework - repeatedly adding population reference genomics data with known ancestry to the data of interest with unknown ancestry and assessing performance in inferring ancestry (PCA, five dimensions, K nearest neighborhood clustering). Idea - if ancestry backgrounds match, addition of the reference genomics data will improve performance. Code upon request. <details>
+    <summary>Paper</summary>
+    Belleau, Pascal, Astrid Deschênes, David A. Tuveson, and Alexander Krasnitz. “Accurate and Robust Inference of Genetic Ancestry from Cancer-Derived Molecular Data across Genomic Platforms.” Preprint. Bioinformatics, February 4, 2022. https://doi.org/10.1101/2022.02.01.478737.
+</details>
+
 - [ancestryinformativemarkers](https://github.com/leipzig/ancestryinformativemarkers) - Public AIMs, by [Jeremy Leipzig](https://github.com/leipzig)
 
 - AIM panels have been developed for European Americans (Paschou et al., 2008; Price et al., 2008; Seldin and Price, 2008; Tian et al., 2008) and Latino Americans (Galanter et al., 2012). [Source](https://doi.org/10.1093/bioinformatics/btt144)
