@@ -195,6 +195,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [echtvar](https://github.com/brentp/echtvar) - fast variant annotation and filtering. Faster/more efficient than slivar, vcfanno, bcftools, snpSift.
 
+- [FENRIR](https://fenrir.flatironinstitute.org/) - Tissue-specific enhancer functional networks for associating SNPs in distal regulatory regions to disease. Integrates thousands of disparate epigenetic and functional genomics datasets to infer tissue-specific functional relationships between en- hancers for 140 diverse human tissues and cell types, providing a regulatory-region-centric approach to systematically identify disease-associated enhancers. A Bayesian integration model that creates tissue-specific enhancer functional networks and, second, a network-based machine-learning model (elastic net) that prioritizes disease-enhancer association in a tissue-specific manner. Outperforms EMERGE, applied to autism variants. [GitHub](https://github.com/xichensf/fenrir). <details>
+    <summary>Paper</summary>
+    Chen, Xi, Jian Zhou, Ran Zhang, Aaron K. Wong, Christopher Y. Park, Chandra L. Theesfeld, and Olga G. Troyanskaya. “Tissue-Specific Enhancer Functional Networks for Associating Distal Regulatory Regions to Disease.” Cell Systems 12, no. 4 (April 2021): 353-362.e6. https://doi.org/10.1016/j.cels.2021.02.002.
+</details>
+
 - [FUMA](https://fuma.ctglab.nl/) - Functional Mapping and Annotation of GWAS using 43 scRNA-seq datasets (human and mouse). MAGMA Cell type-specific enrichment. Applied to 26 GWAS disorders. [Download](https://github.com/Kyoko-wtnb/FUMA_scRNA_data) processed data. <details>
     <summary>Paper</summary>
     Watanabe, Kyoko, Maša Umićević Mirkov, Christiaan A. de Leeuw, Martijn P. van den Heuvel, and Danielle Posthuma. “Genetic Mapping of Cell Type Specificity for Complex Traits.” Nature Communications 10, no. 1 (December 2019): 3222. https://doi.org/10.1038/s41467-019-11181-1.
