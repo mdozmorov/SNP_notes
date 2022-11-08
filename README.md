@@ -193,6 +193,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Ainscough, Benjamin J., Malachi Griffith, Adam C. Coffman, Alex H. Wagner, Jason Kunisaki, Mayank Nk Choudhary, Joshua F. McMichael, et al. “DoCM: A Database of Curated Mutations in Cancer.” Nature Methods 13, no. 10 (September 29, 2016): 806–7. https://doi.org/10.1038/nmeth.4000.
 </details>
 
+- [echtvar](https://github.com/brentp/echtvar) - fast variant annotation and filtering. Faster/more efficient than slivar, vcfanno, bcftools, snpSift.
+
 - [FUMA](https://fuma.ctglab.nl/) - Functional Mapping and Annotation of GWAS using 43 scRNA-seq datasets (human and mouse). MAGMA Cell type-specific enrichment. Applied to 26 GWAS disorders. [Download](https://github.com/Kyoko-wtnb/FUMA_scRNA_data) processed data. <details>
     <summary>Paper</summary>
     Watanabe, Kyoko, Maša Umićević Mirkov, Christiaan A. de Leeuw, Martijn P. van den Heuvel, and Danielle Posthuma. “Genetic Mapping of Cell Type Specificity for Complex Traits.” Nature Communications 10, no. 1 (December 2019): 3222. https://doi.org/10.1038/s41467-019-11181-1.
@@ -285,6 +287,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 </details>
 
 - [gwasTools](https://github.com/bnwolford/gwasTools) - A collection of R scripts for exploring and plotting GWAS results. Visualization examples
+
+- [gw](https://github.com/kcleal/gw) - A fast browser and annotation tool for genomic sequencing data
 
 - [gpart](https://bioconductor.org/packages/gpart/) - R package for defining LD blocks (Big-LD algorithm), and visualizing them. <details>
     <summary>Paper</summary>
