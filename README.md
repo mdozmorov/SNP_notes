@@ -179,7 +179,10 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Tamborero, David, Carlota Rubio-Perez, Jordi Deu-Pons, Michael P. Schroeder, Ana Vivancos, Ana Rovira, Ignasi Tusquets et al. "Cancer Genome Interpreter annotates the biological and clinical relevance of tumor alterations." Genome medicine, (28 March 2018) https://doi.org/10.1186/s13073-018-0531-8
 </details>
 
-- [CIViC](https://civicdb.org/welcome) - Clinical Interpretation of Variants in Cancer database. [API](http://griffithlab.org/civic-api-docs/)
+- [CIViC](https://civicdb.org/welcome) - Clinical Interpretation of Variants in Cancer database, community curated resource. [Data releases](https://civicdb.org/releases/main) Supports variant interpretation guidelines, interfaces with other databases. [CIViCmine](http://bionlp.bcgsc.ca/civicmine/) - Text mined biomarkers in cancer for curation into the CIViC database. [Documentation](https://civic.readthedocs.io/en/latest/model/variants/name.html), [API](https://griffithlab.github.io/civic-v2/), [Youtube](https://www.youtube.com/channel/UCtZ14M7ZNmMDivSJzaHO8BQ),  [GitHub](https://github.com/griffithlab/civic-v2) <details>
+    <summary>Paper</summary>
+    Krysiak, Kilannin, Arpad M Danos, Jason Saliba, Joshua F McMichael, Adam C Coffman, Susanna Kiwala, Erica K Barnell, et al. “CIViCdb 2022: Evolution of an Open-Access Cancer Variant Interpretation Knowledgebase.” Nucleic Acids Research, November 14, 2022, gkac979. https://doi.org/10.1093/nar/gkac979.
+</details>
 
 - [clinvar](https://github.com/macarthur-lab/clinvar) -  tools to convert ClinVar data into a tab-delimited flat file, and also provides that resulting tab-delimited flat file.
 
