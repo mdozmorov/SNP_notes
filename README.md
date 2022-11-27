@@ -364,7 +364,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### GWAS pipelines
 
-- [Eagle](https://www.hsph.harvard.edu/alkes-price/software/#:~:text=2012%20Bioinformatics).-,Eagle,-(May%202016)%20The) - long-range phasing, improves the following imputation. Benchmarked against Beagle, HAPI-UR, SHAPEIT2, faster, similar or better phasing accuracy. <details>
+- [Eagle](https://www.hsph.harvard.edu/alkes-price/software/) - long-range phasing, improves the following imputation. Benchmarked against Beagle, HAPI-UR, SHAPEIT2, faster, similar or better phasing accuracy. <details>
     <summary>Paper</summary>
     Loh, Po-Ru, Pier Francesco Palamara, and Alkes L Price. “Fast and Accurate Long-Range Phasing in a UK Biobank Cohort.” Nature Genetics 48, no. 7 (July 2016): 811–16. https://doi.org/10.1038/ng.3571.
 </details>
@@ -419,7 +419,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Carrot-Zhang, Jian, Nyasha Chambwe, Jeffrey S. Damrauer, Theo A. Knijnenburg, A. Gordon Robertson, Christina Yau, Wanding Zhou, et al. “Comprehensive Analysis of Genetic Ancestry and Its Molecular Correlates in Cancer.” Cancer Cell 37, no. 5 (May 2020): 639-654.e6. https://doi.org/10.1016/j.ccell.2020.04.012. - Ancestry-centric analysis of somatic alterations, methylation, mRNA and miRNA expression, and DNA methylation across TCGA tumor types. Ancestry effects are tissue specific. Methods, tools, [GitHub](https://github.com/jcarrotzhang/ancestry-from-panel/tree/master/GDAN_AIM). Supplementary material https://www.cell.com/cancer-cell/fulltext/S1535-6108(20)30211-7#supplementaryMaterial: Table S1 - Admixture and Ethnicity Calls of all TCGA samples. Table S2. Mutation Associations with FBXW7, Alexandrov signatures. Table S3. Methylation Associations, genes associated with ancestry, models corrected for various confounders. Table S4. mRNA Associations. Table S5. miRNA Associations.
 </details>
 
-- [EIGENSTRAT](https://www.hsph.harvard.edu/alkes-price/software/#:~:text=for%20update%20log.-,EIGENSOFT,-(June%202017)%3A%20EIGENSOFT) method, [FAQ](https://www.hsph.harvard.edu/alkes-price/eigensoft-frequently-asked-questions/). [GitHub](https://github.com/DReichLab/EIG) source code, Linux support, C.
+- [EIGENSTRAT](https://www.hsph.harvard.edu/alkes-price/software/) method, [FAQ](https://www.hsph.harvard.edu/alkes-price/eigensoft-frequently-asked-questions/). [GitHub](https://github.com/DReichLab/EIG) source code, Linux support, C.
 
 - [EthSEQ](https://github.com/cibiobcg/EthSEQ) - Ethnicity Annotation from Whole-Exome and Targeted Sequencing Data. Input - reference genotype data of individuals with known enthnicity (e.g., 1000 genomes)  and either BAM files or VCF data. PCA using SNPRelate R package. Compared with fastSTRUCTURE. Multi-step refinement improves performance. 2000 SNPs are sufficient to each more than 98% precision. R package. <details>
     <summary>Paper</summary>
@@ -448,7 +448,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [somalier](https://github.com/brentp/somalier) - fast sample-swap and relatedness checks on BAMs/CRAMs/VCFs/GVCFs, by Brent Pedersen. Commands: extract, relate, ancestry, find-sites. [Ancestry prediction wiki](https://github.com/brentp/somalier/wiki/ancestry)
 
-- [SNPweights](https://www.hsph.harvard.edu/alkes-price/software/#:~:text=external%20reference%20panel.-,SNPWEIGHTS,-(May%202014)%3A%20SNPweights) - ancestry inference using SNP weights from external reference panels. Greater accuracy than ancestry-informative markers (AIMs are 10-fold more informative than random SNPs for ancestry inference). PCA on the reference panel, prediction of PCs for the unseen samples. SNPs excluded: chrX, A/T, C/G. Predicted PCs using genome-wide SNPs have the highest accuracy. SNP weights for various populations are available. <details>
+- [SNPweights](https://www.hsph.harvard.edu/alkes-price/software/) - ancestry inference using SNP weights from external reference panels. Greater accuracy than ancestry-informative markers (AIMs are 10-fold more informative than random SNPs for ancestry inference). PCA on the reference panel, prediction of PCs for the unseen samples. SNPs excluded: chrX, A/T, C/G. Predicted PCs using genome-wide SNPs have the highest accuracy. SNP weights for various populations are available. <details>
     <summary>Paper</summary>
     Chen, Chia-Yen, Samuela Pollack, David J. Hunter, Joel N. Hirschhorn, Peter Kraft, and Alkes L. Price. “Improved Ancestry Inference Using Weights from External Reference Panels.” Bioinformatics 29, no. 11 (June 1, 2013): 1399–1406. https://doi.org/10.1093/bioinformatics/btt144.
 </details>
