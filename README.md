@@ -24,7 +24,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
   - [Ancestry](#ancestry)
   - [eQTLs](#eqtls)
   - [Polygenic risk score](#polygenic-risk-score)
-  - [3D](#3d)
+  - [Regulatory](#regulatory)
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
 - [Power](#power)
@@ -485,16 +485,16 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [pgsc_calc](https://github.com/PGScatalog/pgsc_calc) - The Polygenic Score Catalog Calculator. Nextflow.
 
-### 3D
+### Regulatory
 
 - [Activity-by-Contact (ABC) Model](https://www.engreitzlab.org/resources/) predicting SNP-enhancer regularoty pairs. [Predictions](ftp://ftp.broadinstitute.org/outgoing/lincRNA/ABC/AllPredictions.AvgHiC.ABC0.015.minus150.ForABCPaperV3.txt.gz) in 131 cell types and tissues (all element-gene connections with ABC scores >= 0.015. [GitHub](https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction).
 
-- [3DGeOD](https://www.csuligroup.com/3DGeOD/home) - The 3D Genome Organization in Disease curated database of disease-associated genetic variants (inter-chromosomal translocations ICTs from Mitelman, COSMIC, ChimerPub databases, SVs from dbSNP, ClinVar, SNPs from eQTL catalogue) disrupting 3D structure (Hi-C data from 4D Nucleoume, territory, compartment, TAD, loop boundaries) and the associated gene expression in 35 tissue/cell types. Search for curated associations, predicted with 3DFunc, a two-phase scoring algorithm to prioritize gene expression changes associated with 3D changes. [GitHub](https://github.com/CSUBioGroup/3DFunc). <details>
+- [3DGeOD](https://www.csuligroup.com/3DGeOD/home) - The 3D Genome Organization in Disease curated database of disease-associated genetic variants (inter-chromosomal translocations ICTs from Mitelman, COSMIC, ChimerPub databases, SVs from dbSNP, ClinVar, SNPs from eQTL catalogue) disrupting 3D structure (Hi-C data from 4D Nucleoume, territory, compartment, TAD, loop boundaries) and the associated gene expression in 35 tissue/cell types. Search for curated associations, predicted with [3DFunc](https://github.com/CSUBioGroup/3DFunc), a two-phase scoring algorithm to prioritize gene expression changes associated with 3D changes. [GitHub](https://github.com/CSUBioGroup/3DFunc). <details>
     <summary>Paper</summary>
     Tang, Li, Matthew C. Hill, Mingxing He, Junhao Chen, Patrick T. Ellinor, and Min Li. “A 3D Genome Atlas of Genetic Variants and Their Pathological Effects.” Preprint. Bioinformatics, November 27, 2022. https://doi.org/10.1101/2022.11.27.518071.
 </details>
 
-
+- [SNP2TFBS](https://ccg.epfl.ch/snp2tfbs/) is a Web interface aimed at studying variations (SNPs/indels) that affect transcription factor binding (TFB) in the Human genome.
 
 ## InDels
 
