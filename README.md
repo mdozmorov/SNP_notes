@@ -199,7 +199,10 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Ainscough, Benjamin J., Malachi Griffith, Adam C. Coffman, Alex H. Wagner, Jason Kunisaki, Mayank Nk Choudhary, Joshua F. McMichael, et al. “DoCM: A Database of Curated Mutations in Cancer.” Nature Methods 13, no. 10 (September 29, 2016): 806–7. https://doi.org/10.1038/nmeth.4000.
 </details>
 
-- [echtvar](https://github.com/brentp/echtvar) - fast variant annotation and filtering. Faster/more efficient than slivar, vcfanno, bcftools, snpSift.
+- [echtvar](https://github.com/brentp/echtvar) - fast simultaneous annotation and filtering genetic variants using 32-bit integer encoding of population variants and annotation fields (gnomAD, CADD) into a compressed archive. Input: VCF/BCF files, chromosome, and a JSON5 configuration. Faster/more efficient than slivar, vcfanno, bcftools, snpSift. Examples of filtering somatic variants with dbNSFP, whole genome recessive germline variants and somatic variants. Rust. <details>
+    <summary>Paper</summary>
+    Pedersen, Brent S, and Jeroen de Ridder. “Echtvar: Compressed Variant Representation for Rapid Annotation and FIltering of SNPs and Indels,” n.d.
+</details>
 
 - [FENRIR](https://fenrir.flatironinstitute.org/) - Tissue-specific enhancer functional networks for associating SNPs in distal regulatory regions to disease. Integrates thousands of disparate epigenetic and functional genomics datasets to infer tissue-specific functional relationships between en- hancers for 140 diverse human tissues and cell types, providing a regulatory-region-centric approach to systematically identify disease-associated enhancers. A Bayesian integration model that creates tissue-specific enhancer functional networks and, second, a network-based machine-learning model (elastic net) that prioritizes disease-enhancer association in a tissue-specific manner. Outperforms EMERGE, applied to autism variants. [GitHub](https://github.com/xichensf/fenrir). <details>
     <summary>Paper</summary>
