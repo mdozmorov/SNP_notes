@@ -415,6 +415,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Alexander, David H., John Novembre, and Kenneth Lange. “Fast Model-Based Estimation of Ancestry in Unrelated Individuals.” Genome Research 19, no. 9 (September 2009): 1655–64. https://doi.org/10.1101/gr.094052.109.
 </details>
 
+- [AKT](https://github.com/Illumina/akt) - ancestry and kinship toolkit by Illumina team. Detects related samples, ancestry, calculate correlation between variants, clustering, Mendel consistency. Input: multi-sample BCF file, no thinning required. Pre-built hg19 and hg38 1000 genomes PCA coordinates, projecton of samples on them, visualization. Algorithms and results are similar to PLINK, KING, faster. [Documentation](https://illumina.github.io/akt/). C++, command line. <details>
+    <summary>Paper</summary>
+    Arthur, Rudy, Ole Schulz-Trieglaff, Anthony J. Cox, and Jared O’Connell. “AKT: Ancestry and Kinship Toolkit.” Bioinformatics 33, no. 1 (January 1, 2017): 142–44. https://doi.org/10.1093/bioinformatics/btw576.
+</details>
+
 - [AIPS](https://github.com/biomedicaldatascience/AIPS) - Ancestry Inference using Principal Component analysis and Spatial analysis, R package. Distance-based, incorporates an Inverse Distance Weighted (IDW) interpolation method from spatial analysis. Compared with EIGENSTRAT, STRUCTURE, fastSTRUCTURE, and ADMIXTURE (each briefly described). AIPS and EIGENSTRAT principal components and eigenvalues are highly correlated (close to 1). R. <details>
     <summary>Paper</summary>
     Byun, Jinyoung, Younghun Han, Ivan P. Gorlov, Jonathan A. Busam, Michael F. Seldin, and Christopher I. Amos. “Ancestry Inference Using Principal Component Analysis and Spatial Analysis: A Distance-Based Analysis to Account for Population Substructure.” BMC Genomics 18, no. 1 (December 2017): 789. https://doi.org/10.1186/s12864-017-4166-8.
