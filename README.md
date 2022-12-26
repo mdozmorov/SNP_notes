@@ -300,6 +300,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Bouland, Gerard A, Joline W J Beulens, Joey Nap, and Arnaud Zaldumbide. “[CONQUER: An Interactive Toolbox to Understand Functional Consequences of GWAS Hits](https://doi.org/10.1093/nargab/lqaa085),” NAR Genomics and Bioinformatics, October 27, 2021, 7.
 </details>
 
+- [CMplot](https://github.com/YinLiLin/CMplot) - circular and regular (horizontal) Manhattan Plots, chromosome density plots, highly customizable.
+
 - [gwasTools](https://github.com/bnwolford/gwasTools) - A collection of R scripts for exploring and plotting GWAS results. Visualization examples
 
 - [gw](https://github.com/kcleal/gw) - A fast browser and annotation tool for genomic sequencing data
