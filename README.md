@@ -13,6 +13,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [Variant calling pipelines](#variant-calling-pipelines)
   - [Preprocessing tools](#preprocessing-tools)
   - [Depth](#depth)
+  - [Genome comparison](#genome-comparison)
 - [SNP callers](#snp-callers)
   - [Deep learning SNP callers](#deep-learning-snp-callers)
 - [SNP annotations](#snp-annotations)
@@ -94,6 +95,10 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [bamCoverage](https://deeptools.readthedocs.io/en/latest/content/tools/bamCoverage.html) - BAM to bigWig conversion, part of [Deeptools](https://deeptools.readthedocs.io/). Python, shell.
 
 - [histoneSig](https://github.com/semibah/histonesig) - R package for working with genome files as continuous representations or "signals". R.
+
+### Genome comparison
+
+- [LASTZ](https://github.com/lastz/lastz) - pairwise DNA sequence aligner and plotter. [Documentation](https://lastz.github.io/lastz/).
 
 
 
