@@ -98,6 +98,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Genome comparison
 
+- [syntenyPlotteR](https://github.com/marta-fb/syntenyPlotteR) - R package to draw syntenic plots in 3 different styles (highway, inferCARs, linear pairwise style)
+
 - [LASTZ](https://github.com/lastz/lastz) - pairwise DNA sequence aligner and plotter. [Documentation](https://lastz.github.io/lastz/).
 
 
