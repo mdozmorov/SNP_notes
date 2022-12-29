@@ -98,6 +98,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Genome comparison
 
+- [Sibelia](https://github.com/bioinf/Sibelia) - syntheny finder in multiple microbial genomes using iterative de Bruijn graphs. Represents synteny blocks in a hierarchy. Outperforms Mugsy, Multiz, Mauve on synthetic and experimental data. [Webserver](http://bioinf.spbau.ru/sibelia). <details>
+    <summary>Paper</summary>
+    Minkin, Ilya, Anand Patel, Mikhail Kolmogorov, Nikolay Vyahhi, and Son Pham. “Sibelia: A Scalable and Comprehensive Synteny Block Generation Tool for Closely Related Microbial Genomes.” arXiv, July 30, 2013. http://arxiv.org/abs/1307.7941.
+</details>
+
 - [syntenyPlotteR](https://github.com/marta-fb/syntenyPlotteR) - R package to draw syntenic plots in 3 different styles (highway, inferCARs, linear pairwise style)
 
 - [LASTZ](https://github.com/lastz/lastz) - pairwise DNA sequence aligner and plotter. [Documentation](https://lastz.github.io/lastz/).
