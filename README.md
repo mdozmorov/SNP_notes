@@ -284,6 +284,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## SNP signatures
 
+- [deconstructSigs](https://github.com/raerose01/deconstructSigs) - deconstructSigs aims to determine the contribution of known mutational processes to a tumor sample. By using deconstructSigs, one can: Determine the weights of each mutational signature contributing to an individual tumor sample; Plot the reconstructed mutational profile (using the calculated weights) and compare to the original input sample. R implementation.
+
 - [MutationalPatterns](https://bioconductor.org/packages/MutationalPatterns/) - R package to evaluate and visualize a multitude of mutational patterns in base substitution catalogues of e.g. healthy samples, tumour samples, or DNA-repair deficient cells. The package covers a wide range of patterns including: mutational signatures, transcriptional and replicative strand bias, lesion segregation, genomic distribution and association with genomic features, which are collectively meaningful for studying the activity of mutational processes. The package works with single nucleotide variants (SNVs), insertions and deletions (Indels), double base substitutions (DBSs) and larger multi base substitutions (MBSs). R.
 
 - [sigminer](https://shixiangwang.github.io/sigminer-doc/) - Genomic Alteration Signature Analysis, by Shixiang Wang, novel and known signature extraction, visualization. [GitHub](https://github.com/ShixiangWang/sigminer). R. [sigminer.prediction](https://github.com/ShixiangWang/sigminer.prediction) - Train and Predict Cancer Subtype with Keras Model based on Mutational Signatures.
