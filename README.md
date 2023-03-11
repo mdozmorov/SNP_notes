@@ -284,7 +284,10 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## SNP signatures
 
-- [deconstructSigs](https://github.com/raerose01/deconstructSigs) - deconstructSigs aims to determine the contribution of known mutational processes to a tumor sample. By using deconstructSigs, one can: Determine the weights of each mutational signature contributing to an individual tumor sample; Plot the reconstructed mutational profile (using the calculated weights) and compare to the original input sample. R implementation.
+- [deconstructSigs](https://github.com/raerose01/deconstructSigs) - deconstructSigs aims to determine the contribution of known mutational processes to a tumor sample. By using deconstructSigs, one can: Determine the weights of each mutational signature contributing to an individual tumor sample; Plot the reconstructed mutational profile (using the calculated weights) and compare to the original input sample. Data from Alexandrov, COSMIC, others. R implementation. <details>
+    <summary>Paper</summary>
+    Rosenthal, Rachel, Nicholas McGranahan, Javier Herrero, Barry S. Taylor, and Charles Swanton. “DeconstructSigs: Delineating Mutational Processes in Single Tumors Distinguishes DNA Repair Deficiencies and Patterns of Carcinoma Evolution.” Genome Biology 17 (February 22, 2016): 31. https://doi.org/10.1186/s13059-016-0893-4.
+</details>
 
 - [MutationalPatterns](https://bioconductor.org/packages/MutationalPatterns/) - R package to evaluate and visualize a multitude of mutational patterns in base substitution catalogues of e.g. healthy samples, tumour samples, or DNA-repair deficient cells. The package covers a wide range of patterns including: mutational signatures, transcriptional and replicative strand bias, lesion segregation, genomic distribution and association with genomic features, which are collectively meaningful for studying the activity of mutational processes. The package works with single nucleotide variants (SNVs), insertions and deletions (Indels), double base substitutions (DBSs) and larger multi base substitutions (MBSs). R.
 
