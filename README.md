@@ -571,6 +571,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [ClassifyCNV](https://github.com/Genotek/ClassifyCNV) - clinical annotation of copy-number variants. Input - BED file with DEL/DUP. Output - numeric pathogenicity scores. Python3
 
+- [CopywriteR](https://bioconductor.org/packages/CopywriteR) - CopywriteR extracts DNA copy number information from targeted sequencing by utiizing off-target reads. It allows for extracting uniformly distributed copy number information, can be used without reference, and can be applied to sequencing data obtained from various techniques including chromatin immunoprecipitation and target enrichment on small gene panels.
+
 - [Control-FREEC](http://boevalab.com/FREEC/) - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. R. <details>
     <summary>Paper</summary>
     Boeva, Valentina, Tatiana Popova, Kevin Bleakley, Pierre Chiche, Julie Cappo, Gudrun Schleiermacher, Isabelle Janoueix-Lerosey, Olivier Delattre, and Emmanuel Barillot. “[Control-FREEC: A Tool for Assessing Copy Number and Allelic Content Using next-Generation Sequencing Data](https://doi.org/10.1093/bioinformatics/btr670).” Bioinformatics, (February 1, 2012)
