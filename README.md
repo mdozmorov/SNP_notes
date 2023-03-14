@@ -574,7 +574,10 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [ClassifyCNV](https://github.com/Genotek/ClassifyCNV) - clinical annotation of copy-number variants. Input - BED file with DEL/DUP. Output - numeric pathogenicity scores. Python3
 
-- [CopywriteR](https://bioconductor.org/packages/CopywriteR) - CopywriteR extracts DNA copy number information from targeted sequencing by utiizing off-target reads. It allows for extracting uniformly distributed copy number information, can be used without reference, and can be applied to sequencing data obtained from various techniques including chromatin immunoprecipitation and target enrichment on small gene panels.
+- [CopywriteR](https://github.com/PeeperLab/CopywriteR) - R package for CNV detection from WES off-target sequences, discarding reads covering capture bait regions and adjacent. Calling peaks with MACS 1.4 and removing reads overlapping peaks. Compared with onTarget CBS (circular binary segmentation), propSeq, EXCAVATOR, higher sensitivity, better than low-coverage WGS, more robust to noise, improves downstream segmentation analysis. Works without reference. Performs well on ChIP-seq data (similarly removing reads in MACS peaks). 20kb bin resolution, bins are filtered, corrected for GC content, mappability, excluding blacklist-overlapping reads. Parallelized.  preCopywriteR(), CopywriteR() and plotCNA() functions. BAM files as an input. <details>
+    <summary>Paper</summary>
+    Kuilman, Thomas, Arno Velds, Kristel Kemper, Marco Ranzani, Lorenzo Bombardelli, Marlous Hoogstraat, Ekaterina Nevedomskaya, et al. “CopywriteR: DNA Copy Number Detection from off-Target Sequence Data.” Genome Biology 16, no. 1 (December 2015): 49. https://doi.org/10.1186/s13059-015-0617-1.
+</details>
 
 - [Control-FREEC](http://boevalab.com/FREEC/) - assess copy number and genotype information in whole genome and exome sequencing data. Corrects for contamination by normal cells and variable sample ploidy. With a matched normal sample, distinguishes somatic from germline events. R. <details>
     <summary>Paper</summary>
