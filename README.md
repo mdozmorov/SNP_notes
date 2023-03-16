@@ -82,7 +82,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [vcfR](https://cran.r-project.org/web/packages/vcfR/index.html) - Manipulate and Visualize VCF Data. R.
 
-- [vcf2tsv](https://github.com/sigven/vcf2tsv) - Genomic VCF to tab-separated values, by [Sigve Nakken](https://github.com/sigven). Python.
+- [vcf2tsvpy](https://github.com/sigven/vcf2tsvpy) - Genomic VCF to tab-separated values, by [Sigve Nakken](https://github.com/sigven). Python.
 
 ### Depth
 
