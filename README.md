@@ -78,6 +78,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Yan, Melissa Y, Betsy Ferguson, and Benjamin N Bimber. “VariantQC: A Visual Quality Control Report for Variant Evaluation.” Edited by Jonathan Wren. Bioinformatics, July 16, 2019, btz560. https://doi.org/10.1093/bioinformatics/btz560.
 </details>
 
+- [vcf-diff](https://github.com/dfornika/vcf-diff) - Check for differences between two vcf files
+
 - [vcf-split](https://github.com/auerlab/vcf-split) - Split combined-sample VCF stream into single-sample VCF files. C, shell.
 
 - [vcfR](https://cran.r-project.org/web/packages/vcfR/index.html) - Manipulate and Visualize VCF Data. R.
