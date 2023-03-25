@@ -88,15 +88,17 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Depth
 
+- [bamCoverage](https://deeptools.readthedocs.io/en/latest/content/tools/bamCoverage.html) - BAM to bigWig conversion, part of [Deeptools](https://deeptools.readthedocs.io/). Python, shell.
+
 - [BAMscale](https://github.com/ncbi/BAMscale) - BAMscale is a one-step tool for either 1) quantifying and normalizing the coverage of peaks or 2) generated scaled BigWig files for easy visualization of commonly used DNA-seq capture based methods. C, R.
 
-- [mosdepth](https://github.com/brentp/mosdepth) - fast BAM/CRAM depth calculation for WGS, exome, or targetted sequencing. Nim, shell.
+- [histoneSig](https://github.com/semibah/histonesig) - R package for working with genome files as continuous representations or "signals". R.
 
 - [goleft](https://github.com/brentp/goleft) - a collection of bioinformatics tools distributed under MIT license in a single static binary. covstats - estimate coverage and insert-size statistics on bams by sampling; depth - parallelize calls to samtools in user-defined windows; depthwed - matricize output from depth to n-sites * n-samples; indexcov - quick coverage estimate using only the bam index; indexsplit - generate regions of even data across a cohort (for parallelization); samplename - report samplename(s) from a bam's SM tag. Go.
 
-- [bamCoverage](https://deeptools.readthedocs.io/en/latest/content/tools/bamCoverage.html) - BAM to bigWig conversion, part of [Deeptools](https://deeptools.readthedocs.io/). Python, shell.
+- [mosdepth](https://github.com/brentp/mosdepth) - fast BAM/CRAM depth calculation for WGS, exome, or targetted sequencing. Nim, shell.
 
-- [histoneSig](https://github.com/semibah/histonesig) - R package for working with genome files as continuous representations or "signals". R.
+- [perbase](https://github.com/sstadick/perbase) - Per-base per-nucleotide depth analysis. Written in Rust, command line.
 
 ### Genome comparison
 
