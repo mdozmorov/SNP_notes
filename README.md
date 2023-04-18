@@ -507,6 +507,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Belleau, Pascal, Astrid Deschênes, David A. Tuveson, and Alexander Krasnitz. “Accurate and Robust Inference of Genetic Ancestry from Cancer-Derived Molecular Data across Genomic Platforms.” Preprint. Bioinformatics, February 4, 2022. https://doi.org/10.1101/2022.02.01.478737.
 </details>
 
+- Ancestry prediction for PDX models in PDXNet. Ancestry estimation pipeline on the Seven Bridges Genomics Cancer Genomics Cloud. SNPweights is the core algorithm, with a custom weight panel. Methods and data for building the reference panel. Power analysis for the number of samples in each ancestry category needed to detect dominant driver mutations (150-300 samples needed). The pipeline and the custom reference panel are not available until publication. <details>
+    <summary>Paper</summary>
+    Sanderson, Brian J., Paul Lott, Katherine Chiu, Juanita Elizabeth Quino, April Pangia Vang, Michael W. Lloyd, Anuj Srivastava, PDXNet Consortium, Jeffrey H. Chuang, and Luis G. Carvajal-Carmona. “Development and Application of Genetic Ancestry Reconstruction Methods to Study Diversity of Patient-Derived Models in the NCI PDXNet Consortium.” Preprint. Cancer Biology, October 25, 2022. https://doi.org/10.1101/2022.10.24.513591.
+</details>
+
 - [ancestryinformativemarkers](https://github.com/leipzig/ancestryinformativemarkers) - Public AIMs, by [Jeremy Leipzig](https://github.com/leipzig)
 
 - AIM panels have been developed for European Americans (Paschou et al., 2008; Price et al., 2008; Seldin and Price, 2008; Tian et al., 2008) and Latino Americans (Galanter et al., 2012). [Source](https://doi.org/10.1093/bioinformatics/btt144)
