@@ -168,6 +168,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - Liu, Fenglin, Yuanyuan Zhang, Lei Zhang, Ziyi Li, Qiao Fang, Ranran Gao, and Zemin Zhang. "[Systematic comparative analysis of single-nucleotide variant detection methods from single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1863-4)." Genome Biology, (19 November 2019) - comparison of seven tools for SNP detection in scRNA-seq data. SAMtools, Strelka2, FreeBayes, and CTAT are best.
 
+- [SmartRNASeqCaller](https://github.com/inab/SmartRNASeqCaller) - a post-processing pipeline (Python, Nextflow) to reduce false positive calls from RNA-seq. Random Forest model, trained on a mix of 20 features, generic and GATK-specific, 11 selected. GIAB and Neuromics datasets, Analyzis Freeze WGS variant calls used in GTeX and Allele Specific Expression analyses as gold standard. Benchmarked against GATK best practices, SNPiR. Increases precision, minimally affects sensitivity. Nextflow, Docker implementation. <details>
+    <summary>Paper</summary>
+    Bosio, Mattia, Alfonso Valencia, and Salvador Capella-Gutierrez. “SmartRNASeqCaller: Improving Germline Variant Calling from RNAseq.” Preprint. Bioinformatics, June 27, 2019. https://doi.org/10.1101/684993.
+</details>
+
 - [RDConnect_RNASeq](https://github.com/inab/RDConnect_RNASeq) - Nextflow pipeline for SNP calling from RNA-seq data.
 
 ### Deep learning SNP callers
