@@ -15,6 +15,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
   - [Depth](#depth)
   - [Genome comparison](#genome-comparison)
 - [SNP callers](#snp-callers)
+  - [RNA-seq SNP callers](#rna-seq-snp-callers)
   - [Deep learning SNP callers](#deep-learning-snp-callers)
 - [SNP annotations](#snp-annotations)
 - [SNP signatures](#snp-signatures)
@@ -120,8 +121,6 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## SNP callers
 
-- Liu, Fenglin, Yuanyuan Zhang, Lei Zhang, Ziyi Li, Qiao Fang, Ranran Gao, and Zemin Zhang. "[Systematic comparative analysis of single-nucleotide variant detection methods from single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1863-4)." Genome Biology, (19 November 2019) - comparison of seven tools for SNP detection in scRNA-seq data. SAMtools, Strelka2, FreeBayes, and CTAT are best.
-
 - Xu, Chang. “[A Review of Somatic Single Nucleotide Variant Calling Algorithms for Next-Generation Sequencing Data](https://doi.org/10.1016/j.csbj.2018.01.003).” Computational and Structural Biotechnology Journal, (6 February 2018) - Overview of 46 somatic Single Nucleotide Variant (SNV) caller tools. Pre-processing, variant evaluation, and post-filtering steps. Four categories of algorithms, description of each, and the corresponding tools: matched tumor-normal (position-, haplotype-, mathine learning-based methods, [Table 1](https://www.sciencedirect.com/science/article/pii/S2001037017300946?via%3Dihub#t0005)), single-sample ([Table 2](https://www.sciencedirect.com/science/article/pii/S2001037017300946?via%3Dihub#t0010), some offer somatic-germline classification), UMI-based (UMI technology, [Figure 1](https://www.sciencedirect.com/science/article/pii/S2001037017300946?via%3Dihub#f0005), [Table 3](https://www.sciencedirect.com/science/article/pii/S2001037017300946?via%3Dihub#t0015)), and RNA-seq (Technology, issues, [Table 4](https://www.sciencedirect.com/science/article/pii/S2001037017300946?via%3Dihub#t0020)) variant calling. Benchmarking using tools for generating synthetic reads, spike-ins, GiAB, melanoma-normal samples, performance evaluation metrics. Issues in representing complex variants and tools for variant normalization. Deep neural network-based algorithms perform best.
 
 - [ABRA](https://github.com/mozack/abra) - Assembly Based ReAligner. It uses localized assembly (de Bruijn graph) and global realignment to align reads more accurately, thus improving downstream analysis (detection of indels and complex variants in particular). For exome sequencing, requires targets in BED file. Extended with Cadabra, somatic indel variant caller. Java, C++. <details>
@@ -164,6 +163,12 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     <summary>Paper</summary>
     Köster, Johannes, Louis J. Dijkstra, Tobias Marschall, and Alexander Schönhuth. “[Varlociraptor: Enhancing Sensitivity and Controlling False Discovery Rate in Somatic Indel Discovery](https://doi.org/10.1186/s13059-020-01993-6).” Genome Biology 21, no. 1 (December 2020)
 </details>
+
+### RNA-seq SNP callers
+
+- Liu, Fenglin, Yuanyuan Zhang, Lei Zhang, Ziyi Li, Qiao Fang, Ranran Gao, and Zemin Zhang. "[Systematic comparative analysis of single-nucleotide variant detection methods from single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1863-4)." Genome Biology, (19 November 2019) - comparison of seven tools for SNP detection in scRNA-seq data. SAMtools, Strelka2, FreeBayes, and CTAT are best.
+
+
 
 ### Deep learning SNP callers
 
