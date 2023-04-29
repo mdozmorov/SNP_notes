@@ -168,7 +168,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - Liu, Fenglin, Yuanyuan Zhang, Lei Zhang, Ziyi Li, Qiao Fang, Ranran Gao, and Zemin Zhang. "[Systematic comparative analysis of single-nucleotide variant detection methods from single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1863-4)." Genome Biology, (19 November 2019) - comparison of seven tools for SNP detection in scRNA-seq data. SAMtools, Strelka2, FreeBayes, and CTAT are best.
 
-
+- [RDConnect_RNASeq](https://github.com/inab/RDConnect_RNASeq) - Nextflow pipeline for SNP calling from RNA-seq data.
 
 ### Deep learning SNP callers
 
