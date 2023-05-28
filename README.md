@@ -103,6 +103,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Genome comparison
 
+- [NAHRwhals](https://github.com/WHops/NAHRwhals) - R package and wrapper functions for identifying serial structural variations from genome assemblies. Dotplot visualization.
+
 - [Ragout2](https://github.com/fenderglass/Ragout) - a reference-assisted assembly tool that works for large and complex genomes. Combines Cactus, a multiple whole-genome aligner, with a new iterative graph simplification algorithm that produces hierarchical synteny blocks on multiple scales. Utilizes information from multple genomes. Infers the evolutionary relationships between the genomes and builds the final assemblies using a genome rearrangement approach. Detects synteny blocks, resolves repeats, chimeric sequences. Accuracy comparable with assemblies from BioNano maps, Hi-C, BAC clones, FISH. Benchmarked against RACA on simulated and experimental (16 mouse genomes) data. See also [maf2synteny](https://github.com/fenderglass/maf2synteny) <details>
     <summary>Paper</summary>
     Kolmogorov, Mikhail, Joel Armstrong, Brian J. Raney, Ian Streeter, Matthew Dunn, Fengtang Yang, Duncan Odom, et al. “Chromosome Assembly of Large and Complex Genomes Using Multiple References.” Genome Research 28, no. 11 (November 2018): 1720–32. https://doi.org/10.1101/gr.236273.118.
