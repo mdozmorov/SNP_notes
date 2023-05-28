@@ -366,6 +366,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [VarClust](https://github.com/fasterius/VarClust) - A Python package for clustering of single nucleotide variants from high-through seqencing data. Works on single-sample VCF files.
 
+- [vcf2circos](https://github.com/bioinfo-chru-strasbourg/vcf2circos) - Python plotly circos visualization from VCF, along with genes, structural variants, CNVs.
+
 - [VIVA](https://github.com/compbiocore/VariantVisualization.jl) - VCF visualization tool, written in Julia. Competing tools - vcfR, IGVZ, Genome Browser, Genome Savant, svviz, jvarkit - JfxNgs. Input - VCF file and, optionally, variant list, sample list, sample metadata. Filtering. Heatmap visualization. Julia. <details>
     <summary>Paper</summary>
     Tollefson, George A, Jessica Schuster, Fernando Gelin, Ashok Ragavendran, Isabel Restrepo, Paul Stey, James Padbury, and Alper Uzun. “VIVA (VIsualization of VAriants): A VCF File Visualization Tool.” BioRxiv, March 28, 2019. https://doi.org/10.1101/589879.
