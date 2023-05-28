@@ -516,6 +516,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Pritchard, Jonathan K, Matthew Stephens, and Peter Donnelly. “Inference of Population Structure Using Multilocus Genotype Data.” Genetics 155, no. 2 (June 1, 2000): 945–59. https://doi.org/10.1093/genetics/155.2.945.
 </details>
 
+- A harmonized collection of deeply sequenced, phased human genomes from the 1000 Genomes Project (1kGP) and Human Genome Diversity Project (HGDP). SNPs, InDels, SVs, investigation of population structure. Python, implemented using [Hail.is](https://hail.is/) data structures. [Tutorials](https://github.com/atgu/hgdp_tgp/tree/master/tutorials), five Jupyter notebooks demonstrating QC of sequencing data, relatedness inference and PCA, calculating statistics by population, analyzing genetic divergence, and applying ancestry analysis to a new dataset using HGDP+1kGP as a reference panel. <details>
+    <summary>Paper</summary>
+    Koenig, Zan, Mary T. Yohannes, Lethukuthula L. Nkambule, Julia K. Goodrich, Heesu Ally Kim, Xuefang Zhao, Michael W. Wilson, et al. “A Harmonized Public Resource of Deeply Sequenced Diverse Human Genomes.” Preprint. Genomics, January 23, 2023. https://doi.org/10.1101/2023.01.23.525248.
+</details>
+
 - Ancestry inference from any genomics data. Data synthesis framework - repeatedly adding population reference genomics data with known ancestry to the data of interest with unknown ancestry and assessing performance in inferring ancestry (PCA, five dimensions, K nearest neighborhood clustering). Idea - if ancestry backgrounds match, addition of the reference genomics data will improve performance. Code upon request. <details>
     <summary>Paper</summary>
     Belleau, Pascal, Astrid Deschênes, David A. Tuveson, and Alexander Krasnitz. “Accurate and Robust Inference of Genetic Ancestry from Cancer-Derived Molecular Data across Genomic Platforms.” Preprint. Bioinformatics, February 4, 2022. https://doi.org/10.1101/2022.02.01.478737.
