@@ -311,6 +311,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [SignatureAnalyzer](https://software.broadinstitute.org/cancer/cga/msp) - finding mutation patterns in multiple samples, NMF. Part of [CGA](https://software.broadinstitute.org/cancer/cga/) Cancer Genome Analysis tools.
 
+- [SigProfilerAssignment](https://github.com/AlexandrovLab/SigProfilerAssignment) - Assignment of known mutational signatures to individual samples and individual somatic mutations, Python.
+
 - [SparseSignatures](https://github.com/danro9685/SparseSignatures), [R package](https://bioconductor.org/packages/release/bioc/html/SparseSignatures.html) - De Novo Mutational Signature Discovery in Tumor Genomes using SparseSignatures. <details>
     <summary>Paper</summary>
     Lal, Avantika, Keli Liu, Robert Tibshirani, Arend Sidow, and Daniele Ramazzotti. "De novo mutational signature discovery in tumor genomes using SparseSignatures." PLoS computational biology 17, no. 6 (2021): e1009119. https://doi.org/10.1371/journal.pcbi.1009119
