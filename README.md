@@ -533,6 +533,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Sanderson, Brian J., Paul Lott, Katherine Chiu, Juanita Elizabeth Quino, April Pangia Vang, Michael W. Lloyd, Anuj Srivastava, PDXNet Consortium, Jeffrey H. Chuang, and Luis G. Carvajal-Carmona. “Development and Application of Genetic Ancestry Reconstruction Methods to Study Diversity of Patient-Derived Models in the NCI PDXNet Consortium.” Preprint. Cancer Biology, October 25, 2022. https://doi.org/10.1101/2022.10.24.513591.
 </details>
 
+- [kgp2anc](https://github.com/freeseek/kgp2anc) - A protocol to estimate global ancestry starting from raw Illumina data
+
 - [ancestryinformativemarkers](https://github.com/leipzig/ancestryinformativemarkers) - Public AIMs, by [Jeremy Leipzig](https://github.com/leipzig)
 
 - AIM panels have been developed for European Americans (Paschou et al., 2008; Price et al., 2008; Seldin and Price, 2008; Tian et al., 2008) and Latino Americans (Galanter et al., 2012). [Source](https://doi.org/10.1093/bioinformatics/btt144)
