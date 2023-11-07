@@ -457,6 +457,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [GRAF-pop](https://github.com/ncbi/dbsnp/tree/graf-pop-test/Frequency%20Project/graf-pop) - a distance-based ancestry inference method used by dbGAP, uses 10K but works with as low as 150 SNPs. Barycentric coordinates, directly interpretable. Outperforms EIGENSTRAT, FastPCA, FlashPCA, especially when genotypes are sparse. SNPweights performs poorly. <details>
+    <summary>Paper</summary>
+    Jin, Yumi, Alejandro A Schaffer, Michael Feolo, J Bradley Holmes, and Brandi L Kattman. “GRAF-Pop: A Fast Distance-Based Method To Infer Subject Ancestry from Multiple Genotype Datasets Without Principal Components Analysis.” G3 Genes|Genomes|Genetics 9, no. 8 (August 1, 2019): 2447–61. https://doi.org/10.1534/g3.118.200925.
+</details>
+
 - [ADMIXTURE](https://dalexander.github.io/admixture/) - ancestry estimation using a model-based approach. Similar model as in STRUCTURE, FRAPPE, detailed description of model similarities and differences, fast numerical optimization algorithm. Contrasted with PCA-based EIGENSTRAT, STRUCTURE, nearly the same speed (as EIGENSTRAT) and performance on experimental and simulated data. Binaries for Linux and Mac. [Manual](https://dalexander.github.io/admixture/admixture-manual.pdf). <details>
     <summary>Paper</summary>
     Alexander, David H., John Novembre, and Kenneth Lange. “Fast Model-Based Estimation of Ancestry in Unrelated Individuals.” Genome Research 19, no. 9 (September 2009): 1655–64. https://doi.org/10.1101/gr.094052.109.
