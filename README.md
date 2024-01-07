@@ -242,6 +242,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Chen, Xi, Jian Zhou, Ran Zhang, Aaron K. Wong, Christopher Y. Park, Chandra L. Theesfeld, and Olga G. Troyanskaya. “Tissue-Specific Enhancer Functional Networks for Associating Distal Regulatory Regions to Disease.” Cell Systems 12, no. 4 (April 2021): 353-362.e6. https://doi.org/10.1016/j.cels.2021.02.002.
 </details>
 
+- [FORGEdb](https://forgedb.cancer.gov/) - web and standalone tool for genomic variant prioritization. Integrates multiplw databases, identifies regulatory elements (ENCODE, Roadmap, etc.), TFBSs, target genes (enhancer-promoter loops, Activity-by-contact (ABC), etc.) for over 37M variants. A combined score of 5 lines of evidence (DNAse, Histone mark, TF motif, ABC, eQTL) that correlate with expression-modulating variants. [API](https://forgedb.cancer.gov/api-access), [LDlinkR](https://CRAN.R-project.org/package=LDlinkR) R package for programmatic access. [GitHub](https://github.com/CBIIT/nci-webtools-dceg-forgedb). <details>
+    <summary>Paper</summary>
+    Breeze, Charles E., Eric Haugen, María Gutierrez-Arcelus, Xiaozheng Yao, Andrew Teschendorff, Stephan Beck, Ian Dunham, et al. “FORGEdb: A Tool for Identifying Candidate Functional Variants and Uncovering Target Genes and Mechanisms for Complex Diseases.” Genome Biology 25, no. 1 (January 2, 2024): 3. https://doi.org/10.1186/s13059-023-03126-1.
+</details>
+
 - [FUMA](https://fuma.ctglab.nl/) - Functional Mapping and Annotation of GWAS using 43 scRNA-seq datasets (human and mouse). MAGMA Cell type-specific enrichment. Applied to 26 GWAS disorders. [Download](https://github.com/Kyoko-wtnb/FUMA_scRNA_data) processed data. <details>
     <summary>Paper</summary>
     Watanabe, Kyoko, Maša Umićević Mirkov, Christiaan A. de Leeuw, Martijn P. van den Heuvel, and Danielle Posthuma. “Genetic Mapping of Cell Type Specificity for Complex Traits.” Nature Communications 10, no. 1 (December 2019): 3222. https://doi.org/10.1038/s41467-019-11181-1.
