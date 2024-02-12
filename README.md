@@ -99,6 +99,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [mosdepth](https://github.com/brentp/mosdepth) - fast BAM/CRAM depth calculation for WGS, exome, or targetted sequencing. Nim, shell.
 
+- [PanDepth](https://github.com/HuiyangYu/PanDepth) - PanDepth, an ultra-fast and efficient genomic tool for coverage calculation
+
 - [perbase](https://github.com/sstadick/perbase) - Per-base per-nucleotide depth analysis. Written in Rust, command line.
 
 ### Genome comparison
