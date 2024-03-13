@@ -464,6 +464,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [snvstory](https://github.com/nch-igm/snvstory) - ancestry inference at subcontinental level (36 populations). Three independent machine learning approaches (XGBools on gnomAD, SNV on 1kGP and SGDP). Input - GATK-processed VCF files. Related samples removed following KING analysis. Feature importance analysis (SHAP) prioritizes ancestry-associated genes (Fig. 3, Table S2 lists top 20). Exonic regions are as good as whole genome data. Compared with ADMIXTURE and RFMix, similar performance. <details>
+    <summary>Paper</summary>
+    Bollas, Audrey E., Andrei Rajkovic, Defne Ceyhan, Jeffrey B. Gaither, Elaine R. Mardis, and Peter White. “SNVstory: Inferring Genetic Ancestry from Genome Sequencing Data.” BMC Bioinformatics 25, no. 1 (February 20, 2024): 76. https://doi.org/10.1186/s12859-024-05703-y.
+</details>
+
 - [GRAF-pop](https://github.com/ncbi/dbsnp/tree/graf-pop-test/Frequency%20Project/graf-pop) - a distance-based ancestry inference method used by dbGAP, uses 10K but works with as low as 150 SNPs. Barycentric coordinates, directly interpretable. Outperforms EIGENSTRAT, FastPCA, FlashPCA, especially when genotypes are sparse. SNPweights performs poorly. <details>
     <summary>Paper</summary>
     Jin, Yumi, Alejandro A Schaffer, Michael Feolo, J Bradley Holmes, and Brandi L Kattman. “GRAF-Pop: A Fast Distance-Based Method To Infer Subject Ancestry from Multiple Genotype Datasets Without Principal Components Analysis.” G3 Genes|Genomes|Genetics 9, no. 8 (August 1, 2019): 2447–61. https://doi.org/10.1534/g3.118.200925.
