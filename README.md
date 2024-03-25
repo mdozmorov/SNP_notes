@@ -464,6 +464,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [EthSEQ](https://github.com/cibiobcg/EthSEQ) - R package for ancestry analysis supporting BAM, VCF, and GDS files. Provides models for continental-level ancestry analysis, accepts models in GDS format for other types. Basic visualization capabilities (2D and 3D PCA plots). Predictions for [TCGA](https://github.com/cibiobcg/EthSEQ_Data/blob/master/EthSEQ_Calls_TCGA_CancerCell2020_PMID32396860/EthSEQ_Calls_TCGA_CancerCell2020_PMID32396860.txt), [example output](https://github.com/cibiobcg/EthSEQ_Data/tree/master/example_outputs). <details>
+    <summary>Paper</summary>
+    Dalfovo, Davide, and Alessandro Romanel. “Analysis of Genetic Ancestry from NGS Data Using EthSEQ.” Current Protocols 3, no. 2 (February 2023): e663. https://doi.org/10.1002/cpz1.663.
+</details>
+
 - [snvstory](https://github.com/nch-igm/snvstory) - ancestry inference at subcontinental level (36 populations). Three independent machine learning approaches (XGBools on gnomAD, SNV on 1kGP and SGDP). Input - GATK-processed VCF files. Related samples removed following KING analysis. Feature importance analysis (SHAP) prioritizes ancestry-associated genes (Fig. 3, Table S2 lists top 20). Exonic regions are as good as whole genome data. Compared with ADMIXTURE and RFMix, similar performance. <details>
     <summary>Paper</summary>
     Bollas, Audrey E., Andrei Rajkovic, Defne Ceyhan, Jeffrey B. Gaither, Elaine R. Mardis, and Peter White. “SNVstory: Inferring Genetic Ancestry from Genome Sequencing Data.” BMC Bioinformatics 25, no. 1 (February 20, 2024): 76. https://doi.org/10.1186/s12859-024-05703-y.
