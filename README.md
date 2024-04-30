@@ -105,6 +105,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Genome comparison
 
+- [SyRI](https://schneebergerlab.github.io/syri/) (Synteny and Rearrangement Identifier) - whole genome/chromosome assembly comparison tool. Identifies structural and sequence differences, then local sequence differences within rearranged and non-rearraned synthenic regions. Outperforms AsmVar, Smartie-sv, Assemblytics, Sniffles, Picky, LUMPY, on synthetic data. Python. [GitHub](https://github.com/schneebergerlab/syri). <details>
+    <summary>Paper</summary>
+    Goel, Manish, Hequan Sun, Wen-Biao Jiao, and Korbinian Schneeberger. “SyRI: Finding Genomic Rearrangements and Local Sequence Differences from Whole-Genome Assemblies.” Genome Biology 20, no. 1 (December 2019): 277. https://doi.org/10.1186/s13059-019-1911-0.
+</details>
+
 - [NAHRwhals](https://github.com/WHops/NAHRwhals) - R package and wrapper functions for identifying serial structural variations from genome assemblies. Dotplot visualization.
 
 - [Ragout2](https://github.com/fenderglass/Ragout) - a reference-assisted assembly tool that works for large and complex genomes. Combines Cactus, a multiple whole-genome aligner, with a new iterative graph simplification algorithm that produces hierarchical synteny blocks on multiple scales. Utilizes information from multple genomes. Infers the evolutionary relationships between the genomes and builds the final assemblies using a genome rearrangement approach. Detects synteny blocks, resolves repeats, chimeric sequences. Accuracy comparable with assemblies from BioNano maps, Hi-C, BAC clones, FISH. Benchmarked against RACA on simulated and experimental (16 mouse genomes) data. See also [maf2synteny](https://github.com/fenderglass/maf2synteny) <details>
