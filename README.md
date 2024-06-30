@@ -469,6 +469,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [AEon](https://github.com/GenomicRisk/aeon) - ancestry estimation tool on the 26 reference populations of the 1000 genomes project. Input: VCF/BCF files. Output: CSV, visualization of the first three PC components. Reference alleles included (128097 ancestry-informatice loci). Uses ADMIXTURE-like model by maximum likelihood, identical results, fast, memory efficient. Python. [Docker](https://hub.docker.com/r/naomiwren/aeon). <details>
+    <summary>Paper</summary>
+    Warren, Naomi M., and Mark Pinese. "AEon: A global genetic ancestry estimation tool." bioRxiv (2024): 2024-06. https://doi.org/10.1101/2024.06.18.599246
+</details> 
+
 - [EthSEQ](https://github.com/cibiobcg/EthSEQ) - R package for ancestry analysis supporting BAM, VCF, and GDS files. Provides models for continental-level ancestry analysis, accepts models in GDS format for other types. Basic visualization capabilities (2D and 3D PCA plots). Predictions for [TCGA](https://github.com/cibiobcg/EthSEQ_Data/blob/master/EthSEQ_Calls_TCGA_CancerCell2020_PMID32396860/EthSEQ_Calls_TCGA_CancerCell2020_PMID32396860.txt), [example output](https://github.com/cibiobcg/EthSEQ_Data/tree/master/example_outputs). <details>
     <summary>Paper</summary>
     Dalfovo, Davide, and Alessandro Romanel. “Analysis of Genetic Ancestry from NGS Data Using EthSEQ.” Current Protocols 3, no. 2 (February 2023): e663. https://doi.org/10.1002/cpz1.663.
