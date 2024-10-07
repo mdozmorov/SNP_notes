@@ -60,6 +60,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Preprocessing tools
 
+- [FixItFelix](https://github.com/srbehera/FixItFelix) - realignment of reads in 1.2 Mbp duplicated and 8.04Mbp collapsed genomes in GRCh38 assembly, affecting 33 protein-coding genes, including 12 with medical relevance. A modified GRCh38 reference that includes masked regions and new decoy contigs. Used two benchmarking datasets, improves nearly all metrics. <details>
+    <summary>Paper</summary>
+    Behera, Sairam, Jonathon LeFaive, Peter Orchard, Medhat Mahmoud, Luis F. Paulin, Jesse Farek, Daniela C. Soto, et al. “FixItFelix: Improving Genomic Analysis by Fixing Reference Errors.” Genome Biology 24, no. 1 (February 21, 2023): 31. https://doi.org/10.1186/s13059-023-02863-7.
+</details>
+
 - [genomics_general](https://github.com/simonhmartin/genomics_general) - This is a collection of scripts for a range of genomic data processing and analysis. Processing VCF files; Diversity and divergence analyses in sliding windows; Distance matrix; ABBA-BABA statistics in sliding windows; Trees for sliding windows. Python.
 
 - [alleleCount](https://github.com/cancerit/alleleCount) - Takes a file of locations and a [cr|b]am file and generates a count of coverage of each allele [ACGT] at that location. C, Perl, shell. Docker.
