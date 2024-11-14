@@ -543,6 +543,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Maples, Brian K., Simon Gravel, Eimear E. Kenny, and Carlos D. Bustamante. “RFMix: A Discriminative Modeling Approach for Rapid and Robust Local-Ancestry Inference.” The American Journal of Human Genetics 93, no. 2 (August 2013): 278–88. https://doi.org/10.1016/j.ajhg.2013.06.020.
 </details>
 
+- [AncestryGrapher](https://github.com/alisi1989/RFmix2-Pipeline-to-plot) - visualization of global and local ancestry from RFMIX2. Global Ancestry Painting (GAP) - three separate Python scripts: (i) RFMIX2ToBed4GAP.py; (ii) BedToGAP.py; and (iii) GAP.py. Local Ancestry Painting (LAP) - three separate Python scripts: (i) RFMIX2ToBed.py; (ii) BedToLAP.py; and (iii) LAP.py. <details>
+    <summary>Paper</summary>
+    Lisi, Alessandro, and Michael C Campbell. “AncestryGrapher Toolkit: Python Command-Line Pipelines to Visualize Global- and Local- Ancestry Inferences from the RFMIX Version 2 Software.” Edited by Christina Kendziorski. Bioinformatics 40, no. 11 (November 1, 2024): btae616. https://doi.org/10.1093/bioinformatics/btae616.
+</details>
+
 - [somalier](https://github.com/brentp/somalier) - fast sample-swap and relatedness checks on BAMs/CRAMs/VCFs/GVCFs, by Brent Pedersen. Commands: extract, relate, ancestry, find-sites. [Ancestry prediction wiki](https://github.com/brentp/somalier/wiki/ancestry)
 
 - [SNPweights](https://www.hsph.harvard.edu/alkes-price/software/) - ancestry inference using SNP weights from external reference panels. Greater accuracy than ancestry-informative markers (AIMs are 10-fold more informative than random SNPs for ancestry inference). PCA on the reference panel, prediction of PCs for the unseen samples. SNPs excluded: chrX, A/T, C/G. Predicted PCs using genome-wide SNPs have the highest accuracy. SNP weights for various populations are available. <details>
