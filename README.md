@@ -776,6 +776,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Marees, Andries T., Hilde de Kluiver, Sven Stringer, Florence Vorspan, Emmanuel Curis, Cynthia Marie-Claire, and Eske M. Derks. “A Tutorial on Conducting Genome-Wide Association Studies: Quality Control and Statistical Analysis.” International Journal of Methods in Psychiatric Research 27, no. 2 (2018): e1608. https://doi.org/10.1002/mpr.1608.
 </details>
 
+- [HumGen2024R](https://github.com/jeffreyblanchard/HumGen2024R) - R-based Human Genome Analysis course, tutorials and code. [Web](https://jeffreyblanchard.github.io/HumGen2024R/)
+
 - Long-range sequencing and software for data processing. SMRT by Pacific Bioscience, nanopore-based by Oxford Nanopore, genome partitioning and barcoding by 10X Genomics, Hi-C based, BioNano optical mapping (Table 1). Table 2 - Bioinformatics tools for de novo genome assembly, SNP/CNV etc. variant detection, phasing, RNA-seq, methylation. Text describes each tool. <details>
     <summary>Paper</summary>
     Sedlazeck, Fritz J., Hayan Lee, Charlotte A. Darby, and Michael C. Schatz. “[Piercing the Dark Matter: Bioinformatics of Long-Range Sequencing and Mapping](https://doi.org/10.1038/s41576-018-0003-4).” Nature Reviews Genetics 19, no. 6 (June 2018)
