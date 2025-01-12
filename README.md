@@ -474,6 +474,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [AncestryHub](https://www.ancestryhub.4dgenome.com/) - web server for global and local ancestry analysis, aMAP (ancestry of Modern Admixed Populations) frontend. Input - VCF format, must have more than 2,000 SNPs per chromosome. Text and visualization output. [Supplementary material](https://www.biorxiv.org/content/10.1101/2025.01.02.630692v1.supplementary-material) - long list of current ancestry tools. <details>
+    <summary>Paper</summary>
+    Yang, Xiangyu, Xuankai Wang, Yawen Zou, Shilong Zhang, Manying Xia, Lianting Fu, Mitchell R. Vollger, et al. “Characterization of Large-Scale Genomic Differences in the First Complete Human Genome.” Genome Biology 24, no. 1 (July 4, 2023): 157. https://doi.org/10.1186/s13059-023-02995-w.
+</details>
+
 - [AEon](https://github.com/GenomicRisk/aeon) - ancestry estimation tool on the 26 reference populations of the 1000 genomes project. Input: VCF/BCF files. Output: CSV, visualization of the first three PC components. Reference alleles included (128097 ancestry-informatice loci). Uses ADMIXTURE-like model by maximum likelihood, identical results, fast, memory efficient. Python. [Docker](https://hub.docker.com/r/naomiwren/aeon). <details>
     <summary>Paper</summary>
     Warren, Naomi M., and Mark Pinese. "AEon: A global genetic ancestry estimation tool." bioRxiv (2024): 2024-06. https://doi.org/10.1101/2024.06.18.599246
