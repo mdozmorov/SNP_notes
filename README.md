@@ -36,6 +36,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## Variant calling pipelines
 
+- [Metapipeline-DNA](https://github.com/uclahs-cds/metapipeline-DNA) - Nextflow pipeline for whole genome and targeted sequencing data analysis. Supports germline DNA sequencing, family trios, unpaired tumor, multi-region tumor-normal pairs. QC, alignment, recalibration, SNP/SV/CNA calling (HaplotypeCaller, MuTect2, Strelka2, SomaticSniper, MuSE2, DELLY2, CNV_FASETS, Battenberg) and selecting consensus/stable variants, phylogeny, ancestry, annotation (SnpEff, Funcotator, VEP, ClinVar), visualization. Gold-standard tools like GATK, Plink. Tested on the ICGC-TCGA DREAM Somatic Mutation Calling Tumor Heterogeneity Challenge data. <details>
+    <summary>Paper</summary>
+    Patel, Yash, Chenghao Zhu, Takafumi N. Yamaguchi, Nicholas K. Wang, Nicholas Wiltsie, Nicole Zeltser, Alfredo E. Gonzalez, et al. “Metapipeline-DNA: A Comprehensive Germline & Somatic Genomics Nextflow Pipeline,” September 7, 2024. https://doi.org/10.1101/2024.09.04.611267.
+</details>
+
 - [SAMtools, BCFtools, and HTSlib](https://www.htslib.org/) development history, functionality. Work directly with SAM, BAM, or CRAM formats. Improved functionality, e.g., indexing files as they written, speed improvement. [HTSlib landing page](https://www.htslib.org/) with download, workflows, documentation, support links. [HTSlib manual pages](https://www.htslib.org/doc/#manual-pages), [SAMtools manual](https://www.htslib.org/doc/samtools.html), [BCFtools manual](https://www.htslib.org/doc/bcftools.html). [Supplementary data](http://gigadb.org/dataset/100866), Table S1: SAMtools commands; Table S2: BCFtools commands. <details>
     <summary>Paper</summary>
     Danecek, Petr, James K Bonfield, Jennifer Liddle, John Marshall, Valeriu Ohan, Martin O Pollard, Andrew Whitwham, et al. “Twelve Years of SAMtools and BCFtools.” GigaScience 10, no. 2 (January 29, 2021): giab008. https://doi.org/10.1093/gigascience/giab008.
