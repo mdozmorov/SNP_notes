@@ -712,6 +712,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [instasv](https://github.com/venyao/intansv) - Integrative analysis of structural variations called by different tools. R.
 
+- [ShinyCNV](https://github.com/gzhmat/ShinyCNV) - a Shiny/R application to view and annotate copy number variations. [Youtube](https://youtu.be/EQrsyyQFHqA) 12 min, Input data text [format](http://penncnv.openbioinformatics.org/en/latest/user-guide/input/). <details>
+    <summary>Paper</summary>
+    Zhaohui Gu, Charles G Mullighan; ShinyCNV: a Shiny/R application to view and annotate DNA copy number variations, Bioinformatics, bty546, https://doi.org/10.1093/bioinformatics/bty546
+</details>
+
 - [gnomAD-SV](https://gnomad.broadinstitute.org/) - structural variants from deep WGS, added to gnomAD browser. 14,891 genomes, average statistics of SVs in general population. <details>
     <summary>Paper</summary>
     Collins, Ryan L., Harrison Brand, Konrad J. Karczewski, Xuefang Zhao, Jessica Alföldi, Amit V. Khera, Laurent C. Francioli, et al. “[An Open Resource of Structural Variation for Medical and Population Genetics](https://doi.org/10.1101/578674).” BioRxiv, March 14, 2019.
