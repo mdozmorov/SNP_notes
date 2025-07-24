@@ -25,7 +25,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
   - [GWAS pipelines](#gwas-pipelines)
   - [Ancestry](#ancestry)
   - [eQTLs](#eqtls)
-  - [Polygenic risk score](#polygenic-risk-score)
+  - [Polygenic risk scorecd # CNV
+  ](#polygenic-risk-score)
   - [Regulatory](#regulatory)
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
@@ -638,6 +639,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 
 ## CNV, SV
+
+- [ReConPlot](https://github.com/cortes-ciriano-lab/ReConPlot) - R package for visualization of genomic rearrangements (CNVs and SVs). Input - BED file with an indicator column. Deletion-like SVs (DEL) are represented as '+-', duplication-like SVs (DUP) as '-+', tail-to-tail inversions (t2tInv) as '--', and head-to-head inversions (h2hInv) as '++'. <details>
+    <summary>Paper</summary>
+    Espejo Valle-Inclán, Jose, and Isidro Cortés-Ciriano. “ReConPlot: An R Package for the Visualization and Interpretation of Genomic Rearrangements.” Bioinformatics 39, no. 12 (2023). https://doi.org/10.1093/bioinformatics/btad719.
+</details>
 
 - [Awesome papers and projects about CNV and SV using NGS data](https://github.com/geocarvalho/sv-cnv-studies) - Relevant studies with Structual Variants and Copy Number Variants in NGS (Genome, Exome and Amplicon Sequencing) pipelines
 
