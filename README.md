@@ -505,6 +505,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Bollas, Audrey E., Andrei Rajkovic, Defne Ceyhan, Jeffrey B. Gaither, Elaine R. Mardis, and Peter White. “SNVstory: Inferring Genetic Ancestry from Genome Sequencing Data.” BMC Bioinformatics 25, no. 1 (February 20, 2024): 76. https://doi.org/10.1186/s12859-024-05703-y.
 </details>
 
+- Ancestry visualization considerations. PCA has limitations, generative topological mapping (GTM) is better, tSNE or UMAP recommended. [GTM visualization tutorial](https://github.com/hagax8/ancestry_viz) (Python), [1000 genomes visualization](https://lovingscience.com/ancestries/). <details>
+    <summary>Paper</summary>
+    Gaspar, Héléna A., and Gerome Breen. “Probabilistic Ancestry Maps: A Method to Assess and Visualize Population Substructures in Genetics.” BMC Bioinformatics 20, no. 1 (2019): 116. https://doi.org/10.1186/s12859-019-2680-1.
+</details>
+
 - [GRAF-pop](https://github.com/ncbi/dbsnp/tree/graf-pop-test/Frequency%20Project/graf-pop) - a distance-based ancestry inference method used by dbGAP, uses 10K but works with as low as 150 SNPs. Barycentric coordinates, directly interpretable. Outperforms EIGENSTRAT, FastPCA, FlashPCA, especially when genotypes are sparse. SNPweights performs poorly. <details>
     <summary>Paper</summary>
     Jin, Yumi, Alejandro A Schaffer, Michael Feolo, J Bradley Holmes, and Brandi L Kattman. “GRAF-Pop: A Fast Distance-Based Method To Infer Subject Ancestry from Multiple Genotype Datasets Without Principal Components Analysis.” G3 Genes|Genomes|Genetics 9, no. 8 (August 1, 2019): 2447–61. https://doi.org/10.1534/g3.118.200925.
