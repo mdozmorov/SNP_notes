@@ -649,6 +649,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ## CNV, SV
 
+- [Topsicle](https://github.com/jaeyoungchoilab/Topsicle) - telomere length estimation from long-read sequencing (PacBio, ONT, FASTA format). Intro into short read telomere length (TelSeq, K-seek, Computel, Telomerecast, TelomereHunter) and long-read methods (TLD, Telogator, TeloNum). K-mer estimation, calculating their density, changepoint detection to estimate telomere length. <details>
+    <summary>Paper</summary>
+    Nguyen, Linh, and Jae Young Choi. “Topsicle: A Method for Estimating Telomere Length from Whole Genome Long-Read Sequencing Data.” Genome Biology 26, no. 1 (2025): 295. https://doi.org/10.1186/s13059-025-03783-4.
+</details>
+
 - [ReConPlot](https://github.com/cortes-ciriano-lab/ReConPlot) - R package for visualization of genomic rearrangements (CNVs and SVs). Input - BED file with an indicator column. Deletion-like SVs (DEL) are represented as '+-', duplication-like SVs (DUP) as '-+', tail-to-tail inversions (t2tInv) as '--', and head-to-head inversions (h2hInv) as '++'. <details>
     <summary>Paper</summary>
     Espejo Valle-Inclán, Jose, and Isidro Cortés-Ciriano. “ReConPlot: An R Package for the Visualization and Interpretation of Genomic Rearrangements.” Bioinformatics 39, no. 12 (2023). https://doi.org/10.1093/bioinformatics/btad719.
