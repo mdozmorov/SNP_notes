@@ -25,8 +25,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
   - [GWAS pipelines](#gwas-pipelines)
   - [Ancestry](#ancestry)
   - [eQTLs](#eqtls)
-  - [Polygenic risk scorecd # CNV
-  ](#polygenic-risk-score)
+  - [Polygenic risk score](#polygenic-risk-score)
   - [Regulatory](#regulatory)
 - [InDels](#indels)
 - [CNV, SV](#cnv-sv)
@@ -121,6 +120,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Genome comparison
 
+- [ModDotPlot](https://github.com/marbl/ModDotPlot) - tandem repeat visualization, alignment-free dot plot viewer, k-mer based sequence identity (MurMurHash3). Input - a list of sequences in FASTA format and outputs a self-identity heatmap for each sequence, as well as comparative heatmaps for all pairwise combinations of sequences. Static and interactive modes. Improved performance over StainedGlass. <details>
+    <summary>Paper</summary>
+    Sweeten, Alexander P., Michael C. Schatz, and Adam M. Phillippy. “ModDotPlot—Rapid and Interactive Visualization of Tandem Repeats.” Bioinformatics 40, no. 8 (2024): btae493. https://doi.org/10.1093/bioinformatics/btae493.
+</details>
+
 - [SyRI](https://schneebergerlab.github.io/syri/) (Synteny and Rearrangement Identifier) - whole genome/chromosome assembly comparison tool. Identifies structural and sequence differences, then local sequence differences within rearranged and non-rearraned synthenic regions. Outperforms AsmVar, Smartie-sv, Assemblytics, Sniffles, Picky, LUMPY, on synthetic data. Python. [GitHub](https://github.com/schneebergerlab/syri). <details>
     <summary>Paper</summary>
     Goel, Manish, Hequan Sun, Wen-Biao Jiao, and Korbinian Schneeberger. “SyRI: Finding Genomic Rearrangements and Local Sequence Differences from Whole-Genome Assemblies.” Genome Biology 20, no. 1 (December 2019): 277. https://doi.org/10.1186/s13059-019-1911-0.
@@ -142,7 +146,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [LASTZ](https://github.com/lastz/lastz) - pairwise DNA sequence aligner and plotter. [Documentation](https://lastz.github.io/lastz/).
 
-
+- [ModDotPlot](https://github.com/koisland/ModDotPlot)  - 
 
 ## SNP callers
 
