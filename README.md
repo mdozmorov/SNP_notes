@@ -489,6 +489,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [PCLAI](https://github.com/AI-sandbox/pclai) - point cloud local ancestry inference in a continuous coordinate space. Intro about local ancestry inference methods (Neural Admixture, Adamixture, HaploAdmixture, Diet Networks, aegen, SPA, Locator, SABER, HAPAA, HAPMIX, PCAdmix, FLARE, LAMP, RFMix, Gnomix, LAI-Net, SALAI-Net, Orchestra). Regress PCA coordinates per chromosome window, with an 𝐿1 objective on coordinates and a permutation-invariant Chamfer dissimilarity term that aligns predicted and target point clouds in the embedding space. Transformer with positional encoding. Pretrained model available. <details>
+    <summary>Paper</summary>
+    Geleta, Margarita, Daniel Mas Montserrat, Nilah M. Ioannidis, and Alexander G. Ioannidis. Point Cloud Local Ancestry Inference (PCLAI): Continuous Coordinate-Based Ancestry along the Genome. bioRxiv, March 25, 2026, https://doi.org/10.64898/2026.03.23.713813
+</details>
+
 - [AncestryHub](https://www.ancestryhub.4dgenome.com/) - web server for global and local ancestry analysis, aMAP (ancestry of Modern Admixed Populations) frontend. Input - VCF format, must have more than 2,000 SNPs per chromosome. Text and visualization output. [Supplementary material](https://www.biorxiv.org/content/10.1101/2025.01.02.630692v1.supplementary-material) - long list of current ancestry tools. <details>
     <summary>Paper</summary>
     Jiang, Sukun, Yangyang Deng, Shuxin Li, Changsheng Jonathan Liu, Jianjun Luo, Xiaojun Zhu, George D. Song, Kui Zhang, Qing Song, and Li Ma. “AncestryHub: A Web Server for Local Ancestry Analysis,” January 3, 2025. https://doi.org/10.1101/2025.01.02.630692.
