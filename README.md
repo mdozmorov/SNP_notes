@@ -777,6 +777,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [smoove](https://github.com/brentp/smoove) - structural variant calling and genotyping with existing tools, but, smoothly. Go. Docker.
 
+- [SvABA](https://github.com/walaj/svaba) - Structural variation and indel detection by local assembly
+
 - [SV-Bay](https://github.com/BoevaLab/SV-Bay) - structural variant detection, Bayesian, corrects for GC-content and mappability. Uses both normal and abnormal reads, paired-end and depth information. Somatic variants if a normal sample is available. Detailed methods, stats. Compared with GASVPro, Lumpy, BreakDancer, DELLY on simulated (TGsim) and experimental neuroblastoma datasets. Improve sensitivity and specificity of SV detection, less false positives. Reasonably fast. Python, R. <details>
     <summary>Paper</summary>
     Iakovishina, Daria, Isabelle Janoueix-Lerosey, Emmanuel Barillot, Mireille Regnier, and Valentina Boeva. “[SV-Bay: Structural Variant Detection in Cancer Genomes Using a Bayesian Approach with Correction for GC-Content and Read Mappability](https://doi.org/10.1093/bioinformatics/btv751).” Bioinformatics, (April 1, 2016)
