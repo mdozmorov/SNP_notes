@@ -770,7 +770,9 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 </details>
 
 - [Breakpointer](https://github.com/ruping/Breakpointer) - algorithm to locate breakpoints of structural variants from single-end reads produced by next-generation sequencing.
-- 
+
+- [JaBbA](https://github.com/mskilab-org/JaBbA) - Junction Balance Analysis, builds a genome graph based on junctions and read depth from whole genome sequencing, inferring optimal copy numbers for both vertices (DNA segments) and edges (bonds between segments). It can be used for discovering various patterns of structural variations.
+
 - [QDNASeq](https://bioconductor.org/packages/release/bioc/html/QDNAseq.html) - Quantitative DNA sequencing for chromosomal aberrations. R.
 
 - [samplot](https://github.com/ryanlayer/samplot) - Plot structural variant signals from many BAMs and CRAMs. 
