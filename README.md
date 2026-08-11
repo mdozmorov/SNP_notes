@@ -769,6 +769,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Chen, Xiaoyu, Ole Schulz-Trieglaff, Richard Shaw, Bret Barnes, Felix Schlesinger, Morten Källberg, Anthony J. Cox, Semyon Kruglyak, and Christopher T. Saunders. “[Manta: Rapid Detection of Structural Variants and Indels for Germline and Cancer Sequencing Applications](https://doi.org/10.1093/bioinformatics/btv710).” Bioinformatics, (April 15, 2016)
 </details>
 
+- [Breakpointer](https://github.com/ruping/Breakpointer) - algorithm to locate breakpoints of structural variants from single-end reads produced by next-generation sequencing.
+- 
 - [QDNASeq](https://bioconductor.org/packages/release/bioc/html/QDNAseq.html) - Quantitative DNA sequencing for chromosomal aberrations. R.
 
 - [samplot](https://github.com/ryanlayer/samplot) - Plot structural variant signals from many BAMs and CRAMs. 
