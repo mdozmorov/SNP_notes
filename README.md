@@ -193,6 +193,8 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Köster, Johannes, Louis J. Dijkstra, Tobias Marschall, and Alexander Schönhuth. “[Varlociraptor: Enhancing Sensitivity and Controlling False Discovery Rate in Somatic Indel Discovery](https://doi.org/10.1186/s13059-020-01993-6).” Genome Biology 21, no. 1 (December 2020)
 </details>
 
+- [TinDaisy2](https://github.com/ding-lab/TinDaisy) - the somatic variant pipeline from tumor-normal WGS/exome data.
+
 ### RNA-seq SNP callers
 
 - Liu, Fenglin, Yuanyuan Zhang, Lei Zhang, Ziyi Li, Qiao Fang, Ranran Gao, and Zemin Zhang. "[Systematic comparative analysis of single-nucleotide variant detection methods from single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1863-4)." Genome Biology, (19 November 2019) - comparison of seven tools for SNP detection in scRNA-seq data. SAMtools, Strelka2, FreeBayes, and CTAT are best.
