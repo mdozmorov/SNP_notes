@@ -281,12 +281,12 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Watanabe, Kyoko, Maša Umićević Mirkov, Christiaan A. de Leeuw, Martijn P. van den Heuvel, and Danielle Posthuma. “Genetic Mapping of Cell Type Specificity for Complex Traits.” Nature Communications 10, no. 1 (December 2019): 3222. https://doi.org/10.1038/s41467-019-11181-1.
 </details>
 
-- [ONCOTATOR](https://www.broadinstitute.org/oncotator/) - Cancer-oriented annotation of SNPs. 14 data sources. Goal - to identify somatic SNPs, eliminate germline. <details>
+- [ONCOTATOR](https://github.com/broadinstitute/oncotator) - Cancer-oriented annotation of SNPs. 14 data sources. Goal - to identify somatic SNPs, eliminate germline. <details>
     <summary>Paper</summary>
     Ramos, Alex H., Lee Lichtenstein, Manaswi Gupta, Michael S. Lawrence, Trevor J. Pugh, Gordon Saksena, Matthew Meyerson, and Gad Getz. “Oncotator: Cancer Variant Annotation Tool.” Human Mutation 36, no. 4 (April 2015): E2423-2429. https://doi.org/10.1002/humu.22771.
 </details>
 
-- [OpenCRAVAT](https://opencravat.org/index.html) - Open Custom Ranked Analysis of Variants Toolkit, extension of the Cancer-Related Analysis of Variants Toolkit (CRAVAT). Command-line and GUI interface, extensive resource catalog. Input: VCF, annotated VCF, basic tabular file format, dbSNP identifiers, 23andMe, and Ancestry.com. Output: viewer with 4 tabs: Summary, Variant, Gene, and Filter. Python. <details>
+- [OpenCRAVAT](https://opencravat.org/) - Open Custom Ranked Analysis of Variants Toolkit, extension of the Cancer-Related Analysis of Variants Toolkit (CRAVAT). Command-line and GUI interface, extensive resource catalog. Input: VCF, annotated VCF, basic tabular file format, dbSNP identifiers, 23andMe, and Ancestry.com. Output: viewer with 4 tabs: Summary, Variant, Gene, and Filter. Python. <details>
     <summary>Paper</summary>
     Pagel, Kymberleigh A., Rick Kim, Kyle Moad, Ben Busby, Lily Zheng, Collin Tokheim, Michael Ryan, and Rachel Karchin. "Integrated informatics analysis of cancer-related variants." JCO clinical cancer informatics 4 (March 4, 2020): 310-317. https://doi.org/10.1200/cci.19.00132
 </details>
