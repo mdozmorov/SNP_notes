@@ -17,6 +17,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [SNP callers](#snp-callers)
   - [RNA-seq SNP callers](#rna-seq-snp-callers)
   - [Deep learning SNP callers](#deep-learning-snp-callers)
+  - [Long-read variant callers](#long-read-variant-callers)
 - [SNP annotations](#snp-annotations)
 - [SNP signatures](#snp-signatures)
 - [SNP pathogenicity scores](#snp-pathogenicity-scores)
@@ -221,6 +222,23 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 - [NeuSomatic](https://github.com/bioinform/neusomatic) - Convolutional neural network (9 layers) for somatic mutations calling. Reads within 7bp window around candidate SNP are extracted, realigned, summarized into matrices for tumor-normal samples,  used for classifying mutation type, length, position. Tested on GiB samples and on DREAM datasets. Comparison with other SNP callers. Python, C++. Conda. <details>
     <summary>Paper</summary>   
     Sahraeian, Sayed Mohammad Ebrahim, Ruolin Liu, Bayo Lau, Marghoob Mohiyuddin, and Hugo Y. K. Lam. “Deep Convolutional Neural Networks for Accurate Somatic Mutation Detection,” September 4, 2018. https://doi.org/10.1101/393801.
+</details>
+
+### Long-read variant callers
+
+- [Clair3](https://github.com/HKU-BAL/Clair3) - deep learning-based variant calling for Oxford Nanopore and PacBio HiFi reads, combining pileup and full-alignment (FASTA pileup) models, SNVs, indels, and structural variants, joint SNP/indel/SV phasing and genotyping, GPU-accelerated with a CPU mode, distributed by Singularity/Docker images. Related tools in the same family - Clair3-RNA (small variants from long-read RNA-seq), Clair3-MP (multiple sequencing platforms), Clair3-Trio and Clair3-Nova (trio and de novo calling on Nanopore). <details>
+    <summary>Paper</summary>
+    Zheng, Zhenxian, Minggao He, Xian Yu, Junzhe Li, Lei Chen, Angel On Ki Wong, Jingcheng Zhang, Yekai Zhou, and Ruibang Luo. “Accelerated long-read variant calling with Clair3 for whole-genome sequencing.” Bioinformatics 42, no. 5 (2026). https://doi.org/10.1093/bioinformatics/btag181.
+</details>
+
+- [PEPPER-Margin-DeepVariant](https://github.com/kishwarshafin/pepper) - haplotype-aware variant calling for long reads. PEPPER runs deep neural networks on local haplotypes assembled from Nanopore reads, the Margin caller identifies variants jointly present on the same haplotype, and PEPPER-Margin-DeepVariant combines this with DeepVariant for pedigree-aware, trio-based joint calling of short-read (Illumina) and long-read data. VCF output, GPU support. <details>
+    <summary>Paper</summary>
+    Shafin, Kishwar, Trevor Pesout, Pi-Chuan Chang, Maria Nattestad, Alexey Kolesnikov, Sidharth Goel, Gunjan Baid, Mikhail Kolmogorov, Jordan M. Eizenga, Karen H. Miga, Paolo Carnevali, Miten Jain, Andrew Carroll, and Benedict Paten. “Haplotype-aware variant calling with PEPPER-Margin-DeepVariant enables high accuracy in nanopore long-reads.” Nature Methods 18, no. 11 (November 2021): 1322–32. https://doi.org/10.1038/s41592-021-01299-w.
+</details>
+
+- [Sniffles](https://github.com/fritzsedlazeck/Sniffles) - structural variant calling from long reads (PacBio, Oxford Nanopore), SV genotyping and phasing, multi-sample calling in population mode (trios, cohorts) via snf files. Sniffles2 adds mosaic and population-level SV detection. Also listed under [Long-read](https://github.com/mdozmorov/RNA-seq_notes#long-read) in RNA-seq_notes. <details>
+    <summary>Paper</summary>
+    Smolka, Moritz, Luis F. Paulin, Christopher M. Grochowski, Dominic W. Horner, Medhat Mahmoud, Sairam Behera, Ester Kalef-Ezra, Mira Gandhi, Karl Hong, Davut Pehlivan, Sonja W. Scholz, Claudia M. B. Carvalho, Christos Proukakis, and Fritz J. Sedlazeck. “Detection of mosaic and population-level structural variants with Sniffles2.” Nature Biotechnology 42, no. 10 (October 2024): 1571–80. https://doi.org/10.1038/s41587-023-02024-y.
 </details>
 
 ## SNP annotations
