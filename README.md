@@ -108,7 +108,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [BAMscale](https://github.com/ncbi/BAMscale) - BAMscale is a one-step tool for either 1) quantifying and normalizing the coverage of peaks or 2) generated scaled BigWig files for easy visualization of commonly used DNA-seq capture based methods. C, R.
 
-- [histoneSig](https://github.com/semibah/histonesig) - R package for working with genome files as continuous representations or "signals". R.
+- [histoneSig](https://github.com/xtmgah/histoneSig) - R package for working with genome files as continuous representations or "signals". R.
 
 - [goleft](https://github.com/brentp/goleft) - a collection of bioinformatics tools distributed under MIT license in a single static binary. covstats - estimate coverage and insert-size statistics on bams by sampling; depth - parallelize calls to samtools in user-defined windows; depthwed - matricize output from depth to n-sites * n-samples; indexcov - quick coverage estimate using only the bam index; indexsplit - generate regions of even data across a cohort (for parallelization); samplename - report samplename(s) from a bam's SM tag. Go.
 
@@ -227,7 +227,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [awesome-cancer-variant-databases](https://github.com/seandavi/awesome-cancer-variant-databases) - A community-maintained repository of cancer clinical knowledge bases and databases focused on cancer and normal variants, by Sean Davis.
 
-- Various genome annotations, [Source: ConsHMM Data availability section](https://www.nature.com/articles/s42003-019-0488-1#data-availability): [25-state chromatin state annotations](http://compbio.mit.edu/roadmap); [CADD score v1.0](http://krishna.gs.washington.edu/download/CADD/v1.0/whole_genome_SNVs.tsv.gz); [CADD score v1.4](http://krishna.gs.washington.edu/download/CADD/v1.4/GRCh37/whole_genome_SNVs.tsv.gz); [CDTS score](http://www.hli-opendata.com/noncoding/coord_CDTS_percentile_N7794unrelated.txt.gz), [another link](http://www.hli-opendata.com/noncoding/SNVusedForCDTScomputation_N7794unrelated_allelicFrequency0.001truncated.txt.gz); [CNEEs](http://www.stanford.edu/~lowec/data/threePeriods/hg19cnee.bed.gz); [DANN score](https://cbcl.ics.uci.edu/public_data/DANN/data/); [EIGEN and Eigen-PC score](https://xioniti01.u.hpc.mssm.edu/v1.1/); [ENCODE DHS](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwDnase/); [FATHMM-XF score](http://fathmm.biocompute.org.uk/fathmm-xf/); [FIRE score](https://sites.google.com/site/fireregulatoryvariation/); [fitCons score](http://compgen.cshl.edu/fitCons/0downloads/tracks/i6/scores/); [FunSeq2 score](http://org.gersteinlab.funseq.s3-website-us-east-1.amazonaws.com/funseq2.1.2/hg19_NCscore_funseq216.tsv.bgz); [GENCODE v19](https://www.gencodegenes.org/releases/19.html); [GERP++ scores and constrained element calls](http://mendel.stanford.edu/SidowLab/downloads/gerp/); [GWAS catalog variants](https://www.ebi.ac.uk/gwas/); [LINSIGHT score](http://compgen.cshl.edu/~yihuang/tracks/LINSIGHT.bw); [Motif instances and background](http://compbio.mit.edu/encode-motifs/); [REMM score](https://zenodo.org/record/1197579/files/ReMM.v0.3.1.tsv.gz); [Roadmap Epigenomics DHS](http://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/narrowPeak/); [SiPhy-omega and SiPhy-pi constrained element calls (hg19 liftOver)](https://www.broadinstitute.org/mammals-models/29-mammals-project-supplementary-info)
+- Various genome annotations, [Source: ConsHMM Data availability section](https://www.nature.com/articles/s42003-019-0488-1#data-availability): [25-state chromatin state annotations](http://compbio.mit.edu/roadmap); [CADD score v1.0](http://krishna.gs.washington.edu/download/CADD/v1.0/whole_genome_SNVs.tsv.gz); [CADD score v1.4](http://krishna.gs.washington.edu/download/CADD/v1.4/GRCh37/whole_genome_SNVs.tsv.gz); [CDTS score](http://www.hli-opendata.com/noncoding/coord_CDTS_percentile_N7794unrelated.txt.gz), [another link](http://www.hli-opendata.com/noncoding/SNVusedForCDTScomputation_N7794unrelated_allelicFrequency0.001truncated.txt.gz); [CNEEs](http://www.stanford.edu/~lowec/data/threePeriods/hg19cnee.bed.gz); [DANN score](https://cbcl.ics.uci.edu/public_data/DANN/data/); [EIGEN and Eigen-PC score](https://xioniti01.u.hpc.mssm.edu/v1.1/); [ENCODE DHS](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwDnase/); [FATHMM-XF score](http://fathmm.biocompute.org.uk/fathmm-xf/); [FIRE score](https://sites.google.com/site/fireregulatoryvariation/); [fitCons score](http://compgen.cshl.edu/fitCons/0downloads/tracks/i6/scores/); [FunSeq2 score](http://org.gersteinlab.funseq.s3-website-us-east-1.amazonaws.com/funseq2.1.2/hg19_NCscore_funseq216.tsv.bgz); [GENCODE v19](https://www.gencodegenes.org/human/release_19.html); [GERP++ scores and constrained element calls](http://mendel.stanford.edu/SidowLab/downloads/gerp/); [GWAS catalog variants](https://www.ebi.ac.uk/gwas/); [LINSIGHT score](http://compgen.cshl.edu/~yihuang/tracks/LINSIGHT.bw); [Motif instances and background](http://compbio.mit.edu/encode-motifs/); [REMM score](https://zenodo.org/record/1197579/files/ReMM.v0.3.1.tsv.gz); [Roadmap Epigenomics DHS](http://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/narrowPeak/); [SiPhy-omega and SiPhy-pi constrained element calls (hg19 liftOver)](https://www.broadinstitute.org/mammals-models/29-mammals-project-supplementary-info)
 
 - [ANNOVAR](https://annovar.openbioinformatics.org/en/latest/user-guide/download/) - functional annotation of genetic variants (hg18, hg19, hg38, mouse, worm, fly, yeast, etc.). Gene-based, region-based, filter-based annotations. [wANNOVAR](http://wannovar.wglab.org/) - web interface. <details>
     <summary>Paper</summary>
@@ -281,12 +281,12 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Watanabe, Kyoko, Maša Umićević Mirkov, Christiaan A. de Leeuw, Martijn P. van den Heuvel, and Danielle Posthuma. “Genetic Mapping of Cell Type Specificity for Complex Traits.” Nature Communications 10, no. 1 (December 2019): 3222. https://doi.org/10.1038/s41467-019-11181-1.
 </details>
 
-- [ONCOTATOR](https://www.broadinstitute.org/oncotator/) - Cancer-oriented annotation of SNPs. 14 data sources. Goal - to identify somatic SNPs, eliminate germline. <details>
+- [ONCOTATOR](https://github.com/broadinstitute/oncotator) - Cancer-oriented annotation of SNPs. 14 data sources. Goal - to identify somatic SNPs, eliminate germline. <details>
     <summary>Paper</summary>
     Ramos, Alex H., Lee Lichtenstein, Manaswi Gupta, Michael S. Lawrence, Trevor J. Pugh, Gordon Saksena, Matthew Meyerson, and Gad Getz. “Oncotator: Cancer Variant Annotation Tool.” Human Mutation 36, no. 4 (April 2015): E2423-2429. https://doi.org/10.1002/humu.22771.
 </details>
 
-- [OpenCRAVAT](https://opencravat.org/index.html) - Open Custom Ranked Analysis of Variants Toolkit, extension of the Cancer-Related Analysis of Variants Toolkit (CRAVAT). Command-line and GUI interface, extensive resource catalog. Input: VCF, annotated VCF, basic tabular file format, dbSNP identifiers, 23andMe, and Ancestry.com. Output: viewer with 4 tabs: Summary, Variant, Gene, and Filter. Python. <details>
+- [OpenCRAVAT](https://opencravat.org/) - Open Custom Ranked Analysis of Variants Toolkit, extension of the Cancer-Related Analysis of Variants Toolkit (CRAVAT). Command-line and GUI interface, extensive resource catalog. Input: VCF, annotated VCF, basic tabular file format, dbSNP identifiers, 23andMe, and Ancestry.com. Output: viewer with 4 tabs: Summary, Variant, Gene, and Filter. Python. <details>
     <summary>Paper</summary>
     Pagel, Kymberleigh A., Rick Kim, Kyle Moad, Ben Busby, Lily Zheng, Collin Tokheim, Michael Ryan, and Rachel Karchin. "Integrated informatics analysis of cancer-related variants." JCO clinical cancer informatics 4 (March 4, 2020): 310-317. https://doi.org/10.1200/cci.19.00132
 </details>
@@ -308,7 +308,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 - [Seattle](https://snp.gs.washington.edu/SeattleSeqAnnotation154/) - The SeattleSeq Annotation server provides annotation of SNVs (single-nucleotide variations) and small indels, both known and novel. This annotation includes dbSNP rs IDs, gene names and accession numbers, variation functions (e.g. missense), protein positions and amino-acid changes, conservation scores, HapMap frequencies, PolyPhen predictions, and clinical association
 
-- [snpEff](https://pcingola.github.io/SnpEff/se_introduction/) - a variant annotation and effect prediction tool
+- [snpEff](https://pcingola.github.io/SnpEff/) - a variant annotation and effect prediction tool
 
 - [The Variant Interpretation for Cancer Consortium Meta-Knowledgebase](https://search.cancervariants.org/). Aggregate interpretations covering 3,437 unique variants in 415 genes, 357 diseases, and 791 drugs. Validation using GENIE database. <details>
     <summary>Paper</summary>
@@ -798,7 +798,7 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
     Dong, Xianjun, Xiaoqi Li, Tzuu-Wang Chang, Scott T Weiss, and Weiliang Qiu. “[PowerEQTL: An R Package and Shiny Application for Sample Size and Power Calculation of Bulk Tissue and Single-Cell EQTL Analysis](https://doi.org/10.1101/2020.12.15.422954),” bioRxiv, December 16, 2020.
 </details>
 
-- [SEQPower](http://bioinformatics.org/spower/start) - GWAS power analysis for case/control and quantitative studies, rare variants. Shell, binary. <details>
+- [SEQPower](https://github.com/gaow/SEQPower) - GWAS power analysis for case/control and quantitative studies, rare variants. Shell, binary. <details>
     <summary>Paper</summary>
     Wang, Gao T., Biao Li, Regie P. Lyn Santos-Cortez, Bo Peng, and Suzanne M. Leal. “Power Analysis and Sample Size Estimation for Sequence-Based Association Studies.” Bioinformatics 30, no. 16 (August 15, 2014): 2377–78. https://doi.org/10.1093/bioinformatics/btu296.
 </details>
