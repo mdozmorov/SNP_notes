@@ -491,6 +491,11 @@ SNP- and genome variation-related tools and genomics data analysis resources. Pl
 
 ### Ancestry
 
+- [RAIDS](https://bioconductor.org/packages/RAIDS/) - improved version, tested for ancestry inference from (sc)RNA-seq, ATAC-, ChIP-seq (CTCF, H3K27ac, H3K27me3, H3K4me3), in cancer samples (tested on 16 types). Admixture inference using 5 populations and ADMIXTURE algorithm. <details>
+    <summary>Paper</summary>
+    A versatile set of computational tools for inference of genetic ancestry from human molecular data. Pascal Belleau, Xintong Li, Astrid Deschênes, Laine Marrah, Alexander Krasnitz. bioRxiv 2026.10.09.758080; doi: https://doi.org/10.64898/2026.10.09.758080
+</details>
+
 - [PCLAI](https://github.com/AI-sandbox/pclai) - point cloud local ancestry inference in a continuous coordinate space. Intro about local ancestry inference methods (Neural Admixture, Adamixture, HaploAdmixture, Diet Networks, aegen, SPA, Locator, SABER, HAPAA, HAPMIX, PCAdmix, FLARE, LAMP, RFMix, Gnomix, LAI-Net, SALAI-Net, Orchestra). Regress PCA coordinates per chromosome window, with an 𝐿1 objective on coordinates and a permutation-invariant Chamfer dissimilarity term that aligns predicted and target point clouds in the embedding space. Transformer with positional encoding. Pretrained model available. <details>
     <summary>Paper</summary>
     Geleta, Margarita, Daniel Mas Montserrat, Nilah M. Ioannidis, and Alexander G. Ioannidis. Point Cloud Local Ancestry Inference (PCLAI): Continuous Coordinate-Based Ancestry along the Genome. bioRxiv, March 25, 2026, https://doi.org/10.64898/2026.03.23.713813
